@@ -1,0 +1,1869 @@
+gtt@01:~/out/ffmpeg-libfuzzer$ ./ffmpeg_DEMUXER_fuzzer 8c-12/ testcases/  -fork=8 -max_total_time=43200 -NumCorpuses=36 -adaptive=6 -ignore_crashes=1 -entropic=0 -max=40 -max_len=1000000
+
+
+WARNING: unrecognized flag '-NumCorpuses=36'; use -help=1 to list all flags
+
+
+
+WARNING: unrecognized flag '-adaptive=6'; use -help=1 to list all flags
+
+
+
+WARNING: unrecognized flag '-entropic=0'; use -help=1 to list all flags
+
+
+
+WARNING: unrecognized flag '-max=40'; use -help=1 to list all flags
+
+INFO: Seed: 2543238390
+INFO: Loaded 1 modules   (85774 inline 8-bit counters): 85774 [0x1545840, 0x155a74e), 
+INFO: Loaded 1 PC tables (85774 PCs): 85774 [0x103e948,0x118da28), 
+INFO: -fork=8: fuzzing in separate process(s)
+INFO: -fork=8: 37 seed inputs, starting to fuzz in /tmp/libFuzzerTemp.FuzzWithFork1053510.dir
+#289: cov: 3414 ft: 8597 corp: 37 exec/s 144 oom/timeout/crash: 0/0/0 time: 2s job: 1 dft_time: 0
+  NEW_FUNC: 0x561960  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x561960)
+  NEW_FUNC: 0x567190  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x567190)
+  NEW_FUNC: 0x567460  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x567460)
+  NEW_FUNC: 0x585000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x585000)
+  NEW_FUNC: 0x58ab00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x58ab00)
+  NEW_FUNC: 0x6d8520  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6d8520)
+  NEW_FUNC: 0x6dfae0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6dfae0)
+  NEW_FUNC: 0x6dfdd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6dfdd0)
+  NEW_FUNC: 0x6e4a50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6e4a50)
+  NEW_FUNC: 0x6e67c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6e67c0)
+  NEW_FUNC: 0x6e6a90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6e6a90)
+  NEW_FUNC: 0x6e6c30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6e6c30)
+  NEW_FUNC: 0x8525d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8525d0)
+  NEW_FUNC: 0x858290  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x858290)
+  NEW_FUNC: 0x858cd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x858cd0)
+  NEW_FUNC: 0x8779a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8779a0)
+  NEW_FUNC: 0x877bb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x877bb0)
+  NEW_FUNC: 0xbda490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbda490)
+#553: cov: 3805 ft: 11373 corp: 113 exec/s 88 oom/timeout/crash: 0/0/0 time: 3s job: 2 dft_time: 0
+  NEW_FUNC: 0x5bc2f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5bc2f0)
+  NEW_FUNC: 0x5bc560  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5bc560)
+  NEW_FUNC: 0x781bc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x781bc0)
+  NEW_FUNC: 0x7a3460  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a3460)
+  NEW_FUNC: 0x7a3c80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a3c80)
+  NEW_FUNC: 0x7a3cc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a3cc0)
+#593: cov: 3843 ft: 11631 corp: 165 exec/s 10 oom/timeout/crash: 0/0/0 time: 4s job: 3 dft_time: 0
+  NEW_FUNC: 0x7fda50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7fda50)
+  NEW_FUNC: 0x7fdd00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7fdd00)
+  NEW_FUNC: 0x878a70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x878a70)
+#782: cov: 3864 ft: 12052 corp: 173 exec/s 37 oom/timeout/crash: 0/0/0 time: 6s job: 4 dft_time: 0
+#942: cov: 3879 ft: 12545 corp: 205 exec/s 26 oom/timeout/crash: 0/0/0 time: 8s job: 5 dft_time: 0
+#1091: cov: 3902 ft: 12946 corp: 230 exec/s 21 oom/timeout/crash: 0/0/0 time: 10s job: 6 dft_time: 0
+#1293: cov: 3921 ft: 13058 corp: 247 exec/s 25 oom/timeout/crash: 0/0/0 time: 11s job: 7 dft_time: 0
+  NEW_FUNC: 0x765e70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x765e70)
+  NEW_FUNC: 0x7661b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7661b0)
+  NEW_FUNC: 0x8089f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8089f0)
+  NEW_FUNC: 0x808b20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x808b20)
+  NEW_FUNC: 0x808be0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x808be0)
+  NEW_FUNC: 0x809350  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x809350)
+  NEW_FUNC: 0x82dce0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82dce0)
+  NEW_FUNC: 0x86c800  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x86c800)
+  NEW_FUNC: 0x880282  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x880282)
+  NEW_FUNC: 0x880410  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x880410)
+  NEW_FUNC: 0x8816c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8816c0)
+  NEW_FUNC: 0x882190  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x882190)
+  NEW_FUNC: 0x882220  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x882220)
+  NEW_FUNC: 0x882250  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x882250)
+  NEW_FUNC: 0xc43550  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc43550)
+  NEW_FUNC: 0xc4f620  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc4f620)
+  NEW_FUNC: 0xc50860  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc50860)
+  NEW_FUNC: 0xc50990  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc50990)
+  NEW_FUNC: 0xc50b30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc50b30)
+  NEW_FUNC: 0xc51e00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc51e00)
+  NEW_FUNC: 0xc51f40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc51f40)
+  NEW_FUNC: 0xc52000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc52000)
+  NEW_FUNC: 0xc52b50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc52b50)
+  NEW_FUNC: 0xc55020  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc55020)
+  NEW_FUNC: 0xc579b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc579b0)
+  NEW_FUNC: 0xc57a20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc57a20)
+  NEW_FUNC: 0xc5e88e  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc5e88e)
+  NEW_FUNC: 0xc5e945  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc5e945)
+  NEW_FUNC: 0xc5fdf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc5fdf0)
+  NEW_FUNC: 0xc5fe40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc5fe40)
+  NEW_FUNC: 0xc5fe70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc5fe70)
+  NEW_FUNC: 0xc6020d  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc6020d)
+  NEW_FUNC: 0xcb08bd  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcb08bd)
+  NEW_FUNC: 0xcb2912  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcb2912)
+  NEW_FUNC: 0xcb3531  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcb3531)
+  NEW_FUNC: 0xcb9ba0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcb9ba0)
+  NEW_FUNC: 0xcbc000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbc000)
+  NEW_FUNC: 0xcbc260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbc260)
+  NEW_FUNC: 0xcbc2d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbc2d0)
+  NEW_FUNC: 0xcbcf70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbcf70)
+  NEW_FUNC: 0xcbdfa0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbdfa0)
+  NEW_FUNC: 0xdc7a50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc7a50)
+  NEW_FUNC: 0xdc7ab0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc7ab0)
+  NEW_FUNC: 0xdc84b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc84b0)
+  NEW_FUNC: 0xdceb90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdceb90)
+  NEW_FUNC: 0xdcf120  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdcf120)
+  NEW_FUNC: 0xdcf320  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdcf320)
+  NEW_FUNC: 0xdcf9c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdcf9c0)
+  NEW_FUNC: 0xdcfa90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdcfa90)
+  NEW_FUNC: 0xdcff00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdcff00)
+  NEW_FUNC: 0xdd0810  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd0810)
+  NEW_FUNC: 0xdd0a30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd0a30)
+  NEW_FUNC: 0xdd2b80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd2b80)
+  NEW_FUNC: 0xdd2dd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd2dd0)
+  NEW_FUNC: 0xdd3260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd3260)
+  NEW_FUNC: 0xdd3690  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd3690)
+  NEW_FUNC: 0xdd3bd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd3bd0)
+  NEW_FUNC: 0xdd3ee0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd3ee0)
+  NEW_FUNC: 0xdd6090  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6090)
+  NEW_FUNC: 0xdec540  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdec540)
+  NEW_FUNC: 0xdedca0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdedca0)
+  NEW_FUNC: 0xdfa550  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdfa550)
+  NEW_FUNC: 0xe06cb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe06cb0)
+  NEW_FUNC: 0xe073c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe073c0)
+  NEW_FUNC: 0xe0c370  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe0c370)
+  NEW_FUNC: 0xe1d760  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe1d760)
+#1689: cov: 4325 ft: 14419 corp: 290 exec/s 44 oom/timeout/crash: 0/0/0 time: 14s job: 8 dft_time: 0
+  NEW_FUNC: 0x65f990  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x65f990)
+  NEW_FUNC: 0x660570  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x660570)
+  NEW_FUNC: 0x662740  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x662740)
+  NEW_FUNC: 0x76f320  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x76f320)
+  NEW_FUNC: 0x76f370  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x76f370)
+#1983: cov: 4358 ft: 14649 corp: 341 exec/s 29 oom/timeout/crash: 0/0/0 time: 16s job: 9 dft_time: 0
+  NEW_FUNC: 0x66d0b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66d0b0)
+  NEW_FUNC: 0x66da80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66da80)
+  NEW_FUNC: 0x66dac0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66dac0)
+  NEW_FUNC: 0x66db70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66db70)
+  NEW_FUNC: 0x66dc80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66dc80)
+  NEW_FUNC: 0x66ddb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66ddb0)
+  NEW_FUNC: 0x66df80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66df80)
+  NEW_FUNC: 0x68f880  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x68f880)
+  NEW_FUNC: 0x82d920  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82d920)
+  NEW_FUNC: 0xc0b350  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc0b350)
+  NEW_FUNC: 0xc0b390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc0b390)
+  NEW_FUNC: 0xc0b8f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc0b8f0)
+  NEW_FUNC: 0xd3e800  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xd3e800)
+#2774: cov: 4463 ft: 15129 corp: 373 exec/s 71 oom/timeout/crash: 0/0/0 time: 17s job: 10 dft_time: 0
+  NEW_FUNC: 0x797df0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x797df0)
+#2837: cov: 4510 ft: 15887 corp: 438 exec/s 5 oom/timeout/crash: 0/0/0 time: 19s job: 11 dft_time: 0
+#2987: cov: 4528 ft: 15949 corp: 443 exec/s 11 oom/timeout/crash: 0/0/0 time: 21s job: 12 dft_time: 0
+#3183: cov: 4528 ft: 15960 corp: 451 exec/s 14 oom/timeout/crash: 0/0/0 time: 25s job: 13 dft_time: 0
+#3331: cov: 4540 ft: 16126 corp: 466 exec/s 9 oom/timeout/crash: 0/0/0 time: 27s job: 14 dft_time: 0
+#3453: cov: 4541 ft: 16142 corp: 474 exec/s 7 oom/timeout/crash: 0/0/0 time: 31s job: 15 dft_time: 0
+  NEW_FUNC: 0x82c5f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82c5f0)
+  NEW_FUNC: 0xbb8180  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb8180)
+  NEW_FUNC: 0xbb855b  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb855b)
+  NEW_FUNC: 0xbb8680  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb8680)
+  NEW_FUNC: 0xbb8a50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb8a50)
+  NEW_FUNC: 0xbb9150  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb9150)
+  NEW_FUNC: 0xbb9180  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb9180)
+  NEW_FUNC: 0xbba6e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbba6e0)
+  NEW_FUNC: 0xbba720  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbba720)
+  NEW_FUNC: 0xbba7e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbba7e0)
+  NEW_FUNC: 0xbba900  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbba900)
+  NEW_FUNC: 0xbba9c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbba9c0)
+  NEW_FUNC: 0xbbd7e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbd7e0)
+  NEW_FUNC: 0xbbd950  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbd950)
+  NEW_FUNC: 0xbc0c80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc0c80)
+  NEW_FUNC: 0xbc3de0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc3de0)
+  NEW_FUNC: 0xbc4fd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc4fd0)
+  NEW_FUNC: 0xbc5030  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc5030)
+  NEW_FUNC: 0xbc8cb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc8cb0)
+  NEW_FUNC: 0xbc99a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc99a0)
+  NEW_FUNC: 0xbcc708  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbcc708)
+  NEW_FUNC: 0xbcdd10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbcdd10)
+  NEW_FUNC: 0xbcf510  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbcf510)
+  NEW_FUNC: 0xbd0190  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbd0190)
+  NEW_FUNC: 0xc32562  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc32562)
+  NEW_FUNC: 0xc32c5b  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc32c5b)
+  NEW_FUNC: 0xcbc4b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcbc4b0)
+  NEW_FUNC: 0xd2b5c2  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xd2b5c2)
+#3533: cov: 4762 ft: 16602 corp: 492 exec/s 4 oom/timeout/crash: 0/0/0 time: 34s job: 16 dft_time: 0
+#3803: cov: 4765 ft: 16678 corp: 501 exec/s 15 oom/timeout/crash: 0/0/0 time: 36s job: 17 dft_time: 0
+  NEW_FUNC: 0xdc6fd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc6fd0)
+#3954: cov: 4824 ft: 17206 corp: 527 exec/s 7 oom/timeout/crash: 0/0/0 time: 38s job: 18 dft_time: 0
+#4255: cov: 4826 ft: 17247 corp: 537 exec/s 15 oom/timeout/crash: 0/0/0 time: 40s job: 19 dft_time: 0
+#4544: cov: 4830 ft: 17401 corp: 554 exec/s 13 oom/timeout/crash: 0/0/0 time: 44s job: 20 dft_time: 0
+  NEW_FUNC: 0xc55380  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xc55380)
+#4774: cov: 4849 ft: 17755 corp: 587 exec/s 10 oom/timeout/crash: 0/0/0 time: 49s job: 21 dft_time: 0
+#4999: cov: 4865 ft: 17896 corp: 610 exec/s 9 oom/timeout/crash: 0/0/0 time: 52s job: 22 dft_time: 0
+#5290: cov: 4866 ft: 17966 corp: 622 exec/s 12 oom/timeout/crash: 0/0/0 time: 59s job: 23 dft_time: 0
+  NEW_FUNC: 0x7c4350  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7c4350)
+  NEW_FUNC: 0x8aa970  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8aa970)
+  NEW_FUNC: 0x8ab170  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8ab170)
+  NEW_FUNC: 0x8c3cc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c3cc0)
+  NEW_FUNC: 0xbbd370  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbd370)
+#5476: cov: 4899 ft: 18276 corp: 651 exec/s 7 oom/timeout/crash: 0/0/0 time: 63s job: 24 dft_time: 0
+  NEW_FUNC: 0x781dd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x781dd0)
+#5814: cov: 4923 ft: 18353 corp: 661 exec/s 13 oom/timeout/crash: 0/0/0 time: 65s job: 25 dft_time: 0
+#5963: cov: 4931 ft: 18449 corp: 685 exec/s 5 oom/timeout/crash: 0/0/0 time: 68s job: 26 dft_time: 0
+#6238: cov: 4942 ft: 18556 corp: 700 exec/s 9 oom/timeout/crash: 0/0/0 time: 72s job: 27 dft_time: 0
+  NEW_FUNC: 0xd407b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xd407b0)
+#6501: cov: 4958 ft: 18744 corp: 716 exec/s 8 oom/timeout/crash: 0/0/0 time: 79s job: 28 dft_time: 0
+#6712: cov: 4959 ft: 18777 corp: 732 exec/s 7 oom/timeout/crash: 0/0/0 time: 82s job: 29 dft_time: 0
+#7011: cov: 4959 ft: 18784 corp: 735 exec/s 9 oom/timeout/crash: 0/0/0 time: 85s job: 30 dft_time: 0
+#7289: cov: 4963 ft: 18918 corp: 754 exec/s 8 oom/timeout/crash: 0/0/0 time: 95s job: 31 dft_time: 0
+#7484: cov: 4965 ft: 18948 corp: 765 exec/s 5 oom/timeout/crash: 0/0/0 time: 99s job: 32 dft_time: 0
+#7789: cov: 4967 ft: 19050 corp: 780 exec/s 8 oom/timeout/crash: 0/0/0 time: 102s job: 33 dft_time: 0
+#8137: cov: 4967 ft: 19143 corp: 803 exec/s 9 oom/timeout/crash: 0/0/0 time: 107s job: 34 dft_time: 0
+#8435: cov: 4967 ft: 19217 corp: 826 exec/s 8 oom/timeout/crash: 0/0/0 time: 111s job: 35 dft_time: 0
+#8666: cov: 4967 ft: 19311 corp: 846 exec/s 6 oom/timeout/crash: 0/0/0 time: 119s job: 36 dft_time: 0
+#9056: cov: 4967 ft: 19335 corp: 851 exec/s 10 oom/timeout/crash: 0/0/0 time: 122s job: 37 dft_time: 0
+#9324: cov: 4968 ft: 19358 corp: 867 exec/s 6 oom/timeout/crash: 0/0/0 time: 128s job: 38 dft_time: 0
+  NEW_FUNC: 0xbc8e00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc8e00)
+#9582: cov: 4986 ft: 19509 corp: 881 exec/s 6 oom/timeout/crash: 0/0/0 time: 137s job: 39 dft_time: 0
+#9905: cov: 5002 ft: 19571 corp: 890 exec/s 7 oom/timeout/crash: 0/0/0 time: 143s job: 40 dft_time: 0
+#10218: cov: 5008 ft: 19638 corp: 903 exec/s 7 oom/timeout/crash: 0/0/0 time: 148s job: 41 dft_time: 0
+#10495: cov: 5011 ft: 19660 corp: 912 exec/s 6 oom/timeout/crash: 0/0/0 time: 153s job: 42 dft_time: 0
+  NEW_FUNC: 0x78a4c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x78a4c0)
+  NEW_FUNC: 0x78b640  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x78b640)
+  NEW_FUNC: 0x78b680  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x78b680)
+  NEW_FUNC: 0x7a0000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a0000)
+  NEW_FUNC: 0xdbf970  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdbf970)
+#10924: cov: 5058 ft: 19848 corp: 930 exec/s 9 oom/timeout/crash: 0/0/0 time: 159s job: 43 dft_time: 0
+#11242: cov: 5059 ft: 19858 corp: 937 exec/s 7 oom/timeout/crash: 0/0/0 time: 165s job: 44 dft_time: 0
+  NEW_FUNC: 0xbbaa20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbaa20)
+#11479: cov: 5077 ft: 19925 corp: 951 exec/s 5 oom/timeout/crash: 0/0/0 time: 170s job: 45 dft_time: 0
+#11770: cov: 5077 ft: 19937 corp: 958 exec/s 6 oom/timeout/crash: 0/0/0 time: 178s job: 46 dft_time: 0
+#12209: cov: 5079 ft: 19950 corp: 964 exec/s 9 oom/timeout/crash: 0/0/0 time: 187s job: 47 dft_time: 0
+#12457: cov: 5080 ft: 19969 corp: 972 exec/s 5 oom/timeout/crash: 0/0/0 time: 194s job: 48 dft_time: 0
+#12761: cov: 5080 ft: 19978 corp: 977 exec/s 6 oom/timeout/crash: 0/0/0 time: 202s job: 49 dft_time: 0
+#13231: cov: 5083 ft: 20095 corp: 987 exec/s 9 oom/timeout/crash: 0/0/0 time: 208s job: 50 dft_time: 0
+#13595: cov: 5083 ft: 20223 corp: 1020 exec/s 7 oom/timeout/crash: 0/0/0 time: 213s job: 51 dft_time: 0
+#13877: cov: 5085 ft: 20336 corp: 1039 exec/s 5 oom/timeout/crash: 0/0/0 time: 222s job: 52 dft_time: 0
+#14284: cov: 5087 ft: 20370 corp: 1045 exec/s 7 oom/timeout/crash: 0/0/0 time: 227s job: 53 dft_time: 0
+#14650: cov: 5092 ft: 20422 corp: 1050 exec/s 6 oom/timeout/crash: 0/0/0 time: 235s job: 54 dft_time: 0
+  NEW_FUNC: 0x6102b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6102b0)
+  NEW_FUNC: 0x610470  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x610470)
+  NEW_FUNC: 0x610b70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x610b70)
+  NEW_FUNC: 0x82f3b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82f3b0)
+  NEW_FUNC: 0x82f670  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82f670)
+  NEW_FUNC: 0x830a70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x830a70)
+  NEW_FUNC: 0xdc3030  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc3030)
+#15034: cov: 5126 ft: 20476 corp: 1055 exec/s 6 oom/timeout/crash: 0/0/0 time: 245s job: 55 dft_time: 0
+#15463: cov: 5132 ft: 20615 corp: 1073 exec/s 7 oom/timeout/crash: 0/0/0 time: 253s job: 56 dft_time: 0
+#15832: cov: 5136 ft: 20659 corp: 1086 exec/s 6 oom/timeout/crash: 0/0/0 time: 262s job: 57 dft_time: 0
+#16252: cov: 5141 ft: 20684 corp: 1097 exec/s 7 oom/timeout/crash: 0/0/0 time: 270s job: 58 dft_time: 0
+#16634: cov: 5151 ft: 20814 corp: 1115 exec/s 6 oom/timeout/crash: 0/0/0 time: 275s job: 59 dft_time: 0
+#17014: cov: 5152 ft: 20851 corp: 1126 exec/s 6 oom/timeout/crash: 0/0/0 time: 284s job: 60 dft_time: 0
+#17473: cov: 5154 ft: 20868 corp: 1130 exec/s 7 oom/timeout/crash: 0/0/0 time: 291s job: 61 dft_time: 0
+#17893: cov: 5154 ft: 20974 corp: 1147 exec/s 6 oom/timeout/crash: 0/0/0 time: 299s job: 62 dft_time: 0
+#18283: cov: 5159 ft: 21003 corp: 1160 exec/s 6 oom/timeout/crash: 0/0/0 time: 313s job: 63 dft_time: 0
+#18800: cov: 5161 ft: 21042 corp: 1171 exec/s 7 oom/timeout/crash: 0/0/0 time: 320s job: 64 dft_time: 0
+  NEW_FUNC: 0x78b730  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x78b730)
+#19107: cov: 5176 ft: 21131 corp: 1189 exec/s 4 oom/timeout/crash: 0/0/0 time: 332s job: 65 dft_time: 0
+#19373: cov: 5177 ft: 21159 corp: 1197 exec/s 3 oom/timeout/crash: 0/0/0 time: 340s job: 66 dft_time: 0
+#19670: cov: 5181 ft: 21175 corp: 1208 exec/s 4 oom/timeout/crash: 0/0/0 time: 346s job: 67 dft_time: 0
+#20124: cov: 5182 ft: 21202 corp: 1215 exec/s 6 oom/timeout/crash: 0/0/0 time: 354s job: 68 dft_time: 0
+#20471: cov: 5182 ft: 21206 corp: 1218 exec/s 4 oom/timeout/crash: 0/0/0 time: 363s job: 69 dft_time: 0
+  NEW_FUNC: 0xdf2510  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdf2510)
+#20882: cov: 5190 ft: 21223 corp: 1222 exec/s 5 oom/timeout/crash: 0/0/0 time: 373s job: 70 dft_time: 0
+#21301: cov: 5191 ft: 21241 corp: 1229 exec/s 5 oom/timeout/crash: 0/0/0 time: 388s job: 71 dft_time: 0
+#21677: cov: 5200 ft: 21257 corp: 1235 exec/s 5 oom/timeout/crash: 0/0/0 time: 396s job: 72 dft_time: 0
+#22080: cov: 5200 ft: 21265 corp: 1240 exec/s 5 oom/timeout/crash: 0/0/0 time: 409s job: 73 dft_time: 0
+#22536: cov: 5200 ft: 21300 corp: 1252 exec/s 6 oom/timeout/crash: 0/0/0 time: 419s job: 74 dft_time: 0
+#23024: cov: 5203 ft: 21330 corp: 1264 exec/s 6 oom/timeout/crash: 0/0/0 time: 424s job: 75 dft_time: 0
+#23586: cov: 5208 ft: 21349 corp: 1272 exec/s 7 oom/timeout/crash: 0/0/0 time: 432s job: 76 dft_time: 0
+#23983: cov: 5208 ft: 21358 corp: 1276 exec/s 5 oom/timeout/crash: 0/0/0 time: 443s job: 77 dft_time: 0
+#24461: cov: 5208 ft: 21360 corp: 1278 exec/s 6 oom/timeout/crash: 0/0/0 time: 453s job: 78 dft_time: 0
+#25149: cov: 5208 ft: 21386 corp: 1285 exec/s 8 oom/timeout/crash: 0/0/0 time: 470s job: 79 dft_time: 0
+#25540: cov: 5213 ft: 21513 corp: 1298 exec/s 4 oom/timeout/crash: 0/0/0 time: 478s job: 80 dft_time: 0
+#26150: cov: 5213 ft: 21513 corp: 1298 exec/s 7 oom/timeout/crash: 0/0/0 time: 494s job: 81 dft_time: 0
+#26491: cov: 5217 ft: 21525 corp: 1305 exec/s 4 oom/timeout/crash: 0/0/0 time: 505s job: 82 dft_time: 0
+#27118: cov: 5217 ft: 21535 corp: 1310 exec/s 7 oom/timeout/crash: 0/0/0 time: 511s job: 83 dft_time: 0
+#27689: cov: 5217 ft: 21549 corp: 1319 exec/s 6 oom/timeout/crash: 0/0/0 time: 519s job: 84 dft_time: 0
+#28165: cov: 5220 ft: 21594 corp: 1331 exec/s 5 oom/timeout/crash: 0/0/0 time: 530s job: 85 dft_time: 0
+#28823: cov: 5221 ft: 21618 corp: 1339 exec/s 7 oom/timeout/crash: 0/0/0 time: 542s job: 86 dft_time: 0
+#29485: cov: 5224 ft: 21682 corp: 1351 exec/s 7 oom/timeout/crash: 0/0/0 time: 559s job: 87 dft_time: 0
+#30048: cov: 5228 ft: 21761 corp: 1367 exec/s 6 oom/timeout/crash: 0/0/0 time: 568s job: 88 dft_time: 0
+#30545: cov: 5229 ft: 21817 corp: 1378 exec/s 5 oom/timeout/crash: 0/0/0 time: 585s job: 89 dft_time: 0
+#31081: cov: 5229 ft: 21829 corp: 1382 exec/s 5 oom/timeout/crash: 0/0/0 time: 599s job: 90 dft_time: 0
+#31555: cov: 5231 ft: 21833 corp: 1386 exec/s 5 oom/timeout/crash: 0/0/0 time: 604s job: 91 dft_time: 0
+#32149: cov: 5231 ft: 21843 corp: 1392 exec/s 6 oom/timeout/crash: 0/0/0 time: 614s job: 92 dft_time: 0
+#32913: cov: 5235 ft: 21852 corp: 1396 exec/s 8 oom/timeout/crash: 0/0/0 time: 626s job: 93 dft_time: 0
+#33345: cov: 5240 ft: 21900 corp: 1411 exec/s 4 oom/timeout/crash: 0/0/0 time: 639s job: 94 dft_time: 0
+#33940: cov: 5240 ft: 21912 corp: 1417 exec/s 6 oom/timeout/crash: 0/0/0 time: 657s job: 95 dft_time: 0
+#34532: cov: 5244 ft: 21924 corp: 1425 exec/s 6 oom/timeout/crash: 0/0/0 time: 668s job: 96 dft_time: 0
+#35162: cov: 5246 ft: 21933 corp: 1432 exec/s 6 oom/timeout/crash: 0/0/0 time: 684s job: 97 dft_time: 0
+  NEW_FUNC: 0x89b9d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x89b9d0)
+  NEW_FUNC: 0x89bd40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x89bd40)
+#36078: cov: 5266 ft: 22038 corp: 1450 exec/s 9 oom/timeout/crash: 0/0/0 time: 699s job: 98 dft_time: 0
+#36613: cov: 5268 ft: 22624 corp: 1467 exec/s 5 oom/timeout/crash: 0/0/0 time: 705s job: 99 dft_time: 0
+#37077: cov: 5273 ft: 22652 corp: 1475 exec/s 4 oom/timeout/crash: 0/0/0 time: 715s job: 100 dft_time: 0
+  NEW_FUNC: 0x56c580  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x56c580)
+  NEW_FUNC: 0x56c6c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x56c6c0)
+  NEW_FUNC: 0x64b230  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x64b230)
+  NEW_FUNC: 0x64bd20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x64bd20)
+  NEW_FUNC: 0xdedc60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdedc60)
+#37908: cov: 5286 ft: 22672 corp: 1482 exec/s 8 oom/timeout/crash: 0/0/0 time: 729s job: 101 dft_time: 0
+#38808: cov: 5286 ft: 22699 corp: 1494 exec/s 8 oom/timeout/crash: 0/0/0 time: 744s job: 102 dft_time: 0
+#39560: cov: 5286 ft: 22709 corp: 1501 exec/s 7 oom/timeout/crash: 0/0/0 time: 763s job: 103 dft_time: 0
+#40084: cov: 5292 ft: 22763 corp: 1514 exec/s 4 oom/timeout/crash: 0/0/0 time: 776s job: 104 dft_time: 0
+  NEW_FUNC: 0x5f1f80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5f1f80)
+#40972: cov: 5296 ft: 22785 corp: 1521 exec/s 8 oom/timeout/crash: 0/0/0 time: 794s job: 105 dft_time: 0
+#41586: cov: 5296 ft: 22829 corp: 1534 exec/s 5 oom/timeout/crash: 0/0/0 time: 808s job: 106 dft_time: 0
+#42274: cov: 5297 ft: 22834 corp: 1538 exec/s 6 oom/timeout/crash: 0/0/0 time: 816s job: 107 dft_time: 0
+#42793: cov: 5300 ft: 22845 corp: 1547 exec/s 4 oom/timeout/crash: 0/0/0 time: 827s job: 108 dft_time: 0
+#44019: cov: 5301 ft: 22849 corp: 1550 exec/s 11 oom/timeout/crash: 0/0/0 time: 841s job: 109 dft_time: 0
+#44574: cov: 5301 ft: 22884 corp: 1565 exec/s 5 oom/timeout/crash: 0/0/0 time: 856s job: 110 dft_time: 0
+  NEW_FUNC: 0x7a65c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a65c0)
+  NEW_FUNC: 0x7a69b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a69b0)
+  NEW_FUNC: 0x7bb720  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7bb720)
+  NEW_FUNC: 0x7bbcf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7bbcf0)
+#45406: cov: 5323 ft: 22924 corp: 1571 exec/s 7 oom/timeout/crash: 0/0/0 time: 877s job: 111 dft_time: 0
+#46128: cov: 5328 ft: 22956 corp: 1583 exec/s 6 oom/timeout/crash: 0/0/0 time: 890s job: 112 dft_time: 0
+#46693: cov: 5331 ft: 22980 corp: 1590 exec/s 4 oom/timeout/crash: 0/0/0 time: 909s job: 113 dft_time: 0
+#47734: cov: 5331 ft: 22990 corp: 1591 exec/s 8 oom/timeout/crash: 0/0/0 time: 926s job: 114 dft_time: 0
+#48364: cov: 5336 ft: 23079 corp: 1614 exec/s 5 oom/timeout/crash: 0/0/0 time: 934s job: 115 dft_time: 0
+#49128: cov: 5336 ft: 23081 corp: 1615 exec/s 6 oom/timeout/crash: 0/0/0 time: 945s job: 116 dft_time: 0
+  NEW_FUNC: 0x55d710  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x55d710)
+  NEW_FUNC: 0x595760  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x595760)
+  NEW_FUNC: 0x626cc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x626cc0)
+  NEW_FUNC: 0x6275e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6275e0)
+  NEW_FUNC: 0x628080  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x628080)
+  NEW_FUNC: 0x7f4930  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7f4930)
+  NEW_FUNC: 0x7f4c00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7f4c00)
+  NEW_FUNC: 0x7f4f80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7f4f80)
+  NEW_FUNC: 0x88e500  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x88e500)
+  NEW_FUNC: 0x890ec2  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x890ec2)
+  NEW_FUNC: 0x890f40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x890f40)
+  NEW_FUNC: 0x891390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891390)
+  NEW_FUNC: 0x8913c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8913c0)
+  NEW_FUNC: 0x8913f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8913f0)
+  NEW_FUNC: 0x891500  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891500)
+  NEW_FUNC: 0x891850  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891850)
+  NEW_FUNC: 0x8919f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8919f0)
+  NEW_FUNC: 0x891a20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891a20)
+  NEW_FUNC: 0x891ae0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891ae0)
+  NEW_FUNC: 0x891c20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x891c20)
+#50085: cov: 5427 ft: 23211 corp: 1626 exec/s 8 oom/timeout/crash: 0/0/0 time: 962s job: 117 dft_time: 0
+#50967: cov: 5429 ft: 23235 corp: 1638 exec/s 7 oom/timeout/crash: 0/0/0 time: 977s job: 118 dft_time: 0
+#51657: cov: 5431 ft: 23251 corp: 1645 exec/s 5 oom/timeout/crash: 0/0/0 time: 999s job: 119 dft_time: 0
+#52830: cov: 5433 ft: 23280 corp: 1659 exec/s 9 oom/timeout/crash: 0/0/0 time: 1014s job: 120 dft_time: 0
+#53548: cov: 5433 ft: 23293 corp: 1666 exec/s 5 oom/timeout/crash: 0/0/0 time: 1032s job: 121 dft_time: 0
+#54404: cov: 5436 ft: 23323 corp: 1675 exec/s 6 oom/timeout/crash: 0/0/0 time: 1051s job: 122 dft_time: 0
+#55171: cov: 5437 ft: 23336 corp: 1681 exec/s 6 oom/timeout/crash: 0/0/0 time: 1059s job: 123 dft_time: 0
+  NEW_FUNC: 0x6fccf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6fccf0)
+  NEW_FUNC: 0xdc8660  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc8660)
+#56052: cov: 5455 ft: 23360 corp: 1686 exec/s 7 oom/timeout/crash: 0/0/0 time: 1072s job: 124 dft_time: 0
+#56754: cov: 5459 ft: 23446 corp: 1696 exec/s 5 oom/timeout/crash: 0/0/0 time: 1090s job: 125 dft_time: 0
+  NEW_FUNC: 0xbc81a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc81a0)
+#57665: cov: 5477 ft: 23500 corp: 1706 exec/s 7 oom/timeout/crash: 0/0/0 time: 1105s job: 126 dft_time: 0
+#58450: cov: 5481 ft: 23521 corp: 1715 exec/s 6 oom/timeout/crash: 0/0/0 time: 1129s job: 127 dft_time: 0
+#59270: cov: 5481 ft: 23541 corp: 1725 exec/s 6 oom/timeout/crash: 0/0/0 time: 1144s job: 128 dft_time: 0
+#60341: cov: 5483 ft: 23546 corp: 1730 exec/s 8 oom/timeout/crash: 0/0/0 time: 1164s job: 129 dft_time: 0
+#61395: cov: 5486 ft: 23575 corp: 1745 exec/s 8 oom/timeout/crash: 0/0/0 time: 1183s job: 130 dft_time: 0
+#62089: cov: 5490 ft: 23640 corp: 1756 exec/s 5 oom/timeout/crash: 0/0/0 time: 1192s job: 131 dft_time: 0
+#62872: cov: 5490 ft: 23643 corp: 1757 exec/s 5 oom/timeout/crash: 0/0/0 time: 1208s job: 132 dft_time: 0
+#64240: cov: 5501 ft: 23658 corp: 1759 exec/s 10 oom/timeout/crash: 0/0/0 time: 1226s job: 133 dft_time: 0
+#65528: cov: 5501 ft: 23685 corp: 1767 exec/s 9 oom/timeout/crash: 0/0/0 time: 1243s job: 134 dft_time: 0
+#66272: cov: 5503 ft: 23737 corp: 1788 exec/s 5 oom/timeout/crash: 0/0/0 time: 1267s job: 135 dft_time: 0
+#67185: cov: 5503 ft: 23738 corp: 1789 exec/s 6 oom/timeout/crash: 0/0/0 time: 1283s job: 136 dft_time: 0
+#68026: cov: 5503 ft: 23758 corp: 1793 exec/s 6 oom/timeout/crash: 0/0/0 time: 1305s job: 137 dft_time: 0
+#68904: cov: 5503 ft: 23797 corp: 1803 exec/s 6 oom/timeout/crash: 0/0/0 time: 1324s job: 138 dft_time: 0
+#69763: cov: 5503 ft: 23806 corp: 1808 exec/s 6 oom/timeout/crash: 0/0/0 time: 1332s job: 139 dft_time: 0
+#70499: cov: 5504 ft: 23866 corp: 1820 exec/s 5 oom/timeout/crash: 0/0/0 time: 1349s job: 140 dft_time: 0
+  NEW_FUNC: 0x656970  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x656970)
+  NEW_FUNC: 0x658ba0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x658ba0)
+#71529: cov: 5536 ft: 23915 corp: 1828 exec/s 7 oom/timeout/crash: 0/0/0 time: 1369s job: 141 dft_time: 0
+  NEW_FUNC: 0x86c9b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x86c9b0)
+  NEW_FUNC: 0xdedfe0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdedfe0)
+#72178: cov: 5556 ft: 23945 corp: 1835 exec/s 4 oom/timeout/crash: 0/0/0 time: 1389s job: 142 dft_time: 0
+#73092: cov: 5557 ft: 23955 corp: 1839 exec/s 6 oom/timeout/crash: 0/0/0 time: 1412s job: 143 dft_time: 0
+  NEW_FUNC: 0x757710  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x757710)
+#74040: cov: 5572 ft: 24052 corp: 1847 exec/s 6 oom/timeout/crash: 0/0/0 time: 1429s job: 144 dft_time: 0
+#75136: cov: 5573 ft: 24062 corp: 1853 exec/s 7 oom/timeout/crash: 0/0/0 time: 1454s job: 145 dft_time: 0
+#75775: cov: 5573 ft: 24067 corp: 1858 exec/s 4 oom/timeout/crash: 0/0/0 time: 1473s job: 146 dft_time: 0
+#76405: cov: 5573 ft: 24070 corp: 1860 exec/s 4 oom/timeout/crash: 0/0/0 time: 1484s job: 147 dft_time: 0
+#77417: cov: 5573 ft: 24081 corp: 1867 exec/s 6 oom/timeout/crash: 0/0/0 time: 1501s job: 148 dft_time: 0
+  NEW_FUNC: 0x761710  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x761710)
+#78326: cov: 5578 ft: 24114 corp: 1876 exec/s 6 oom/timeout/crash: 0/0/0 time: 1522s job: 149 dft_time: 0
+#79486: cov: 5582 ft: 24127 corp: 1885 exec/s 7 oom/timeout/crash: 0/0/0 time: 1542s job: 150 dft_time: 0
+#80603: cov: 5584 ft: 24171 corp: 1894 exec/s 7 oom/timeout/crash: 0/0/0 time: 1565s job: 151 dft_time: 0
+#81619: cov: 5587 ft: 24191 corp: 1903 exec/s 6 oom/timeout/crash: 0/0/0 time: 1584s job: 152 dft_time: 0
+#82488: cov: 5594 ft: 24207 corp: 1911 exec/s 5 oom/timeout/crash: 0/0/0 time: 1609s job: 153 dft_time: 0
+  NEW_FUNC: 0x7b0350  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b0350)
+  NEW_FUNC: 0x7b1180  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b1180)
+  NEW_FUNC: 0x7b1200  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b1200)
+  NEW_FUNC: 0x7b1380  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b1380)
+  NEW_FUNC: 0x7b1ac0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b1ac0)
+#83324: cov: 5620 ft: 24237 corp: 1916 exec/s 5 oom/timeout/crash: 0/0/0 time: 1629s job: 154 dft_time: 0
+#84268: cov: 5620 ft: 24239 corp: 1918 exec/s 6 oom/timeout/crash: 0/0/0 time: 1643s job: 155 dft_time: 0
+#85275: cov: 5620 ft: 24243 corp: 1921 exec/s 6 oom/timeout/crash: 0/0/0 time: 1660s job: 156 dft_time: 0
+#86675: cov: 5622 ft: 24248 corp: 1924 exec/s 8 oom/timeout/crash: 0/0/0 time: 1682s job: 157 dft_time: 0
+#87626: cov: 5624 ft: 24259 corp: 1930 exec/s 5 oom/timeout/crash: 0/0/0 time: 1704s job: 158 dft_time: 0
+#88593: cov: 5624 ft: 24266 corp: 1936 exec/s 6 oom/timeout/crash: 0/0/0 time: 1728s job: 159 dft_time: 0
+#89726: cov: 5625 ft: 24276 corp: 1941 exec/s 7 oom/timeout/crash: 0/0/0 time: 1746s job: 160 dft_time: 0
+#90463: cov: 5630 ft: 24295 corp: 1949 exec/s 4 oom/timeout/crash: 0/0/0 time: 1773s job: 161 dft_time: 0
+#91555: cov: 5633 ft: 24312 corp: 1957 exec/s 6 oom/timeout/crash: 0/0/0 time: 1793s job: 162 dft_time: 0
+  NEW_FUNC: 0x6e6970  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6e6970)
+#92380: cov: 5636 ft: 24328 corp: 1961 exec/s 5 oom/timeout/crash: 0/0/0 time: 1808s job: 163 dft_time: 0
+#93476: cov: 5636 ft: 24332 corp: 1964 exec/s 6 oom/timeout/crash: 0/0/0 time: 1826s job: 164 dft_time: 0
+#94834: cov: 5638 ft: 24341 corp: 1973 exec/s 8 oom/timeout/crash: 0/0/0 time: 1849s job: 165 dft_time: 0
+#95693: cov: 5644 ft: 24373 corp: 1983 exec/s 5 oom/timeout/crash: 0/0/0 time: 1873s job: 166 dft_time: 0
+#96484: cov: 5644 ft: 24376 corp: 1986 exec/s 4 oom/timeout/crash: 0/0/0 time: 1898s job: 167 dft_time: 0
+#97287: cov: 5644 ft: 24385 corp: 1990 exec/s 4 oom/timeout/crash: 0/0/0 time: 1918s job: 168 dft_time: 0
+#98412: cov: 5650 ft: 24399 corp: 1997 exec/s 6 oom/timeout/crash: 0/0/0 time: 1946s job: 169 dft_time: 0
+#99586: cov: 5650 ft: 24435 corp: 2004 exec/s 6 oom/timeout/crash: 0/0/0 time: 1964s job: 170 dft_time: 0
+  NEW_FUNC: 0x609910  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x609910)
+  NEW_FUNC: 0x609cd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x609cd0)
+#100424: cov: 5658 ft: 24478 corp: 2013 exec/s 4 oom/timeout/crash: 0/0/0 time: 1982s job: 171 dft_time: 0
+#101591: cov: 5661 ft: 24488 corp: 2020 exec/s 6 oom/timeout/crash: 0/0/0 time: 2000s job: 172 dft_time: 0
+#102543: cov: 5662 ft: 24492 corp: 2024 exec/s 5 oom/timeout/crash: 0/0/0 time: 2026s job: 173 dft_time: 0
+#103659: cov: 5663 ft: 24519 corp: 2034 exec/s 6 oom/timeout/crash: 0/0/0 time: 2049s job: 174 dft_time: 0
+#104627: cov: 5663 ft: 24548 corp: 2042 exec/s 5 oom/timeout/crash: 0/0/0 time: 2077s job: 175 dft_time: 0
+#105692: cov: 5664 ft: 24571 corp: 2048 exec/s 6 oom/timeout/crash: 0/0/0 time: 2098s job: 176 dft_time: 0
+#106681: cov: 5664 ft: 24581 corp: 2051 exec/s 5 oom/timeout/crash: 0/0/0 time: 2127s job: 177 dft_time: 0
+  NEW_FUNC: 0x655b90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x655b90)
+#107916: cov: 5667 ft: 24602 corp: 2055 exec/s 6 oom/timeout/crash: 0/0/0 time: 2145s job: 178 dft_time: 0
+  NEW_FUNC: 0xbcffa0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbcffa0)
+#109175: cov: 5682 ft: 24629 corp: 2068 exec/s 6 oom/timeout/crash: 0/0/0 time: 2164s job: 179 dft_time: 0
+#110122: cov: 5682 ft: 24629 corp: 2068 exec/s 5 oom/timeout/crash: 0/0/0 time: 2183s job: 180 dft_time: 0
+#111004: cov: 5682 ft: 24630 corp: 2069 exec/s 4 oom/timeout/crash: 0/0/0 time: 2211s job: 181 dft_time: 0
+#112003: cov: 5684 ft: 24639 corp: 2077 exec/s 5 oom/timeout/crash: 0/0/0 time: 2234s job: 182 dft_time: 0
+#113280: cov: 5684 ft: 24643 corp: 2078 exec/s 6 oom/timeout/crash: 0/0/0 time: 2262s job: 183 dft_time: 0
+#114491: cov: 5688 ft: 24654 corp: 2084 exec/s 6 oom/timeout/crash: 0/0/0 time: 2286s job: 184 dft_time: 0
+#115490: cov: 5689 ft: 24658 corp: 2087 exec/s 5 oom/timeout/crash: 0/0/0 time: 2314s job: 185 dft_time: 0
+#116388: cov: 5689 ft: 24672 corp: 2095 exec/s 4 oom/timeout/crash: 0/0/0 time: 2335s job: 186 dft_time: 0
+#117491: cov: 5690 ft: 24695 corp: 2101 exec/s 5 oom/timeout/crash: 0/0/0 time: 2352s job: 187 dft_time: 0
+#118513: cov: 5690 ft: 24704 corp: 2104 exec/s 5 oom/timeout/crash: 0/0/0 time: 2372s job: 188 dft_time: 0
+#119669: cov: 5690 ft: 24734 corp: 2112 exec/s 6 oom/timeout/crash: 0/0/0 time: 2403s job: 189 dft_time: 0
+#120764: cov: 5691 ft: 24742 corp: 2116 exec/s 5 oom/timeout/crash: 0/0/0 time: 2427s job: 190 dft_time: 0
+#122432: cov: 5691 ft: 24751 corp: 2121 exec/s 8 oom/timeout/crash: 0/0/0 time: 2456s job: 191 dft_time: 0
+  NEW_FUNC: 0x700740  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x700740)
+  NEW_FUNC: 0x700dc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x700dc0)
+  NEW_FUNC: 0x700ea0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x700ea0)
+  NEW_FUNC: 0x7011e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7011e0)
+  NEW_FUNC: 0x701330  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x701330)
+  NEW_FUNC: 0xdbe880  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdbe880)
+#123441: cov: 5722 ft: 24800 corp: 2134 exec/s 5 oom/timeout/crash: 0/0/0 time: 2480s job: 192 dft_time: 0
+  NEW_FUNC: 0x89ef00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x89ef00)
+  NEW_FUNC: 0x89f370  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x89f370)
+  NEW_FUNC: 0x8a2eb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8a2eb0)
+  NEW_FUNC: 0x8ab390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8ab390)
+  NEW_FUNC: 0x8ae790  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8ae790)
+  NEW_FUNC: 0x8ae980  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8ae980)
+  NEW_FUNC: 0x8aeb20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8aeb20)
+  NEW_FUNC: 0x8b49e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b49e0)
+  NEW_FUNC: 0x8b4fd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b4fd0)
+  NEW_FUNC: 0x8b6c30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b6c30)
+  NEW_FUNC: 0x8b6f60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b6f60)
+  NEW_FUNC: 0x8b8490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b8490)
+  NEW_FUNC: 0x8b9850  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8b9850)
+  NEW_FUNC: 0x8baa40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8baa40)
+  NEW_FUNC: 0x8badf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8badf0)
+  NEW_FUNC: 0x8bb370  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8bb370)
+  NEW_FUNC: 0x8bcb60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8bcb60)
+  NEW_FUNC: 0x8bd8b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8bd8b0)
+  NEW_FUNC: 0x8be250  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8be250)
+  NEW_FUNC: 0x8be4c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8be4c0)
+  NEW_FUNC: 0x8be740  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8be740)
+  NEW_FUNC: 0x8bee90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8bee90)
+  NEW_FUNC: 0x8bf8d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8bf8d0)
+  NEW_FUNC: 0x8c25f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c25f0)
+  NEW_FUNC: 0x8c2b50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c2b50)
+  NEW_FUNC: 0x8c2b80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c2b80)
+  NEW_FUNC: 0x8c3000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c3000)
+  NEW_FUNC: 0x8c34f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c34f0)
+  NEW_FUNC: 0x8c3830  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8c3830)
+#124676: cov: 5958 ft: 25094 corp: 2142 exec/s 6 oom/timeout/crash: 0/0/0 time: 2511s job: 193 dft_time: 0
+#126053: cov: 5959 ft: 25098 corp: 2146 exec/s 7 oom/timeout/crash: 0/0/0 time: 2532s job: 194 dft_time: 0
+#127358: cov: 5962 ft: 25114 corp: 2152 exec/s 6 oom/timeout/crash: 0/0/0 time: 2550s job: 195 dft_time: 0
+#129092: cov: 5963 ft: 25122 corp: 2157 exec/s 8 oom/timeout/crash: 0/0/0 time: 2571s job: 196 dft_time: 0
+#130150: cov: 5965 ft: 25130 corp: 2162 exec/s 5 oom/timeout/crash: 0/0/0 time: 2602s job: 197 dft_time: 0
+#131182: cov: 5965 ft: 25132 corp: 2164 exec/s 5 oom/timeout/crash: 0/0/0 time: 2627s job: 198 dft_time: 0
+#132074: cov: 5970 ft: 25148 corp: 2168 exec/s 4 oom/timeout/crash: 0/0/0 time: 2660s job: 199 dft_time: 0
+#132965: cov: 5970 ft: 25155 corp: 2174 exec/s 4 oom/timeout/crash: 0/0/0 time: 2682s job: 200 dft_time: 0
+#134492: cov: 5971 ft: 25167 corp: 2180 exec/s 7 oom/timeout/crash: 0/0/0 time: 2713s job: 201 dft_time: 0
+#135944: cov: 5974 ft: 25192 corp: 2190 exec/s 7 oom/timeout/crash: 0/0/0 time: 2737s job: 202 dft_time: 0
+#137217: cov: 5976 ft: 25209 corp: 2201 exec/s 6 oom/timeout/crash: 0/0/0 time: 2755s job: 203 dft_time: 0
+#138257: cov: 5979 ft: 25213 corp: 2204 exec/s 5 oom/timeout/crash: 0/0/0 time: 2778s job: 204 dft_time: 0
+#139355: cov: 5980 ft: 25241 corp: 2214 exec/s 5 oom/timeout/crash: 0/0/0 time: 2810s job: 205 dft_time: 0
+  NEW_FUNC: 0x7d5270  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7d5270)
+#140600: cov: 5987 ft: 25256 corp: 2220 exec/s 6 oom/timeout/crash: 0/0/0 time: 2836s job: 206 dft_time: 0
+#142131: cov: 5987 ft: 25290 corp: 2224 exec/s 7 oom/timeout/crash: 0/0/0 time: 2871s job: 207 dft_time: 0
+#143779: cov: 5987 ft: 25296 corp: 2228 exec/s 7 oom/timeout/crash: 0/0/0 time: 2894s job: 208 dft_time: 0
+#144988: cov: 5989 ft: 25307 corp: 2236 exec/s 5 oom/timeout/crash: 0/0/0 time: 2926s job: 209 dft_time: 0
+#146252: cov: 5993 ft: 25318 corp: 2241 exec/s 5 oom/timeout/crash: 0/0/0 time: 2950s job: 210 dft_time: 0
+#147335: cov: 5993 ft: 25328 corp: 2245 exec/s 5 oom/timeout/crash: 0/0/0 time: 2968s job: 211 dft_time: 0
+#148408: cov: 5995 ft: 25353 corp: 2254 exec/s 5 oom/timeout/crash: 0/0/0 time: 2994s job: 212 dft_time: 0
+#149847: cov: 5995 ft: 25357 corp: 2255 exec/s 6 oom/timeout/crash: 0/0/0 time: 3025s job: 213 dft_time: 0
+#151449: cov: 5996 ft: 25370 corp: 2266 exec/s 7 oom/timeout/crash: 0/0/0 time: 3052s job: 214 dft_time: 0
+#152764: cov: 5996 ft: 25373 corp: 2269 exec/s 6 oom/timeout/crash: 0/0/0 time: 3087s job: 215 dft_time: 0
+#154187: cov: 5996 ft: 25381 corp: 2275 exec/s 6 oom/timeout/crash: 0/0/0 time: 3113s job: 216 dft_time: 0
+#155470: cov: 5996 ft: 25386 corp: 2279 exec/s 5 oom/timeout/crash: 0/0/0 time: 3146s job: 217 dft_time: 0
+#156644: cov: 5997 ft: 25392 corp: 2283 exec/s 5 oom/timeout/crash: 0/0/0 time: 3171s job: 218 dft_time: 0
+  NEW_FUNC: 0xbc9140  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc9140)
+#158315: cov: 6000 ft: 25408 corp: 2289 exec/s 7 oom/timeout/crash: 0/0/0 time: 3191s job: 219 dft_time: 0
+#159556: cov: 6002 ft: 25427 corp: 2301 exec/s 5 oom/timeout/crash: 0/0/0 time: 3216s job: 220 dft_time: 0
+#160962: cov: 6002 ft: 25428 corp: 2302 exec/s 6 oom/timeout/crash: 0/0/0 time: 3249s job: 221 dft_time: 0
+#162001: cov: 6003 ft: 25433 corp: 2307 exec/s 4 oom/timeout/crash: 0/0/0 time: 3276s job: 222 dft_time: 0
+#163436: cov: 6003 ft: 25434 corp: 2308 exec/s 6 oom/timeout/crash: 0/0/0 time: 3313s job: 223 dft_time: 0
+#164847: cov: 6003 ft: 25450 corp: 2316 exec/s 6 oom/timeout/crash: 0/0/0 time: 3340s job: 224 dft_time: 0
+#166319: cov: 6007 ft: 25463 corp: 2323 exec/s 6 oom/timeout/crash: 0/0/0 time: 3372s job: 225 dft_time: 0
+#167906: cov: 6009 ft: 25475 corp: 2328 exec/s 6 oom/timeout/crash: 0/0/0 time: 3399s job: 226 dft_time: 0
+  NEW_FUNC: 0x703f20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x703f20)
+#169421: cov: 6013 ft: 25489 corp: 2334 exec/s 6 oom/timeout/crash: 0/0/0 time: 3421s job: 227 dft_time: 0
+#170584: cov: 6016 ft: 25502 corp: 2340 exec/s 5 oom/timeout/crash: 0/0/0 time: 3447s job: 228 dft_time: 0
+  NEW_FUNC: 0x556c30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x556c30)
+  NEW_FUNC: 0x557050  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x557050)
+  NEW_FUNC: 0x557110  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x557110)
+  NEW_FUNC: 0x5eb320  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5eb320)
+  NEW_FUNC: 0x5ed4b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5ed4b0)
+  NEW_FUNC: 0x5edbb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5edbb0)
+#172182: cov: 6043 ft: 25537 corp: 2342 exec/s 6 oom/timeout/crash: 0/0/0 time: 3481s job: 229 dft_time: 0
+  NEW_FUNC: 0x611910  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x611910)
+  NEW_FUNC: 0x73c3f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x73c3f0)
+  NEW_FUNC: 0x73cdd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x73cdd0)
+  NEW_FUNC: 0x73dd70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x73dd70)
+#173563: cov: 6064 ft: 25566 corp: 2350 exec/s 5 oom/timeout/crash: 0/0/0 time: 3508s job: 230 dft_time: 0
+  NEW_FUNC: 0x78f8f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x78f8f0)
+#175388: cov: 6076 ft: 25597 corp: 2363 exec/s 7 oom/timeout/crash: 0/0/0 time: 3547s job: 231 dft_time: 0
+#176589: cov: 6076 ft: 25603 corp: 2368 exec/s 5 oom/timeout/crash: 0/0/0 time: 3574s job: 232 dft_time: 0
+#177971: cov: 6076 ft: 25606 corp: 2370 exec/s 5 oom/timeout/crash: 0/0/0 time: 3608s job: 233 dft_time: 0
+#179010: cov: 6076 ft: 25624 corp: 2375 exec/s 4 oom/timeout/crash: 0/0/0 time: 3637s job: 234 dft_time: 0
+#180379: cov: 6079 ft: 25642 corp: 2378 exec/s 5 oom/timeout/crash: 0/0/0 time: 3659s job: 235 dft_time: 0
+#181599: cov: 6081 ft: 25663 corp: 2390 exec/s 5 oom/timeout/crash: 0/0/0 time: 3686s job: 236 dft_time: 0
+#182878: cov: 6081 ft: 25670 corp: 2396 exec/s 5 oom/timeout/crash: 0/0/0 time: 3722s job: 237 dft_time: 0
+#184414: cov: 6081 ft: 25678 corp: 2402 exec/s 6 oom/timeout/crash: 0/0/0 time: 3749s job: 238 dft_time: 0
+#185637: cov: 6085 ft: 25696 corp: 2408 exec/s 5 oom/timeout/crash: 0/0/0 time: 3789s job: 239 dft_time: 0
+#186881: cov: 6085 ft: 25714 corp: 2415 exec/s 5 oom/timeout/crash: 0/0/0 time: 3816s job: 240 dft_time: 0
+#187954: cov: 6085 ft: 25728 corp: 2417 exec/s 4 oom/timeout/crash: 0/0/0 time: 3852s job: 241 dft_time: 0
+#189638: cov: 6085 ft: 25747 corp: 2422 exec/s 6 oom/timeout/crash: 0/0/0 time: 3881s job: 242 dft_time: 0
+  NEW_FUNC: 0x58fda0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x58fda0)
+#191113: cov: 6088 ft: 25760 corp: 2427 exec/s 6 oom/timeout/crash: 0/0/0 time: 3907s job: 243 dft_time: 0
+#192557: cov: 6089 ft: 25762 corp: 2429 exec/s 5 oom/timeout/crash: 0/0/0 time: 3933s job: 244 dft_time: 0
+#193999: cov: 6089 ft: 25770 corp: 2435 exec/s 5 oom/timeout/crash: 0/0/0 time: 3970s job: 245 dft_time: 0
+#195272: cov: 6096 ft: 25790 corp: 2440 exec/s 5 oom/timeout/crash: 0/0/0 time: 3998s job: 246 dft_time: 0
+#196957: cov: 6096 ft: 25802 corp: 2443 exec/s 6 oom/timeout/crash: 0/0/0 time: 4040s job: 247 dft_time: 0
+#198239: cov: 6096 ft: 25843 corp: 2453 exec/s 5 oom/timeout/crash: 0/0/0 time: 4067s job: 248 dft_time: 0
+#199575: cov: 6097 ft: 25857 corp: 2456 exec/s 5 oom/timeout/crash: 0/0/0 time: 4103s job: 249 dft_time: 0
+#200920: cov: 6098 ft: 25863 corp: 2461 exec/s 5 oom/timeout/crash: 0/0/0 time: 4133s job: 250 dft_time: 0
+#202505: cov: 6098 ft: 25867 corp: 2463 exec/s 6 oom/timeout/crash: 0/0/0 time: 4161s job: 251 dft_time: 0
+#204006: cov: 6098 ft: 25872 corp: 2465 exec/s 5 oom/timeout/crash: 0/0/0 time: 4188s job: 252 dft_time: 0
+#205459: cov: 6100 ft: 25883 corp: 2469 exec/s 5 oom/timeout/crash: 0/0/0 time: 4226s job: 253 dft_time: 0
+#206963: cov: 6101 ft: 25903 corp: 2477 exec/s 5 oom/timeout/crash: 0/0/0 time: 4254s job: 254 dft_time: 0
+#208576: cov: 6102 ft: 25915 corp: 2482 exec/s 6 oom/timeout/crash: 0/0/0 time: 4298s job: 255 dft_time: 0
+#209804: cov: 6107 ft: 25929 corp: 2488 exec/s 4 oom/timeout/crash: 0/0/0 time: 4325s job: 256 dft_time: 0
+  NEW_FUNC: 0x5556a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5556a0)
+  NEW_FUNC: 0x5557c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5557c0)
+  NEW_FUNC: 0x73e870  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x73e870)
+  NEW_FUNC: 0x73fa10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x73fa10)
+  NEW_FUNC: 0x740490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x740490)
+  NEW_FUNC: 0x742a40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x742a40)
+  NEW_FUNC: 0x743dd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x743dd0)
+#211138: cov: 6138 ft: 25979 corp: 2497 exec/s 5 oom/timeout/crash: 0/0/0 time: 4363s job: 257 dft_time: 0
+#212358: cov: 6138 ft: 25993 corp: 2503 exec/s 4 oom/timeout/crash: 0/0/0 time: 4394s job: 258 dft_time: 0
+#214344: cov: 6138 ft: 25997 corp: 2507 exec/s 7 oom/timeout/crash: 0/0/0 time: 4422s job: 259 dft_time: 0
+#215666: cov: 6140 ft: 26007 corp: 2512 exec/s 5 oom/timeout/crash: 0/0/0 time: 4450s job: 260 dft_time: 0
+  NEW_FUNC: 0x655fb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x655fb0)
+#217744: cov: 6146 ft: 26029 corp: 2517 exec/s 7 oom/timeout/crash: 0/0/0 time: 4489s job: 261 dft_time: 0
+  NEW_FUNC: 0x60e1e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60e1e0)
+  NEW_FUNC: 0x60e7a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60e7a0)
+  NEW_FUNC: 0x60e7c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60e7c0)
+  NEW_FUNC: 0x60ee50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60ee50)
+  NEW_FUNC: 0x60efa0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60efa0)
+  NEW_FUNC: 0x60f670  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x60f670)
+#219377: cov: 6202 ft: 26123 corp: 2522 exec/s 6 oom/timeout/crash: 0/0/0 time: 4519s job: 262 dft_time: 0
+#220957: cov: 6203 ft: 26124 corp: 2523 exec/s 5 oom/timeout/crash: 0/0/0 time: 4564s job: 263 dft_time: 0
+#222535: cov: 6205 ft: 26153 corp: 2534 exec/s 5 oom/timeout/crash: 0/0/0 time: 4592s job: 264 dft_time: 0
+#224426: cov: 6210 ft: 26160 corp: 2537 exec/s 7 oom/timeout/crash: 0/0/0 time: 4631s job: 265 dft_time: 0
+#226408: cov: 6210 ft: 26167 corp: 2541 exec/s 7 oom/timeout/crash: 0/0/0 time: 4663s job: 266 dft_time: 0
+#228013: cov: 6210 ft: 26167 corp: 2541 exec/s 5 oom/timeout/crash: 0/0/0 time: 4691s job: 267 dft_time: 0
+#229674: cov: 6210 ft: 26170 corp: 2543 exec/s 6 oom/timeout/crash: 0/0/0 time: 4720s job: 268 dft_time: 0
+#231937: cov: 6210 ft: 26172 corp: 2545 exec/s 8 oom/timeout/crash: 0/0/0 time: 4761s job: 269 dft_time: 0
+#233745: cov: 6210 ft: 26185 corp: 2552 exec/s 6 oom/timeout/crash: 0/0/0 time: 4790s job: 270 dft_time: 0
+#235194: cov: 6211 ft: 26189 corp: 2555 exec/s 5 oom/timeout/crash: 0/0/0 time: 4838s job: 271 dft_time: 0
+#237130: cov: 6211 ft: 26195 corp: 2559 exec/s 7 oom/timeout/crash: 0/0/0 time: 4867s job: 272 dft_time: 0
+#238721: cov: 6211 ft: 26206 corp: 2566 exec/s 5 oom/timeout/crash: 0/0/0 time: 4907s job: 273 dft_time: 0
+#240077: cov: 6211 ft: 26212 corp: 2571 exec/s 4 oom/timeout/crash: 0/0/0 time: 4939s job: 274 dft_time: 0
+#241666: cov: 6211 ft: 26212 corp: 2571 exec/s 5 oom/timeout/crash: 0/0/0 time: 4968s job: 275 dft_time: 0
+#243280: cov: 6212 ft: 26214 corp: 2573 exec/s 5 oom/timeout/crash: 0/0/0 time: 4998s job: 276 dft_time: 0
+#245050: cov: 6213 ft: 26290 corp: 2582 exec/s 6 oom/timeout/crash: 0/0/0 time: 5041s job: 277 dft_time: 0
+  NEW_FUNC: 0x77c570  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x77c570)
+  NEW_FUNC: 0x79b4c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x79b4c0)
+  NEW_FUNC: 0x79be60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x79be60)
+  NEW_FUNC: 0x79c550  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x79c550)
+  NEW_FUNC: 0x79ce20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x79ce20)
+#246498: cov: 6241 ft: 26323 corp: 2589 exec/s 5 oom/timeout/crash: 0/0/0 time: 5071s job: 278 dft_time: 0
+#248285: cov: 6242 ft: 26330 corp: 2594 exec/s 6 oom/timeout/crash: 0/0/0 time: 5120s job: 279 dft_time: 0
+  NEW_FUNC: 0x5da1c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5da1c0)
+  NEW_FUNC: 0x5db320  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5db320)
+  NEW_FUNC: 0x5db950  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5db950)
+  NEW_FUNC: 0x5db9d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5db9d0)
+  NEW_FUNC: 0x5dc340  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5dc340)
+  NEW_FUNC: 0x77d4b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x77d4b0)
+#250209: cov: 6256 ft: 26367 corp: 2603 exec/s 6 oom/timeout/crash: 0/0/0 time: 5150s job: 280 dft_time: 0
+  NEW_FUNC: 0xbbd840  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbd840)
+  NEW_FUNC: 0xbbd980  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbbd980)
+  NEW_FUNC: 0xbc8f60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc8f60)
+  NEW_FUNC: 0xbc9010  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc9010)
+  NEW_FUNC: 0xbc9490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc9490)
+  NEW_FUNC: 0xbd01d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbd01d0)
+  NEW_FUNC: 0xbd0b10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbd0b10)
+#251765: cov: 6287 ft: 26456 corp: 2614 exec/s 5 oom/timeout/crash: 0/0/0 time: 5190s job: 281 dft_time: 0
+#253850: cov: 6288 ft: 26460 corp: 2618 exec/s 7 oom/timeout/crash: 0/0/0 time: 5222s job: 282 dft_time: 0
+#255624: cov: 6288 ft: 26463 corp: 2620 exec/s 6 oom/timeout/crash: 0/0/0 time: 5253s job: 283 dft_time: 0
+#257550: cov: 6292 ft: 26476 corp: 2625 exec/s 6 oom/timeout/crash: 0/0/0 time: 5284s job: 284 dft_time: 0
+#259422: cov: 6292 ft: 26490 corp: 2629 exec/s 6 oom/timeout/crash: 0/0/0 time: 5329s job: 285 dft_time: 0
+#261068: cov: 6294 ft: 26509 corp: 2638 exec/s 5 oom/timeout/crash: 0/0/0 time: 5358s job: 286 dft_time: 0
+#262538: cov: 6296 ft: 26548 corp: 2644 exec/s 5 oom/timeout/crash: 0/0/0 time: 5411s job: 287 dft_time: 0
+#264246: cov: 6296 ft: 26553 corp: 2649 exec/s 5 oom/timeout/crash: 0/0/0 time: 5442s job: 288 dft_time: 0
+#266843: cov: 6296 ft: 26557 corp: 2652 exec/s 8 oom/timeout/crash: 0/0/0 time: 5481s job: 289 dft_time: 0
+#268439: cov: 6300 ft: 26788 corp: 2687 exec/s 5 oom/timeout/crash: 0/0/0 time: 5515s job: 290 dft_time: 0
+#270440: cov: 6300 ft: 26791 corp: 2690 exec/s 6 oom/timeout/crash: 0/0/0 time: 5546s job: 291 dft_time: 0
+#271845: cov: 6300 ft: 26805 corp: 2693 exec/s 4 oom/timeout/crash: 0/0/0 time: 5578s job: 292 dft_time: 0
+  NEW_FUNC: 0x7b0980  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7b0980)
+#273436: cov: 6316 ft: 26871 corp: 2698 exec/s 5 oom/timeout/crash: 0/0/0 time: 5626s job: 293 dft_time: 0
+#275064: cov: 6316 ft: 26893 corp: 2701 exec/s 5 oom/timeout/crash: 0/0/0 time: 5655s job: 294 dft_time: 0
+#277099: cov: 6320 ft: 26901 corp: 2707 exec/s 6 oom/timeout/crash: 0/0/0 time: 5710s job: 295 dft_time: 0
+  NEW_FUNC: 0xbb4550  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb4550)
+  NEW_FUNC: 0xbb48c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbb48c0)
+#278564: cov: 6341 ft: 26953 corp: 2714 exec/s 4 oom/timeout/crash: 0/0/0 time: 5740s job: 296 dft_time: 0
+#280387: cov: 6341 ft: 26964 corp: 2719 exec/s 6 oom/timeout/crash: 0/0/0 time: 5783s job: 297 dft_time: 0
+#282406: cov: 6341 ft: 26985 corp: 2727 exec/s 6 oom/timeout/crash: 0/0/0 time: 5815s job: 298 dft_time: 0
+#283715: cov: 6341 ft: 27007 corp: 2732 exec/s 4 oom/timeout/crash: 0/0/0 time: 5848s job: 299 dft_time: 0
+#285445: cov: 6341 ft: 27014 corp: 2734 exec/s 5 oom/timeout/crash: 0/0/0 time: 5881s job: 300 dft_time: 0
+#286964: cov: 6341 ft: 27015 corp: 2735 exec/s 5 oom/timeout/crash: 0/0/0 time: 5928s job: 301 dft_time: 0
+#289052: cov: 6341 ft: 27038 corp: 2743 exec/s 6 oom/timeout/crash: 0/0/0 time: 5957s job: 302 dft_time: 0
+#290594: cov: 6341 ft: 27041 corp: 2745 exec/s 5 oom/timeout/crash: 0/0/0 time: 6012s job: 303 dft_time: 0
+#291944: cov: 6341 ft: 27044 corp: 2748 exec/s 4 oom/timeout/crash: 0/0/0 time: 6043s job: 304 dft_time: 0
+#293622: cov: 6341 ft: 27046 corp: 2750 exec/s 5 oom/timeout/crash: 0/0/0 time: 6086s job: 305 dft_time: 0
+#295066: cov: 6341 ft: 27050 corp: 2753 exec/s 4 oom/timeout/crash: 0/0/0 time: 6118s job: 306 dft_time: 0
+#297297: cov: 6341 ft: 27059 corp: 2759 exec/s 7 oom/timeout/crash: 0/0/0 time: 6151s job: 307 dft_time: 0
+#299414: cov: 6342 ft: 27077 corp: 2766 exec/s 7 oom/timeout/crash: 0/0/0 time: 6182s job: 308 dft_time: 0
+  NEW_FUNC: 0xdeed10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdeed10)
+#300910: cov: 6347 ft: 27091 corp: 2774 exec/s 4 oom/timeout/crash: 0/0/0 time: 6230s job: 309 dft_time: 0
+#302749: cov: 6347 ft: 27142 corp: 2782 exec/s 6 oom/timeout/crash: 0/0/0 time: 6259s job: 310 dft_time: 0
+#304504: cov: 6347 ft: 27169 corp: 2793 exec/s 5 oom/timeout/crash: 0/0/0 time: 6315s job: 311 dft_time: 0
+#306255: cov: 6347 ft: 27182 corp: 2796 exec/s 5 oom/timeout/crash: 0/0/0 time: 6345s job: 312 dft_time: 0
+#308292: cov: 6349 ft: 27222 corp: 2810 exec/s 6 oom/timeout/crash: 0/0/0 time: 6389s job: 313 dft_time: 0
+#309856: cov: 6349 ft: 27223 corp: 2811 exec/s 5 oom/timeout/crash: 0/0/0 time: 6421s job: 314 dft_time: 0
+#311840: cov: 6349 ft: 27225 corp: 2813 exec/s 6 oom/timeout/crash: 0/0/0 time: 6454s job: 315 dft_time: 0
+  NEW_FUNC: 0x77cb30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x77cb30)
+  NEW_FUNC: 0x77d380  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x77d380)
+  NEW_FUNC: 0x77d3c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x77d3c0)
+  NEW_FUNC: 0x7a24c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a24c0)
+  NEW_FUNC: 0x7ee990  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7ee990)
+#314185: cov: 6375 ft: 27280 corp: 2821 exec/s 7 oom/timeout/crash: 0/0/0 time: 6485s job: 316 dft_time: 0
+  NEW_FUNC: 0xbc9200  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xbc9200)
+#315735: cov: 6382 ft: 27295 corp: 2825 exec/s 5 oom/timeout/crash: 0/0/0 time: 6534s job: 317 dft_time: 0
+#317671: cov: 6382 ft: 27298 corp: 2826 exec/s 6 oom/timeout/crash: 0/0/0 time: 6562s job: 318 dft_time: 0
+#320031: cov: 6382 ft: 27302 corp: 2830 exec/s 7 oom/timeout/crash: 0/0/0 time: 6618s job: 319 dft_time: 0
+#321625: cov: 6384 ft: 27337 corp: 2839 exec/s 5 oom/timeout/crash: 0/0/0 time: 6648s job: 320 dft_time: 0
+#324044: cov: 6384 ft: 27355 corp: 2846 exec/s 8 oom/timeout/crash: 0/0/0 time: 6690s job: 321 dft_time: 0
+  NEW_FUNC: 0x5566c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5566c0)
+  NEW_FUNC: 0x7ab590  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7ab590)
+  NEW_FUNC: 0x7ac590  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7ac590)
+  NEW_FUNC: 0x866a80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x866a80)
+#325647: cov: 6411 ft: 27432 corp: 2860 exec/s 5 oom/timeout/crash: 0/0/0 time: 6723s job: 322 dft_time: 0
+#327113: cov: 6412 ft: 27454 corp: 2872 exec/s 4 oom/timeout/crash: 0/0/0 time: 6756s job: 323 dft_time: 0
+#328915: cov: 6412 ft: 27483 corp: 2885 exec/s 5 oom/timeout/crash: 0/0/0 time: 6788s job: 324 dft_time: 0
+  NEW_FUNC: 0x6970c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6970c0)
+  NEW_FUNC: 0x697300  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x697300)
+#330548: cov: 6422 ft: 27502 corp: 2895 exec/s 5 oom/timeout/crash: 0/0/0 time: 6835s job: 325 dft_time: 0
+#332438: cov: 6422 ft: 27511 corp: 2903 exec/s 6 oom/timeout/crash: 0/0/0 time: 6864s job: 326 dft_time: 0
+#333946: cov: 6422 ft: 27512 corp: 2904 exec/s 4 oom/timeout/crash: 0/0/0 time: 6921s job: 327 dft_time: 0
+#335840: cov: 6422 ft: 27553 corp: 2920 exec/s 6 oom/timeout/crash: 0/0/0 time: 6950s job: 328 dft_time: 0
+#337582: cov: 6422 ft: 27559 corp: 2926 exec/s 5 oom/timeout/crash: 0/0/0 time: 6992s job: 329 dft_time: 0
+#339667: cov: 6423 ft: 27579 corp: 2932 exec/s 6 oom/timeout/crash: 0/0/0 time: 7025s job: 330 dft_time: 0
+#341636: cov: 6423 ft: 27595 corp: 2941 exec/s 6 oom/timeout/crash: 0/0/0 time: 7059s job: 331 dft_time: 0
+#342996: cov: 6425 ft: 27621 corp: 2949 exec/s 4 oom/timeout/crash: 0/0/0 time: 7091s job: 332 dft_time: 0
+#344403: cov: 6426 ft: 27630 corp: 2956 exec/s 4 oom/timeout/crash: 0/0/0 time: 7138s job: 333 dft_time: 0
+#346094: cov: 6426 ft: 27631 corp: 2957 exec/s 5 oom/timeout/crash: 0/0/0 time: 7166s job: 334 dft_time: 0
+#347987: cov: 6427 ft: 27635 corp: 2959 exec/s 6 oom/timeout/crash: 0/0/0 time: 7223s job: 335 dft_time: 0
+#349635: cov: 6429 ft: 27661 corp: 2965 exec/s 5 oom/timeout/crash: 0/0/0 time: 7253s job: 336 dft_time: 0
+#351374: cov: 6429 ft: 27663 corp: 2967 exec/s 5 oom/timeout/crash: 0/0/0 time: 7296s job: 337 dft_time: 0
+#353519: cov: 6430 ft: 27674 corp: 2969 exec/s 7 oom/timeout/crash: 0/0/0 time: 7328s job: 338 dft_time: 0
+#355557: cov: 6460 ft: 27763 corp: 2975 exec/s 6 oom/timeout/crash: 0/0/0 time: 7361s job: 339 dft_time: 0
+#357408: cov: 6464 ft: 27795 corp: 2985 exec/s 6 oom/timeout/crash: 0/0/0 time: 7395s job: 340 dft_time: 0
+#359388: cov: 6464 ft: 27802 corp: 2988 exec/s 6 oom/timeout/crash: 0/0/0 time: 7440s job: 341 dft_time: 0
+#361349: cov: 6464 ft: 27816 corp: 2993 exec/s 6 oom/timeout/crash: 0/0/0 time: 7469s job: 342 dft_time: 0
+#363220: cov: 6464 ft: 27825 corp: 3000 exec/s 6 oom/timeout/crash: 0/0/0 time: 7526s job: 343 dft_time: 0
+#365098: cov: 6465 ft: 27834 corp: 3006 exec/s 6 oom/timeout/crash: 0/0/0 time: 7554s job: 344 dft_time: 0
+#366711: cov: 6465 ft: 27871 corp: 3020 exec/s 5 oom/timeout/crash: 0/0/0 time: 7599s job: 345 dft_time: 0
+#368409: cov: 6465 ft: 27879 corp: 3021 exec/s 5 oom/timeout/crash: 0/0/0 time: 7632s job: 346 dft_time: 0
+#369918: cov: 6474 ft: 27895 corp: 3024 exec/s 5 oom/timeout/crash: 0/0/0 time: 7664s job: 347 dft_time: 0
+#371245: cov: 6475 ft: 27900 corp: 3025 exec/s 4 oom/timeout/crash: 0/0/0 time: 7698s job: 348 dft_time: 0
+#372867: cov: 6475 ft: 27943 corp: 3032 exec/s 5 oom/timeout/crash: 0/0/0 time: 7743s job: 349 dft_time: 0
+#375081: cov: 6476 ft: 27945 corp: 3034 exec/s 7 oom/timeout/crash: 0/0/0 time: 7772s job: 350 dft_time: 0
+#376838: cov: 6476 ft: 27949 corp: 3035 exec/s 5 oom/timeout/crash: 0/0/0 time: 7828s job: 351 dft_time: 0
+  NEW_FUNC: 0x784990  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x784990)
+#378877: cov: 6484 ft: 27966 corp: 3038 exec/s 6 oom/timeout/crash: 0/0/0 time: 7857s job: 352 dft_time: 0
+#380642: cov: 6484 ft: 27978 corp: 3041 exec/s 5 oom/timeout/crash: 0/0/0 time: 7901s job: 353 dft_time: 0
+#382302: cov: 6485 ft: 27979 corp: 3042 exec/s 5 oom/timeout/crash: 0/0/0 time: 7933s job: 354 dft_time: 0
+#384207: cov: 6486 ft: 27983 corp: 3045 exec/s 6 oom/timeout/crash: 0/0/0 time: 7967s job: 355 dft_time: 0
+#385736: cov: 6487 ft: 27986 corp: 3048 exec/s 5 oom/timeout/crash: 0/0/0 time: 8003s job: 356 dft_time: 0
+#387286: cov: 6490 ft: 27991 corp: 3051 exec/s 5 oom/timeout/crash: 0/0/0 time: 8045s job: 357 dft_time: 0
+#388842: cov: 6490 ft: 27993 corp: 3053 exec/s 5 oom/timeout/crash: 0/0/0 time: 8073s job: 358 dft_time: 0
+#390793: cov: 6490 ft: 28015 corp: 3060 exec/s 6 oom/timeout/crash: 0/0/0 time: 8130s job: 359 dft_time: 0
+  NEW_FUNC: 0x6ea230  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6ea230)
+  NEW_FUNC: 0x6eba90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6eba90)
+  NEW_FUNC: 0x6f06b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f06b0)
+#392983: cov: 6500 ft: 28067 corp: 3068 exec/s 7 oom/timeout/crash: 0/0/0 time: 8159s job: 360 dft_time: 0
+#394896: cov: 6500 ft: 28073 corp: 3073 exec/s 6 oom/timeout/crash: 0/0/0 time: 8204s job: 361 dft_time: 0
+#396745: cov: 6500 ft: 28086 corp: 3078 exec/s 6 oom/timeout/crash: 0/0/0 time: 8236s job: 362 dft_time: 0
+  NEW_FUNC: 0x613620  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x613620)
+#398602: cov: 6505 ft: 28094 corp: 3082 exec/s 6 oom/timeout/crash: 0/0/0 time: 8270s job: 363 dft_time: 0
+#399982: cov: 6506 ft: 28107 corp: 3090 exec/s 4 oom/timeout/crash: 0/0/0 time: 8305s job: 364 dft_time: 0
+#402027: cov: 6506 ft: 28116 corp: 3094 exec/s 6 oom/timeout/crash: 0/0/0 time: 8347s job: 365 dft_time: 0
+#403935: cov: 6506 ft: 28123 corp: 3098 exec/s 6 oom/timeout/crash: 0/0/0 time: 8376s job: 366 dft_time: 0
+#405406: cov: 6506 ft: 28124 corp: 3099 exec/s 4 oom/timeout/crash: 0/0/0 time: 8432s job: 367 dft_time: 0
+#407072: cov: 6506 ft: 28124 corp: 3099 exec/s 5 oom/timeout/crash: 0/0/0 time: 8461s job: 368 dft_time: 0
+#408919: cov: 6507 ft: 28129 corp: 3101 exec/s 6 oom/timeout/crash: 0/0/0 time: 8506s job: 369 dft_time: 0
+  NEW_FUNC: 0x7a5f10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7a5f10)
+#410540: cov: 6510 ft: 28142 corp: 3107 exec/s 5 oom/timeout/crash: 0/0/0 time: 8538s job: 370 dft_time: 0
+#412340: cov: 6510 ft: 28143 corp: 3108 exec/s 5 oom/timeout/crash: 0/0/0 time: 8572s job: 371 dft_time: 0
+#414429: cov: 6510 ft: 28156 corp: 3112 exec/s 6 oom/timeout/crash: 0/0/0 time: 8608s job: 372 dft_time: 0
+#416820: cov: 6511 ft: 28170 corp: 3119 exec/s 7 oom/timeout/crash: 0/0/0 time: 8650s job: 373 dft_time: 0
+#418160: cov: 6511 ft: 28183 corp: 3126 exec/s 4 oom/timeout/crash: 0/0/0 time: 8678s job: 374 dft_time: 0
+#419836: cov: 6511 ft: 28184 corp: 3127 exec/s 5 oom/timeout/crash: 0/0/0 time: 8733s job: 375 dft_time: 0
+#421727: cov: 6512 ft: 28189 corp: 3131 exec/s 6 oom/timeout/crash: 0/0/0 time: 8763s job: 376 dft_time: 0
+#423806: cov: 6512 ft: 28190 corp: 3132 exec/s 6 oom/timeout/crash: 0/0/0 time: 8808s job: 377 dft_time: 0
+#425781: cov: 6514 ft: 28241 corp: 3140 exec/s 6 oom/timeout/crash: 0/0/0 time: 8840s job: 378 dft_time: 0
+#427444: cov: 6514 ft: 28254 corp: 3143 exec/s 5 oom/timeout/crash: 0/0/0 time: 8875s job: 379 dft_time: 0
+#429630: cov: 6515 ft: 28257 corp: 3145 exec/s 7 oom/timeout/crash: 0/0/0 time: 8910s job: 380 dft_time: 0
+#431593: cov: 6515 ft: 28270 corp: 3147 exec/s 6 oom/timeout/crash: 0/0/0 time: 8953s job: 381 dft_time: 0
+#433241: cov: 6515 ft: 28270 corp: 3147 exec/s 5 oom/timeout/crash: 0/0/0 time: 8979s job: 382 dft_time: 0
+#434835: cov: 6515 ft: 28282 corp: 3150 exec/s 5 oom/timeout/crash: 0/0/0 time: 9036s job: 383 dft_time: 0
+#436518: cov: 6515 ft: 28292 corp: 3154 exec/s 5 oom/timeout/crash: 0/0/0 time: 9065s job: 384 dft_time: 0
+#438348: cov: 6515 ft: 28292 corp: 3154 exec/s 6 oom/timeout/crash: 0/0/0 time: 9112s job: 385 dft_time: 0
+#440301: cov: 6516 ft: 28302 corp: 3160 exec/s 6 oom/timeout/crash: 0/0/0 time: 9143s job: 386 dft_time: 0
+#441906: cov: 6517 ft: 28310 corp: 3166 exec/s 5 oom/timeout/crash: 0/0/0 time: 9177s job: 387 dft_time: 0
+  NEW_FUNC: 0x9b2aa2  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b2aa2)
+  NEW_FUNC: 0x9b2b80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b2b80)
+  NEW_FUNC: 0x9b46c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b46c0)
+  NEW_FUNC: 0x9b47c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b47c0)
+  NEW_FUNC: 0x9b4910  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b4910)
+  NEW_FUNC: 0x9b5090  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b5090)
+  NEW_FUNC: 0x9b54e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b54e0)
+  NEW_FUNC: 0x9b56c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b56c0)
+  NEW_FUNC: 0x9b59a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b59a0)
+  NEW_FUNC: 0x9b59d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b59d0)
+  NEW_FUNC: 0x9b5ad0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b5ad0)
+  NEW_FUNC: 0x9b6500  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b6500)
+  NEW_FUNC: 0x9b6850  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b6850)
+  NEW_FUNC: 0x9b69a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b69a0)
+  NEW_FUNC: 0x9b6d50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b6d50)
+  NEW_FUNC: 0x9b7110  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9b7110)
+  NEW_FUNC: 0xcc4170  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4170)
+  NEW_FUNC: 0xcc47a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc47a0)
+  NEW_FUNC: 0xcc4940  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4940)
+  NEW_FUNC: 0xcc4a80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4a80)
+  NEW_FUNC: 0xcc4bc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4bc0)
+  NEW_FUNC: 0xcc4c80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4c80)
+  NEW_FUNC: 0xcc4ff0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc4ff0)
+  NEW_FUNC: 0xcc57c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xcc57c0)
+  NEW_FUNC: 0xdc8390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc8390)
+  NEW_FUNC: 0xdd6430  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6430)
+  NEW_FUNC: 0xdd64f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd64f0)
+  NEW_FUNC: 0xdd6540  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6540)
+  NEW_FUNC: 0xdd6590  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6590)
+  NEW_FUNC: 0xdd6610  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6610)
+  NEW_FUNC: 0xdd66e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd66e0)
+  NEW_FUNC: 0xdd6750  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6750)
+  NEW_FUNC: 0xdd6c00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6c00)
+  NEW_FUNC: 0xdd7280  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd7280)
+#443788: cov: 6715 ft: 28514 corp: 3168 exec/s 6 oom/timeout/crash: 0/0/0 time: 9214s job: 388 dft_time: 0
+#445391: cov: 6715 ft: 28516 corp: 3169 exec/s 5 oom/timeout/crash: 0/0/0 time: 9255s job: 389 dft_time: 0
+#447135: cov: 6715 ft: 28517 corp: 3170 exec/s 5 oom/timeout/crash: 0/0/0 time: 9282s job: 390 dft_time: 0
+#449253: cov: 6715 ft: 28519 corp: 3172 exec/s 7 oom/timeout/crash: 0/0/0 time: 9339s job: 391 dft_time: 0
+  NEW_FUNC: 0x66fa90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66fa90)
+  NEW_FUNC: 0x670600  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x670600)
+  NEW_FUNC: 0x671270  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x671270)
+#450908: cov: 6725 ft: 28532 corp: 3177 exec/s 5 oom/timeout/crash: 0/0/0 time: 9367s job: 392 dft_time: 0
+#452411: cov: 6725 ft: 28532 corp: 3177 exec/s 4 oom/timeout/crash: 0/0/0 time: 9415s job: 393 dft_time: 0
+#454392: cov: 6726 ft: 28538 corp: 3179 exec/s 6 oom/timeout/crash: 0/0/0 time: 9446s job: 394 dft_time: 0
+  NEW_FUNC: 0x665b4a  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x665b4a)
+  NEW_FUNC: 0x666510  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x666510)
+#456064: cov: 6738 ft: 28554 corp: 3182 exec/s 5 oom/timeout/crash: 0/0/0 time: 9480s job: 395 dft_time: 0
+#457413: cov: 6739 ft: 28573 corp: 3192 exec/s 4 oom/timeout/crash: 0/0/0 time: 9515s job: 396 dft_time: 0
+#458936: cov: 6739 ft: 28573 corp: 3192 exec/s 5 oom/timeout/crash: 0/0/0 time: 9557s job: 397 dft_time: 0
+#460701: cov: 6740 ft: 28579 corp: 3196 exec/s 5 oom/timeout/crash: 0/0/0 time: 9583s job: 398 dft_time: 0
+#462312: cov: 6740 ft: 28580 corp: 3197 exec/s 5 oom/timeout/crash: 0/0/0 time: 9641s job: 399 dft_time: 0
+#464257: cov: 6740 ft: 28586 corp: 3198 exec/s 6 oom/timeout/crash: 0/0/0 time: 9670s job: 400 dft_time: 0
+#466207: cov: 6741 ft: 28588 corp: 3200 exec/s 6 oom/timeout/crash: 0/0/0 time: 9718s job: 401 dft_time: 0
+#468295: cov: 6741 ft: 28595 corp: 3203 exec/s 6 oom/timeout/crash: 0/0/0 time: 9748s job: 402 dft_time: 0
+#470344: cov: 6741 ft: 28598 corp: 3206 exec/s 6 oom/timeout/crash: 0/0/0 time: 9784s job: 403 dft_time: 0
+#472258: cov: 6742 ft: 28612 corp: 3212 exec/s 6 oom/timeout/crash: 0/0/0 time: 9817s job: 404 dft_time: 0
+#474775: cov: 6745 ft: 28619 corp: 3216 exec/s 8 oom/timeout/crash: 0/0/0 time: 9859s job: 405 dft_time: 0
+#476704: cov: 6750 ft: 28627 corp: 3220 exec/s 6 oom/timeout/crash: 0/0/0 time: 9885s job: 406 dft_time: 0
+#478582: cov: 6763 ft: 28691 corp: 3227 exec/s 6 oom/timeout/crash: 0/0/0 time: 9943s job: 407 dft_time: 0
+#480810: cov: 6764 ft: 28695 corp: 3230 exec/s 7 oom/timeout/crash: 0/0/0 time: 9971s job: 408 dft_time: 0
+#482459: cov: 6764 ft: 28699 corp: 3234 exec/s 5 oom/timeout/crash: 0/0/0 time: 10021s job: 409 dft_time: 0
+#484515: cov: 6764 ft: 28703 corp: 3237 exec/s 6 oom/timeout/crash: 0/0/0 time: 10050s job: 410 dft_time: 0
+#486578: cov: 6764 ft: 28710 corp: 3240 exec/s 6 oom/timeout/crash: 0/0/0 time: 10086s job: 411 dft_time: 0
+#488405: cov: 6767 ft: 28732 corp: 3246 exec/s 6 oom/timeout/crash: 0/0/0 time: 10119s job: 412 dft_time: 0
+#490016: cov: 6767 ft: 28739 corp: 3250 exec/s 5 oom/timeout/crash: 0/0/0 time: 10161s job: 413 dft_time: 0
+#491416: cov: 6767 ft: 28743 corp: 3254 exec/s 4 oom/timeout/crash: 0/0/0 time: 10189s job: 414 dft_time: 0
+#493479: cov: 6767 ft: 28751 corp: 3257 exec/s 6 oom/timeout/crash: 0/0/0 time: 10246s job: 415 dft_time: 0
+  NEW_FUNC: 0x80a9c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x80a9c0)
+  NEW_FUNC: 0x80abc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x80abc0)
+  NEW_FUNC: 0x82ca30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x82ca30)
+  NEW_FUNC: 0x8311e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8311e0)
+  NEW_FUNC: 0x831f40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x831f40)
+  NEW_FUNC: 0x832d20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x832d20)
+  NEW_FUNC: 0x8332c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8332c0)
+  NEW_FUNC: 0x833450  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x833450)
+  NEW_FUNC: 0x8336a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8336a0)
+  NEW_FUNC: 0x833900  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x833900)
+  NEW_FUNC: 0x833c80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x833c80)
+  NEW_FUNC: 0x833dc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x833dc0)
+  NEW_FUNC: 0x833f00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x833f00)
+  NEW_FUNC: 0x834150  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x834150)
+  NEW_FUNC: 0x834180  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x834180)
+  NEW_FUNC: 0x86c2d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x86c2d0)
+  NEW_FUNC: 0x86c3c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x86c3c0)
+  NEW_FUNC: 0xa24f62  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa24f62)
+  NEW_FUNC: 0xa25020  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa25020)
+  NEW_FUNC: 0xa25f00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa25f00)
+  NEW_FUNC: 0xa26340  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa26340)
+  NEW_FUNC: 0xa27030  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa27030)
+  NEW_FUNC: 0xa29ee0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa29ee0)
+  NEW_FUNC: 0xa29f10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa29f10)
+  NEW_FUNC: 0xa29f70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa29f70)
+  NEW_FUNC: 0xa29fd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa29fd0)
+  NEW_FUNC: 0xa2a140  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a140)
+  NEW_FUNC: 0xa2a270  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a270)
+  NEW_FUNC: 0xa2a2b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a2b0)
+  NEW_FUNC: 0xa2a360  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a360)
+  NEW_FUNC: 0xa2a390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a390)
+  NEW_FUNC: 0xa2a4b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a4b0)
+  NEW_FUNC: 0xa2a6f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a6f0)
+  NEW_FUNC: 0xa2a870  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a870)
+  NEW_FUNC: 0xa2a900  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a900)
+  NEW_FUNC: 0xa2a9c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a9c0)
+  NEW_FUNC: 0xa2ab40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2ab40)
+  NEW_FUNC: 0xa2ce80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2ce80)
+  NEW_FUNC: 0xa2cf40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2cf40)
+  NEW_FUNC: 0xa2f5b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2f5b0)
+  NEW_FUNC: 0xa2f750  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2f750)
+  NEW_FUNC: 0xa2f890  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2f890)
+  NEW_FUNC: 0xa2f950  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2f950)
+  NEW_FUNC: 0xa2fb50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2fb50)
+  NEW_FUNC: 0xa2ffb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2ffb0)
+  NEW_FUNC: 0xa30260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa30260)
+  NEW_FUNC: 0xa30f00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa30f00)
+  NEW_FUNC: 0xa30f60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa30f60)
+  NEW_FUNC: 0xa30f90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa30f90)
+  NEW_FUNC: 0xa32540  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32540)
+  NEW_FUNC: 0xa32660  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32660)
+  NEW_FUNC: 0xa329a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa329a0)
+  NEW_FUNC: 0xa32f80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32f80)
+  NEW_FUNC: 0xa32fb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32fb0)
+  NEW_FUNC: 0xa33260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa33260)
+  NEW_FUNC: 0xa332c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa332c0)
+  NEW_FUNC: 0xa333f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa333f0)
+  NEW_FUNC: 0xa334f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa334f0)
+  NEW_FUNC: 0xa335a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa335a0)
+  NEW_FUNC: 0xa33680  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa33680)
+  NEW_FUNC: 0xa336b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa336b0)
+  NEW_FUNC: 0xa3c980  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3c980)
+  NEW_FUNC: 0xa3d8b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3d8b0)
+  NEW_FUNC: 0xa3d990  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3d990)
+  NEW_FUNC: 0xa3dbf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3dbf0)
+  NEW_FUNC: 0xa3e200  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e200)
+  NEW_FUNC: 0xa3e260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e260)
+  NEW_FUNC: 0xa3e340  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e340)
+  NEW_FUNC: 0xa3e3d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e3d0)
+  NEW_FUNC: 0xa3e780  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e780)
+  NEW_FUNC: 0xa3edc0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3edc0)
+  NEW_FUNC: 0xa3fa60  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3fa60)
+  NEW_FUNC: 0xa3fec0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3fec0)
+  NEW_FUNC: 0xa40030  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa40030)
+  NEW_FUNC: 0xa403d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa403d0)
+  NEW_FUNC: 0xa6af62  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa6af62)
+  NEW_FUNC: 0xca0b7d  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xca0b7d)
+  NEW_FUNC: 0xdc4750  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc4750)
+  NEW_FUNC: 0xdf2020  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdf2020)
+  NEW_FUNC: 0xe0eba0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe0eba0)
+  NEW_FUNC: 0xe0ed50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe0ed50)
+  NEW_FUNC: 0xe0eea0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xe0eea0)
+#495519: cov: 7185 ft: 29398 corp: 3263 exec/s 6 oom/timeout/crash: 0/0/0 time: 10275s job: 416 dft_time: 0
+#497429: cov: 7186 ft: 29403 corp: 3267 exec/s 6 oom/timeout/crash: 0/0/0 time: 10323s job: 417 dft_time: 0
+#498996: cov: 7186 ft: 29407 corp: 3270 exec/s 5 oom/timeout/crash: 0/0/0 time: 10354s job: 418 dft_time: 0
+#500667: cov: 7186 ft: 29411 corp: 3274 exec/s 5 oom/timeout/crash: 0/0/0 time: 10390s job: 419 dft_time: 0
+#502315: cov: 7188 ft: 29440 corp: 3282 exec/s 5 oom/timeout/crash: 0/0/0 time: 10421s job: 420 dft_time: 0
+#504385: cov: 7188 ft: 29441 corp: 3283 exec/s 6 oom/timeout/crash: 0/0/0 time: 10465s job: 421 dft_time: 0
+#506255: cov: 7192 ft: 29478 corp: 3297 exec/s 6 oom/timeout/crash: 0/0/0 time: 10491s job: 422 dft_time: 0
+#508310: cov: 7198 ft: 29500 corp: 3301 exec/s 6 oom/timeout/crash: 0/0/0 time: 10548s job: 423 dft_time: 0
+#510182: cov: 7198 ft: 29503 corp: 3303 exec/s 6 oom/timeout/crash: 0/0/0 time: 10577s job: 424 dft_time: 0
+#511857: cov: 7198 ft: 29507 corp: 3305 exec/s 5 oom/timeout/crash: 0/0/0 time: 10625s job: 425 dft_time: 0
+#513263: cov: 7198 ft: 29512 corp: 3308 exec/s 4 oom/timeout/crash: 0/0/0 time: 10657s job: 426 dft_time: 0
+#515288: cov: 7198 ft: 29512 corp: 3308 exec/s 6 oom/timeout/crash: 0/0/0 time: 10693s job: 427 dft_time: 0
+#516950: cov: 7202 ft: 29528 corp: 3313 exec/s 5 oom/timeout/crash: 0/0/0 time: 10723s job: 428 dft_time: 0
+#519001: cov: 7202 ft: 29530 corp: 3315 exec/s 6 oom/timeout/crash: 0/0/0 time: 10769s job: 429 dft_time: 0
+#520583: cov: 7202 ft: 29530 corp: 3315 exec/s 5 oom/timeout/crash: 0/0/0 time: 10794s job: 430 dft_time: 0
+#522188: cov: 7202 ft: 29548 corp: 3321 exec/s 5 oom/timeout/crash: 0/0/0 time: 10851s job: 431 dft_time: 0
+#523924: cov: 7202 ft: 29548 corp: 3321 exec/s 5 oom/timeout/crash: 0/0/0 time: 10879s job: 432 dft_time: 0
+#525821: cov: 7202 ft: 29559 corp: 3328 exec/s 6 oom/timeout/crash: 0/0/0 time: 10928s job: 433 dft_time: 0
+#527612: cov: 7202 ft: 29565 corp: 3332 exec/s 5 oom/timeout/crash: 0/0/0 time: 10959s job: 434 dft_time: 0
+#529099: cov: 7202 ft: 29576 corp: 3336 exec/s 4 oom/timeout/crash: 0/0/0 time: 10996s job: 435 dft_time: 0
+#531123: cov: 7203 ft: 29585 corp: 3343 exec/s 6 oom/timeout/crash: 0/0/0 time: 11026s job: 436 dft_time: 0
+#533240: cov: 7203 ft: 29585 corp: 3343 exec/s 7 oom/timeout/crash: 0/0/0 time: 11070s job: 437 dft_time: 0
+#535020: cov: 7203 ft: 29585 corp: 3343 exec/s 5 oom/timeout/crash: 0/0/0 time: 11097s job: 438 dft_time: 0
+#536656: cov: 7203 ft: 29601 corp: 3347 exec/s 5 oom/timeout/crash: 0/0/0 time: 11152s job: 439 dft_time: 0
+#538264: cov: 7203 ft: 29605 corp: 3349 exec/s 5 oom/timeout/crash: 0/0/0 time: 11181s job: 440 dft_time: 0
+#540649: cov: 7203 ft: 29605 corp: 3349 exec/s 7 oom/timeout/crash: 0/0/0 time: 11230s job: 441 dft_time: 0
+#542221: cov: 7209 ft: 29614 corp: 3351 exec/s 5 oom/timeout/crash: 0/0/0 time: 11262s job: 442 dft_time: 0
+#544136: cov: 7223 ft: 29631 corp: 3354 exec/s 6 oom/timeout/crash: 0/0/0 time: 11299s job: 443 dft_time: 0
+#546069: cov: 7223 ft: 29635 corp: 3357 exec/s 6 oom/timeout/crash: 0/0/0 time: 11327s job: 444 dft_time: 0
+#548026: cov: 7224 ft: 29643 corp: 3363 exec/s 6 oom/timeout/crash: 0/0/0 time: 11372s job: 445 dft_time: 0
+#549699: cov: 7226 ft: 29651 corp: 3368 exec/s 5 oom/timeout/crash: 0/0/0 time: 11399s job: 446 dft_time: 0
+#551644: cov: 7226 ft: 29658 corp: 3370 exec/s 6 oom/timeout/crash: 0/0/0 time: 11455s job: 447 dft_time: 0
+#553914: cov: 7226 ft: 29665 corp: 3375 exec/s 7 oom/timeout/crash: 0/0/0 time: 11483s job: 448 dft_time: 0
+  NEW_FUNC: 0x7d6810  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7d6810)
+#555772: cov: 7231 ft: 29683 corp: 3381 exec/s 6 oom/timeout/crash: 0/0/0 time: 11532s job: 449 dft_time: 0
+#557553: cov: 7231 ft: 29683 corp: 3381 exec/s 5 oom/timeout/crash: 0/0/0 time: 11564s job: 450 dft_time: 0
+#559656: cov: 7232 ft: 29684 corp: 3382 exec/s 6 oom/timeout/crash: 0/0/0 time: 11601s job: 451 dft_time: 0
+#561282: cov: 7235 ft: 29691 corp: 3387 exec/s 5 oom/timeout/crash: 0/0/0 time: 11630s job: 452 dft_time: 0
+#563085: cov: 7235 ft: 29691 corp: 3387 exec/s 5 oom/timeout/crash: 0/0/0 time: 11673s job: 453 dft_time: 0
+#564908: cov: 7236 ft: 29694 corp: 3390 exec/s 6 oom/timeout/crash: 0/0/0 time: 11701s job: 454 dft_time: 0
+#566767: cov: 7237 ft: 29697 corp: 3392 exec/s 6 oom/timeout/crash: 0/0/0 time: 11757s job: 455 dft_time: 0
+#569255: cov: 7237 ft: 29722 corp: 3395 exec/s 8 oom/timeout/crash: 0/0/0 time: 11785s job: 456 dft_time: 0
+#571481: cov: 7237 ft: 29729 corp: 3399 exec/s 7 oom/timeout/crash: 0/0/0 time: 11833s job: 457 dft_time: 0
+#573093: cov: 7239 ft: 29746 corp: 3408 exec/s 5 oom/timeout/crash: 0/0/0 time: 11866s job: 458 dft_time: 0
+#574858: cov: 7239 ft: 29747 corp: 3409 exec/s 5 oom/timeout/crash: 0/0/0 time: 11904s job: 459 dft_time: 0
+#576809: cov: 7239 ft: 29750 corp: 3411 exec/s 6 oom/timeout/crash: 0/0/0 time: 11931s job: 460 dft_time: 0
+#578703: cov: 7239 ft: 29753 corp: 3413 exec/s 6 oom/timeout/crash: 0/0/0 time: 11976s job: 461 dft_time: 0
+  NEW_FUNC: 0x6ea600  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6ea600)
+  NEW_FUNC: 0x6f08c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f08c0)
+#580383: cov: 7248 ft: 29775 corp: 3416 exec/s 5 oom/timeout/crash: 0/0/0 time: 12003s job: 462 dft_time: 0
+#582300: cov: 7248 ft: 29779 corp: 3418 exec/s 6 oom/timeout/crash: 0/0/0 time: 12059s job: 463 dft_time: 0
+#584473: cov: 7248 ft: 29779 corp: 3418 exec/s 7 oom/timeout/crash: 0/0/0 time: 12088s job: 464 dft_time: 0
+#586382: cov: 7248 ft: 29779 corp: 3418 exec/s 6 oom/timeout/crash: 0/0/0 time: 12136s job: 465 dft_time: 0
+#588153: cov: 7248 ft: 29786 corp: 3421 exec/s 5 oom/timeout/crash: 0/0/0 time: 12169s job: 466 dft_time: 0
+#589686: cov: 7250 ft: 29793 corp: 3425 exec/s 5 oom/timeout/crash: 0/0/0 time: 12205s job: 467 dft_time: 0
+#591257: cov: 7258 ft: 29814 corp: 3430 exec/s 5 oom/timeout/crash: 0/0/0 time: 12234s job: 468 dft_time: 0
+#592993: cov: 7258 ft: 29816 corp: 3431 exec/s 5 oom/timeout/crash: 0/0/0 time: 12278s job: 469 dft_time: 0
+  NEW_FUNC: 0xdc4bb0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc4bb0)
+#594831: cov: 7261 ft: 29826 corp: 3433 exec/s 6 oom/timeout/crash: 0/0/0 time: 12306s job: 470 dft_time: 0
+#596628: cov: 7261 ft: 29831 corp: 3435 exec/s 5 oom/timeout/crash: 0/0/0 time: 12361s job: 471 dft_time: 0
+#598799: cov: 7261 ft: 29839 corp: 3436 exec/s 7 oom/timeout/crash: 0/0/0 time: 12390s job: 472 dft_time: 0
+#600591: cov: 7261 ft: 29839 corp: 3436 exec/s 5 oom/timeout/crash: 0/0/0 time: 12438s job: 473 dft_time: 0
+#602152: cov: 7261 ft: 29855 corp: 3439 exec/s 5 oom/timeout/crash: 0/0/0 time: 12472s job: 474 dft_time: 0
+#603843: cov: 7267 ft: 29891 corp: 3445 exec/s 5 oom/timeout/crash: 0/0/0 time: 12508s job: 475 dft_time: 0
+#605603: cov: 7267 ft: 29893 corp: 3447 exec/s 5 oom/timeout/crash: 0/0/0 time: 12536s job: 476 dft_time: 0
+#607506: cov: 7268 ft: 29904 corp: 3451 exec/s 6 oom/timeout/crash: 0/0/0 time: 12580s job: 477 dft_time: 0
+#609266: cov: 7268 ft: 29921 corp: 3453 exec/s 5 oom/timeout/crash: 0/0/0 time: 12608s job: 478 dft_time: 0
+#611225: cov: 7268 ft: 29922 corp: 3454 exec/s 6 oom/timeout/crash: 0/0/0 time: 12662s job: 479 dft_time: 0
+#612977: cov: 7273 ft: 29930 corp: 3457 exec/s 5 oom/timeout/crash: 0/0/0 time: 12691s job: 480 dft_time: 0
+#614966: cov: 7273 ft: 29930 corp: 3457 exec/s 6 oom/timeout/crash: 0/0/0 time: 12741s job: 481 dft_time: 0
+#616872: cov: 7273 ft: 29933 corp: 3459 exec/s 6 oom/timeout/crash: 0/0/0 time: 12775s job: 482 dft_time: 0
+#618400: cov: 7273 ft: 29934 corp: 3460 exec/s 5 oom/timeout/crash: 0/0/0 time: 12812s job: 483 dft_time: 0
+#620066: cov: 7273 ft: 29950 corp: 3465 exec/s 5 oom/timeout/crash: 0/0/0 time: 12840s job: 484 dft_time: 0
+#621710: cov: 7274 ft: 29951 corp: 3466 exec/s 5 oom/timeout/crash: 0/0/0 time: 12882s job: 485 dft_time: 0
+#623949: cov: 7275 ft: 29955 corp: 3469 exec/s 7 oom/timeout/crash: 0/0/0 time: 12910s job: 486 dft_time: 0
+#626109: cov: 7276 ft: 29958 corp: 3472 exec/s 7 oom/timeout/crash: 0/0/0 time: 12964s job: 487 dft_time: 0
+#628294: cov: 7278 ft: 29975 corp: 3479 exec/s 7 oom/timeout/crash: 0/0/0 time: 12993s job: 488 dft_time: 0
+#630161: cov: 7279 ft: 29995 corp: 3490 exec/s 6 oom/timeout/crash: 0/0/0 time: 13043s job: 489 dft_time: 0
+#631939: cov: 7290 ft: 30014 corp: 3497 exec/s 5 oom/timeout/crash: 0/0/0 time: 13077s job: 490 dft_time: 0
+#633861: cov: 7294 ft: 30035 corp: 3500 exec/s 6 oom/timeout/crash: 0/0/0 time: 13116s job: 491 dft_time: 0
+#635444: cov: 7295 ft: 30037 corp: 3502 exec/s 5 oom/timeout/crash: 0/0/0 time: 13142s job: 492 dft_time: 0
+  NEW_FUNC: 0x7d5390  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7d5390)
+  NEW_FUNC: 0x7d54b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x7d54b0)
+#637249: cov: 7301 ft: 30055 corp: 3507 exec/s 5 oom/timeout/crash: 0/0/0 time: 13184s job: 493 dft_time: 0
+#638646: cov: 7301 ft: 30056 corp: 3508 exec/s 4 oom/timeout/crash: 0/0/0 time: 13212s job: 494 dft_time: 0
+#640233: cov: 7301 ft: 30057 corp: 3509 exec/s 5 oom/timeout/crash: 0/0/0 time: 13267s job: 495 dft_time: 0
+#641721: cov: 7302 ft: 30060 corp: 3512 exec/s 4 oom/timeout/crash: 0/0/0 time: 13297s job: 496 dft_time: 0
+#643562: cov: 7302 ft: 30065 corp: 3515 exec/s 6 oom/timeout/crash: 0/0/0 time: 13346s job: 497 dft_time: 0
+#645602: cov: 7303 ft: 30083 corp: 3519 exec/s 6 oom/timeout/crash: 0/0/0 time: 13380s job: 498 dft_time: 0
+#647398: cov: 7309 ft: 30353 corp: 3526 exec/s 5 oom/timeout/crash: 0/0/0 time: 13419s job: 499 dft_time: 0
+#649540: cov: 7309 ft: 30356 corp: 3529 exec/s 7 oom/timeout/crash: 0/0/0 time: 13444s job: 500 dft_time: 0
+#651392: cov: 7309 ft: 30362 corp: 3532 exec/s 6 oom/timeout/crash: 0/0/0 time: 13487s job: 501 dft_time: 0
+#653622: cov: 7311 ft: 30371 corp: 3536 exec/s 7 oom/timeout/crash: 0/0/0 time: 13515s job: 502 dft_time: 0
+#655577: cov: 7315 ft: 30376 corp: 3537 exec/s 6 oom/timeout/crash: 0/0/0 time: 13569s job: 503 dft_time: 0
+#658160: cov: 7315 ft: 30377 corp: 3538 exec/s 8 oom/timeout/crash: 0/0/0 time: 13599s job: 504 dft_time: 0
+#659920: cov: 7315 ft: 30396 corp: 3542 exec/s 5 oom/timeout/crash: 0/0/0 time: 13649s job: 505 dft_time: 0
+#661402: cov: 7316 ft: 30590 corp: 3548 exec/s 4 oom/timeout/crash: 0/0/0 time: 13682s job: 506 dft_time: 0
+#663375: cov: 7316 ft: 30590 corp: 3548 exec/s 6 oom/timeout/crash: 0/0/0 time: 13721s job: 507 dft_time: 0
+#665390: cov: 7318 ft: 30601 corp: 3552 exec/s 6 oom/timeout/crash: 0/0/0 time: 13747s job: 508 dft_time: 0
+#667184: cov: 7318 ft: 30602 corp: 3553 exec/s 5 oom/timeout/crash: 0/0/0 time: 13789s job: 509 dft_time: 0
+#669074: cov: 7318 ft: 30603 corp: 3554 exec/s 6 oom/timeout/crash: 0/0/0 time: 13817s job: 510 dft_time: 0
+#670646: cov: 7318 ft: 30604 corp: 3555 exec/s 5 oom/timeout/crash: 0/0/0 time: 13871s job: 511 dft_time: 0
+#672731: cov: 7320 ft: 30622 corp: 3560 exec/s 6 oom/timeout/crash: 0/0/0 time: 13901s job: 512 dft_time: 0
+#674166: cov: 7320 ft: 30624 corp: 3561 exec/s 4 oom/timeout/crash: 0/0/0 time: 13952s job: 513 dft_time: 0
+#675840: cov: 7320 ft: 30630 corp: 3566 exec/s 5 oom/timeout/crash: 0/0/0 time: 13983s job: 514 dft_time: 0
+#677460: cov: 7321 ft: 30631 corp: 3567 exec/s 5 oom/timeout/crash: 0/0/0 time: 14022s job: 515 dft_time: 0
+#679323: cov: 7321 ft: 30634 corp: 3570 exec/s 6 oom/timeout/crash: 0/0/0 time: 14049s job: 516 dft_time: 0
+  NEW_FUNC: 0xa2a4f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2a4f0)
+#680844: cov: 7325 ft: 30669 corp: 3575 exec/s 5 oom/timeout/crash: 0/0/0 time: 14091s job: 517 dft_time: 0
+#682392: cov: 7326 ft: 30674 corp: 3578 exec/s 5 oom/timeout/crash: 0/0/0 time: 14119s job: 518 dft_time: 0
+#684285: cov: 7326 ft: 30699 corp: 3580 exec/s 6 oom/timeout/crash: 0/0/0 time: 14174s job: 519 dft_time: 0
+#686189: cov: 7326 ft: 30700 corp: 3581 exec/s 6 oom/timeout/crash: 0/0/0 time: 14203s job: 520 dft_time: 0
+#688969: cov: 7327 ft: 30707 corp: 3585 exec/s 9 oom/timeout/crash: 0/0/0 time: 14255s job: 521 dft_time: 0
+#690614: cov: 7329 ft: 30713 corp: 3589 exec/s 5 oom/timeout/crash: 0/0/0 time: 14285s job: 522 dft_time: 0
+#692230: cov: 7329 ft: 30715 corp: 3590 exec/s 5 oom/timeout/crash: 0/0/0 time: 14325s job: 523 dft_time: 0
+#694373: cov: 7329 ft: 30716 corp: 3591 exec/s 7 oom/timeout/crash: 0/0/0 time: 14350s job: 524 dft_time: 0
+#696388: cov: 7343 ft: 30762 corp: 3595 exec/s 6 oom/timeout/crash: 0/0/0 time: 14393s job: 525 dft_time: 0
+#698032: cov: 7344 ft: 30763 corp: 3596 exec/s 5 oom/timeout/crash: 0/0/0 time: 14421s job: 526 dft_time: 0
+#700457: cov: 7346 ft: 30868 corp: 3604 exec/s 8 oom/timeout/crash: 0/0/0 time: 14475s job: 527 dft_time: 0
+#702179: cov: 7348 ft: 30989 corp: 3618 exec/s 5 oom/timeout/crash: 0/0/0 time: 14506s job: 528 dft_time: 0
+#703906: cov: 7348 ft: 30997 corp: 3620 exec/s 5 oom/timeout/crash: 0/0/0 time: 14557s job: 529 dft_time: 0
+#705480: cov: 7349 ft: 30999 corp: 3621 exec/s 5 oom/timeout/crash: 0/0/0 time: 14587s job: 530 dft_time: 0
+#707678: cov: 7349 ft: 31003 corp: 3623 exec/s 7 oom/timeout/crash: 0/0/0 time: 14628s job: 531 dft_time: 0
+  NEW_FUNC: 0xdbfb10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdbfb10)
+#709707: cov: 7357 ft: 31120 corp: 3643 exec/s 6 oom/timeout/crash: 0/0/0 time: 14652s job: 532 dft_time: 0
+#711523: cov: 7357 ft: 31121 corp: 3644 exec/s 6 oom/timeout/crash: 0/0/0 time: 14695s job: 533 dft_time: 0
+#713154: cov: 7357 ft: 31139 corp: 3648 exec/s 5 oom/timeout/crash: 0/0/0 time: 14724s job: 534 dft_time: 0
+#714729: cov: 7358 ft: 31140 corp: 3649 exec/s 5 oom/timeout/crash: 0/0/0 time: 14778s job: 535 dft_time: 0
+#716935: cov: 7358 ft: 31141 corp: 3650 exec/s 7 oom/timeout/crash: 0/0/0 time: 14808s job: 536 dft_time: 0
+#718953: cov: 7360 ft: 31270 corp: 3667 exec/s 6 oom/timeout/crash: 0/0/0 time: 14859s job: 537 dft_time: 0
+#720582: cov: 7362 ft: 31276 corp: 3671 exec/s 5 oom/timeout/crash: 0/0/0 time: 14889s job: 538 dft_time: 0
+#722940: cov: 7362 ft: 31276 corp: 3671 exec/s 7 oom/timeout/crash: 0/0/0 time: 14931s job: 539 dft_time: 0
+  NEW_FUNC: 0xa3d8e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3d8e0)
+  NEW_FUNC: 0xa3db30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3db30)
+  NEW_FUNC: 0xa3ed00  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3ed00)
+  NEW_FUNC: 0xa40240  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa40240)
+  NEW_FUNC: 0xa402a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa402a0)
+  NEW_FUNC: 0xba3410  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xba3410)
+  NEW_FUNC: 0xba3780  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xba3780)
+  NEW_FUNC: 0xba45c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xba45c0)
+#725182: cov: 7401 ft: 31367 corp: 3687 exec/s 7 oom/timeout/crash: 0/0/0 time: 14955s job: 540 dft_time: 0
+#726858: cov: 7406 ft: 31378 corp: 3691 exec/s 5 oom/timeout/crash: 0/0/0 time: 14998s job: 541 dft_time: 0
+#728626: cov: 7406 ft: 31385 corp: 3695 exec/s 5 oom/timeout/crash: 0/0/0 time: 15026s job: 542 dft_time: 0
+#730035: cov: 7406 ft: 31451 corp: 3710 exec/s 4 oom/timeout/crash: 0/0/0 time: 15079s job: 543 dft_time: 0
+#732547: cov: 7407 ft: 31497 corp: 3716 exec/s 8 oom/timeout/crash: 0/0/0 time: 15112s job: 544 dft_time: 0
+#734388: cov: 7407 ft: 31503 corp: 3721 exec/s 6 oom/timeout/crash: 0/0/0 time: 15160s job: 545 dft_time: 0
+#736100: cov: 7412 ft: 31542 corp: 3739 exec/s 5 oom/timeout/crash: 0/0/0 time: 15191s job: 546 dft_time: 0
+#738056: cov: 7412 ft: 31559 corp: 3744 exec/s 6 oom/timeout/crash: 0/0/0 time: 15233s job: 547 dft_time: 0
+#739526: cov: 7412 ft: 31566 corp: 3749 exec/s 4 oom/timeout/crash: 0/0/0 time: 15257s job: 548 dft_time: 0
+#741273: cov: 7416 ft: 31597 corp: 3750 exec/s 5 oom/timeout/crash: 0/0/0 time: 15301s job: 549 dft_time: 0
+#743950: cov: 7416 ft: 31617 corp: 3754 exec/s 8 oom/timeout/crash: 0/0/0 time: 15329s job: 550 dft_time: 0
+#745784: cov: 7418 ft: 31633 corp: 3764 exec/s 6 oom/timeout/crash: 0/0/0 time: 15382s job: 551 dft_time: 0
+#747681: cov: 7419 ft: 31639 corp: 3767 exec/s 6 oom/timeout/crash: 0/0/0 time: 15414s job: 552 dft_time: 0
+#749551: cov: 7421 ft: 31663 corp: 3779 exec/s 6 oom/timeout/crash: 0/0/0 time: 15463s job: 553 dft_time: 0
+#751303: cov: 7421 ft: 31665 corp: 3780 exec/s 5 oom/timeout/crash: 0/0/0 time: 15493s job: 554 dft_time: 0
+#753077: cov: 7427 ft: 31676 corp: 3784 exec/s 5 oom/timeout/crash: 0/0/0 time: 15536s job: 555 dft_time: 0
+#754783: cov: 7427 ft: 31682 corp: 3787 exec/s 5 oom/timeout/crash: 0/0/0 time: 15559s job: 556 dft_time: 0
+#756733: cov: 7428 ft: 31694 corp: 3793 exec/s 6 oom/timeout/crash: 0/0/0 time: 15603s job: 557 dft_time: 0
+#758645: cov: 7428 ft: 31756 corp: 3810 exec/s 6 oom/timeout/crash: 0/0/0 time: 15632s job: 558 dft_time: 0
+#760079: cov: 7428 ft: 31762 corp: 3812 exec/s 4 oom/timeout/crash: 0/0/0 time: 15685s job: 559 dft_time: 0
+#761764: cov: 7428 ft: 31763 corp: 3813 exec/s 5 oom/timeout/crash: 0/0/0 time: 15717s job: 560 dft_time: 0
+#763495: cov: 7428 ft: 31767 corp: 3816 exec/s 5 oom/timeout/crash: 0/0/0 time: 15765s job: 561 dft_time: 0
+#765664: cov: 7428 ft: 31771 corp: 3817 exec/s 7 oom/timeout/crash: 0/0/0 time: 15796s job: 562 dft_time: 0
+#767679: cov: 7428 ft: 31823 corp: 3824 exec/s 6 oom/timeout/crash: 0/0/0 time: 15839s job: 563 dft_time: 0
+#770260: cov: 7428 ft: 31840 corp: 3831 exec/s 8 oom/timeout/crash: 0/0/0 time: 15861s job: 564 dft_time: 0
+#771932: cov: 7435 ft: 32033 corp: 3857 exec/s 5 oom/timeout/crash: 0/0/0 time: 15906s job: 565 dft_time: 0
+#773706: cov: 7435 ft: 32041 corp: 3860 exec/s 5 oom/timeout/crash: 0/0/0 time: 15935s job: 566 dft_time: 0
+#775324: cov: 7440 ft: 32068 corp: 3867 exec/s 5 oom/timeout/crash: 0/0/0 time: 15987s job: 567 dft_time: 0
+#777038: cov: 7440 ft: 32098 corp: 3871 exec/s 5 oom/timeout/crash: 0/0/0 time: 16019s job: 568 dft_time: 0
+#778966: cov: 7440 ft: 32098 corp: 3871 exec/s 6 oom/timeout/crash: 0/0/0 time: 16067s job: 569 dft_time: 0
+  NEW_FUNC: 0xa3f250  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3f250)
+  NEW_FUNC: 0xa405d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa405d0)
+  NEW_FUNC: 0xa40710  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa40710)
+#781402: cov: 7446 ft: 32139 corp: 3889 exec/s 8 oom/timeout/crash: 0/0/0 time: 16097s job: 570 dft_time: 0
+#782982: cov: 7448 ft: 32148 corp: 3894 exec/s 5 oom/timeout/crash: 0/0/0 time: 16142s job: 571 dft_time: 0
+#784836: cov: 7450 ft: 32162 corp: 3898 exec/s 6 oom/timeout/crash: 0/0/0 time: 16164s job: 572 dft_time: 0
+#786698: cov: 7450 ft: 32173 corp: 3902 exec/s 6 oom/timeout/crash: 0/0/0 time: 16208s job: 573 dft_time: 0
+#788408: cov: 7451 ft: 32206 corp: 3908 exec/s 5 oom/timeout/crash: 0/0/0 time: 16238s job: 574 dft_time: 0
+#790110: cov: 7452 ft: 32210 corp: 3911 exec/s 5 oom/timeout/crash: 0/0/0 time: 16290s job: 575 dft_time: 0
+#792008: cov: 7452 ft: 32213 corp: 3913 exec/s 6 oom/timeout/crash: 0/0/0 time: 16321s job: 576 dft_time: 0
+#793626: cov: 7454 ft: 32236 corp: 3920 exec/s 5 oom/timeout/crash: 0/0/0 time: 16370s job: 577 dft_time: 0
+#795184: cov: 7454 ft: 32278 corp: 3924 exec/s 5 oom/timeout/crash: 0/0/0 time: 16400s job: 578 dft_time: 0
+#797663: cov: 7455 ft: 32313 corp: 3936 exec/s 8 oom/timeout/crash: 0/0/0 time: 16445s job: 579 dft_time: 0
+#799661: cov: 7456 ft: 32332 corp: 3946 exec/s 6 oom/timeout/crash: 0/0/0 time: 16467s job: 580 dft_time: 0
+#801312: cov: 7457 ft: 32349 corp: 3953 exec/s 5 oom/timeout/crash: 0/0/0 time: 16510s job: 581 dft_time: 0
+#803337: cov: 7457 ft: 32377 corp: 3967 exec/s 6 oom/timeout/crash: 0/0/0 time: 16540s job: 582 dft_time: 0
+#805333: cov: 7457 ft: 32388 corp: 3971 exec/s 6 oom/timeout/crash: 0/0/0 time: 16592s job: 583 dft_time: 0
+#807123: cov: 7457 ft: 32394 corp: 3974 exec/s 5 oom/timeout/crash: 0/0/0 time: 16624s job: 584 dft_time: 0
+#809277: cov: 7464 ft: 32420 corp: 3979 exec/s 7 oom/timeout/crash: 0/0/0 time: 16672s job: 585 dft_time: 0
+#811031: cov: 7465 ft: 32424 corp: 3983 exec/s 5 oom/timeout/crash: 0/0/0 time: 16703s job: 586 dft_time: 0
+#813784: cov: 7465 ft: 32429 corp: 3985 exec/s 9 oom/timeout/crash: 0/0/0 time: 16747s job: 587 dft_time: 0
+#815902: cov: 7465 ft: 32431 corp: 3987 exec/s 7 oom/timeout/crash: 0/0/0 time: 16770s job: 588 dft_time: 0
+#817917: cov: 7467 ft: 32434 corp: 3989 exec/s 6 oom/timeout/crash: 0/0/0 time: 16813s job: 589 dft_time: 0
+  NEW_FUNC: 0x592240  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x592240)
+  NEW_FUNC: 0x5925b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5925b0)
+#819328: cov: 7476 ft: 32480 corp: 3997 exec/s 4 oom/timeout/crash: 0/0/0 time: 16842s job: 590 dft_time: 0
+#821157: cov: 7477 ft: 32492 corp: 4003 exec/s 6 oom/timeout/crash: 0/0/0 time: 16894s job: 591 dft_time: 0
+#823167: cov: 7479 ft: 32502 corp: 4009 exec/s 6 oom/timeout/crash: 0/0/0 time: 16926s job: 592 dft_time: 0
+#825105: cov: 7479 ft: 32521 corp: 4014 exec/s 6 oom/timeout/crash: 0/0/0 time: 16974s job: 593 dft_time: 0
+#826884: cov: 7486 ft: 32577 corp: 4024 exec/s 5 oom/timeout/crash: 0/0/0 time: 17005s job: 594 dft_time: 0
+#828562: cov: 7486 ft: 32624 corp: 4035 exec/s 5 oom/timeout/crash: 0/0/0 time: 17050s job: 595 dft_time: 0
+#830149: cov: 7486 ft: 32630 corp: 4039 exec/s 5 oom/timeout/crash: 0/0/0 time: 17072s job: 596 dft_time: 0
+#832004: cov: 7486 ft: 32631 corp: 4040 exec/s 6 oom/timeout/crash: 0/0/0 time: 17115s job: 597 dft_time: 0
+#834551: cov: 7487 ft: 32635 corp: 4042 exec/s 8 oom/timeout/crash: 0/0/0 time: 17145s job: 598 dft_time: 0
+  NEW_FUNC: 0x83b490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x83b490)
+#836520: cov: 7490 ft: 32649 corp: 4047 exec/s 6 oom/timeout/crash: 0/0/0 time: 17197s job: 599 dft_time: 0
+#838502: cov: 7490 ft: 32661 corp: 4056 exec/s 6 oom/timeout/crash: 0/0/0 time: 17229s job: 600 dft_time: 0
+#840251: cov: 7491 ft: 32681 corp: 4059 exec/s 5 oom/timeout/crash: 0/0/0 time: 17277s job: 601 dft_time: 0
+  NEW_FUNC: 0xa2ff70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2ff70)
+#842063: cov: 7493 ft: 32701 corp: 4063 exec/s 6 oom/timeout/crash: 0/0/0 time: 17308s job: 602 dft_time: 0
+#843743: cov: 7493 ft: 32722 corp: 4073 exec/s 5 oom/timeout/crash: 0/0/0 time: 17353s job: 603 dft_time: 0
+#845660: cov: 7495 ft: 32732 corp: 4076 exec/s 6 oom/timeout/crash: 0/0/0 time: 17373s job: 604 dft_time: 0
+#847483: cov: 7498 ft: 32746 corp: 4080 exec/s 6 oom/timeout/crash: 0/0/0 time: 17417s job: 605 dft_time: 0
+#849074: cov: 7498 ft: 32757 corp: 4085 exec/s 5 oom/timeout/crash: 0/0/0 time: 17447s job: 606 dft_time: 0
+#850899: cov: 7498 ft: 32761 corp: 4087 exec/s 6 oom/timeout/crash: 0/0/0 time: 17500s job: 607 dft_time: 0
+  NEW_FUNC: 0xa3e410  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e410)
+#852564: cov: 7503 ft: 32785 corp: 4100 exec/s 5 oom/timeout/crash: 0/0/0 time: 17532s job: 608 dft_time: 0
+#855580: cov: 7510 ft: 32797 corp: 4103 exec/s 10 oom/timeout/crash: 0/0/0 time: 17579s job: 609 dft_time: 0
+  NEW_FUNC: 0xa3f6c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3f6c0)
+#857428: cov: 7515 ft: 32829 corp: 4114 exec/s 6 oom/timeout/crash: 0/0/0 time: 17611s job: 610 dft_time: 0
+#859429: cov: 7515 ft: 32830 corp: 4115 exec/s 6 oom/timeout/crash: 0/0/0 time: 17656s job: 611 dft_time: 0
+#861426: cov: 7515 ft: 32835 corp: 4120 exec/s 6 oom/timeout/crash: 0/0/0 time: 17675s job: 612 dft_time: 0
+#863876: cov: 7515 ft: 32844 corp: 4124 exec/s 8 oom/timeout/crash: 0/0/0 time: 17719s job: 613 dft_time: 0
+#865828: cov: 7515 ft: 32854 corp: 4131 exec/s 6 oom/timeout/crash: 0/0/0 time: 17750s job: 614 dft_time: 0
+#867847: cov: 7518 ft: 32869 corp: 4138 exec/s 6 oom/timeout/crash: 0/0/0 time: 17802s job: 615 dft_time: 0
+#869512: cov: 7518 ft: 32876 corp: 4143 exec/s 5 oom/timeout/crash: 0/0/0 time: 17833s job: 616 dft_time: 0
+#871366: cov: 7519 ft: 32878 corp: 4145 exec/s 6 oom/timeout/crash: 0/0/0 time: 17881s job: 617 dft_time: 0
+#873182: cov: 7519 ft: 32878 corp: 4145 exec/s 6 oom/timeout/crash: 0/0/0 time: 17913s job: 618 dft_time: 0
+#875550: cov: 7519 ft: 32878 corp: 4145 exec/s 7 oom/timeout/crash: 0/0/0 time: 17958s job: 619 dft_time: 0
+#877171: cov: 7520 ft: 32886 corp: 4151 exec/s 5 oom/timeout/crash: 0/0/0 time: 17977s job: 620 dft_time: 0
+#879231: cov: 7520 ft: 32886 corp: 4151 exec/s 6 oom/timeout/crash: 0/0/0 time: 18021s job: 621 dft_time: 0
+#881268: cov: 7522 ft: 32890 corp: 4154 exec/s 6 oom/timeout/crash: 0/0/0 time: 18054s job: 622 dft_time: 0
+  NEW_FUNC: 0x766020  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x766020)
+  NEW_FUNC: 0x8092a2  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8092a2)
+  NEW_FUNC: 0x809540  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x809540)
+  NEW_FUNC: 0x809e50  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x809e50)
+#883446: cov: 7537 ft: 32923 corp: 4158 exec/s 7 oom/timeout/crash: 0/0/0 time: 18104s job: 623 dft_time: 0
+#885511: cov: 7537 ft: 32935 corp: 4164 exec/s 6 oom/timeout/crash: 0/0/0 time: 18135s job: 624 dft_time: 0
+#887184: cov: 7537 ft: 32941 corp: 4168 exec/s 5 oom/timeout/crash: 0/0/0 time: 18182s job: 625 dft_time: 0
+#889296: cov: 7538 ft: 32949 corp: 4174 exec/s 7 oom/timeout/crash: 0/0/0 time: 18215s job: 626 dft_time: 0
+#891365: cov: 7539 ft: 32965 corp: 4179 exec/s 6 oom/timeout/crash: 0/0/0 time: 18261s job: 627 dft_time: 0
+#893739: cov: 7539 ft: 32975 corp: 4186 exec/s 7 oom/timeout/crash: 0/0/0 time: 18278s job: 628 dft_time: 0
+#895630: cov: 7539 ft: 32984 corp: 4190 exec/s 6 oom/timeout/crash: 0/0/0 time: 18323s job: 629 dft_time: 0
+#897423: cov: 7540 ft: 32991 corp: 4195 exec/s 5 oom/timeout/crash: 0/0/0 time: 18356s job: 630 dft_time: 0
+#899219: cov: 7540 ft: 33000 corp: 4197 exec/s 5 oom/timeout/crash: 0/0/0 time: 18406s job: 631 dft_time: 0
+#900957: cov: 7540 ft: 33050 corp: 4208 exec/s 5 oom/timeout/crash: 0/0/0 time: 18438s job: 632 dft_time: 0
+#902806: cov: 7540 ft: 33051 corp: 4209 exec/s 6 oom/timeout/crash: 0/0/0 time: 18485s job: 633 dft_time: 0
+  NEW_FUNC: 0x68e470  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x68e470)
+  NEW_FUNC: 0x68f260  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x68f260)
+  NEW_FUNC: 0x68f2a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x68f2a0)
+#904837: cov: 7556 ft: 33095 corp: 4212 exec/s 6 oom/timeout/crash: 0/0/0 time: 18516s job: 634 dft_time: 0
+#906964: cov: 7559 ft: 33109 corp: 4217 exec/s 7 oom/timeout/crash: 0/0/0 time: 18563s job: 635 dft_time: 0
+#908853: cov: 7560 ft: 33112 corp: 4220 exec/s 6 oom/timeout/crash: 0/0/0 time: 18581s job: 636 dft_time: 0
+#911124: cov: 7561 ft: 33145 corp: 4225 exec/s 7 oom/timeout/crash: 0/0/0 time: 18626s job: 637 dft_time: 0
+#912886: cov: 7562 ft: 33189 corp: 4237 exec/s 5 oom/timeout/crash: 0/0/0 time: 18658s job: 638 dft_time: 0
+  NEW_FUNC: 0x5d9c40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5d9c40)
+  NEW_FUNC: 0x5db8c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5db8c0)
+  NEW_FUNC: 0x5dbcd0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5dbcd0)
+#914763: cov: 7570 ft: 33200 corp: 4240 exec/s 6 oom/timeout/crash: 0/0/0 time: 18709s job: 639 dft_time: 0
+#916442: cov: 7572 ft: 33202 corp: 4241 exec/s 5 oom/timeout/crash: 0/0/0 time: 18740s job: 640 dft_time: 0
+#918386: cov: 7572 ft: 33204 corp: 4243 exec/s 6 oom/timeout/crash: 0/0/0 time: 18787s job: 641 dft_time: 0
+#920758: cov: 7572 ft: 33210 corp: 4248 exec/s 7 oom/timeout/crash: 0/0/0 time: 18819s job: 642 dft_time: 0
+#923361: cov: 7572 ft: 33213 corp: 4250 exec/s 8 oom/timeout/crash: 0/0/0 time: 18865s job: 643 dft_time: 0
+#925523: cov: 7574 ft: 33222 corp: 4258 exec/s 7 oom/timeout/crash: 0/0/0 time: 18882s job: 644 dft_time: 0
+#927179: cov: 7574 ft: 33227 corp: 4261 exec/s 5 oom/timeout/crash: 0/0/0 time: 18930s job: 645 dft_time: 0
+#929205: cov: 7574 ft: 33228 corp: 4262 exec/s 6 oom/timeout/crash: 0/0/0 time: 18960s job: 646 dft_time: 0
+#930772: cov: 7574 ft: 33232 corp: 4265 exec/s 5 oom/timeout/crash: 0/0/0 time: 19011s job: 647 dft_time: 0
+#932375: cov: 7574 ft: 33236 corp: 4269 exec/s 5 oom/timeout/crash: 0/0/0 time: 19042s job: 648 dft_time: 0
+#934224: cov: 7576 ft: 33246 corp: 4277 exec/s 6 oom/timeout/crash: 0/0/0 time: 19090s job: 649 dft_time: 0
+#936327: cov: 7576 ft: 33251 corp: 4280 exec/s 6 oom/timeout/crash: 0/0/0 time: 19122s job: 650 dft_time: 0
+#938236: cov: 7576 ft: 33254 corp: 4283 exec/s 6 oom/timeout/crash: 0/0/0 time: 19167s job: 651 dft_time: 0
+#940312: cov: 7576 ft: 33257 corp: 4286 exec/s 6 oom/timeout/crash: 0/0/0 time: 19185s job: 652 dft_time: 0
+#942390: cov: 7580 ft: 33267 corp: 4291 exec/s 6 oom/timeout/crash: 0/0/0 time: 19232s job: 653 dft_time: 0
+#943900: cov: 7580 ft: 33269 corp: 4293 exec/s 5 oom/timeout/crash: 0/0/0 time: 19262s job: 654 dft_time: 0
+#945855: cov: 7580 ft: 33269 corp: 4293 exec/s 6 oom/timeout/crash: 0/0/0 time: 19313s job: 655 dft_time: 0
+  NEW_FUNC: 0xdd63f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd63f0)
+  NEW_FUNC: 0xdd67c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd67c0)
+  NEW_FUNC: 0xdd6960  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdd6960)
+#947710: cov: 7595 ft: 33467 corp: 4299 exec/s 6 oom/timeout/crash: 0/0/0 time: 19346s job: 656 dft_time: 0
+#949745: cov: 7595 ft: 33473 corp: 4304 exec/s 6 oom/timeout/crash: 0/0/0 time: 19392s job: 657 dft_time: 0
+#951865: cov: 7597 ft: 33479 corp: 4309 exec/s 7 oom/timeout/crash: 0/0/0 time: 19424s job: 658 dft_time: 0
+#954145: cov: 7597 ft: 33483 corp: 4313 exec/s 7 oom/timeout/crash: 0/0/0 time: 19470s job: 659 dft_time: 0
+#956058: cov: 7601 ft: 33496 corp: 4320 exec/s 6 oom/timeout/crash: 0/0/0 time: 19488s job: 660 dft_time: 0
+#957601: cov: 7601 ft: 33496 corp: 4320 exec/s 5 oom/timeout/crash: 0/0/0 time: 19534s job: 661 dft_time: 0
+#959783: cov: 7602 ft: 33511 corp: 4322 exec/s 7 oom/timeout/crash: 0/0/0 time: 19564s job: 662 dft_time: 0
+#961822: cov: 7603 ft: 33528 corp: 4328 exec/s 6 oom/timeout/crash: 0/0/0 time: 19616s job: 663 dft_time: 0
+#964032: cov: 7604 ft: 33546 corp: 4334 exec/s 7 oom/timeout/crash: 0/0/0 time: 19648s job: 664 dft_time: 0
+#966308: cov: 7604 ft: 33553 corp: 4338 exec/s 7 oom/timeout/crash: 0/0/0 time: 19694s job: 665 dft_time: 0
+#968321: cov: 7605 ft: 33561 corp: 4342 exec/s 6 oom/timeout/crash: 0/0/0 time: 19727s job: 666 dft_time: 0
+#970118: cov: 7605 ft: 33568 corp: 4345 exec/s 5 oom/timeout/crash: 0/0/0 time: 19773s job: 667 dft_time: 0
+#971703: cov: 7606 ft: 33571 corp: 4348 exec/s 5 oom/timeout/crash: 0/0/0 time: 19789s job: 668 dft_time: 0
+#973610: cov: 7606 ft: 33571 corp: 4348 exec/s 6 oom/timeout/crash: 0/0/0 time: 19836s job: 669 dft_time: 0
+  NEW_FUNC: 0x805ca0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x805ca0)
+#975468: cov: 7619 ft: 33618 corp: 4355 exec/s 6 oom/timeout/crash: 0/0/0 time: 19866s job: 670 dft_time: 0
+#977729: cov: 7619 ft: 33628 corp: 4358 exec/s 7 oom/timeout/crash: 0/0/0 time: 19918s job: 671 dft_time: 0
+#980161: cov: 7619 ft: 33629 corp: 4359 exec/s 8 oom/timeout/crash: 0/0/0 time: 19950s job: 672 dft_time: 0
+#982256: cov: 7619 ft: 33631 corp: 4361 exec/s 6 oom/timeout/crash: 0/0/0 time: 19996s job: 673 dft_time: 0
+#984503: cov: 7619 ft: 33642 corp: 4367 exec/s 7 oom/timeout/crash: 0/0/0 time: 20028s job: 674 dft_time: 0
+#986409: cov: 7620 ft: 33653 corp: 4371 exec/s 6 oom/timeout/crash: 0/0/0 time: 20075s job: 675 dft_time: 0
+#988340: cov: 7627 ft: 33819 corp: 4380 exec/s 6 oom/timeout/crash: 0/0/0 time: 20092s job: 676 dft_time: 0
+#990085: cov: 7627 ft: 33820 corp: 4381 exec/s 5 oom/timeout/crash: 0/0/0 time: 20139s job: 677 dft_time: 0
+#992083: cov: 7627 ft: 33822 corp: 4383 exec/s 6 oom/timeout/crash: 0/0/0 time: 20168s job: 678 dft_time: 0
+#994225: cov: 7627 ft: 33827 corp: 4386 exec/s 7 oom/timeout/crash: 0/0/0 time: 20220s job: 679 dft_time: 0
+#995783: cov: 7627 ft: 33829 corp: 4387 exec/s 5 oom/timeout/crash: 0/0/0 time: 20253s job: 680 dft_time: 0
+#997549: cov: 7630 ft: 33838 corp: 4390 exec/s 5 oom/timeout/crash: 0/0/0 time: 20298s job: 681 dft_time: 0
+#999765: cov: 7630 ft: 33839 corp: 4391 exec/s 7 oom/timeout/crash: 0/0/0 time: 20331s job: 682 dft_time: 0
+#1002186: cov: 7630 ft: 33846 corp: 4395 exec/s 8 oom/timeout/crash: 0/0/0 time: 20377s job: 683 dft_time: 0
+#1004251: cov: 7630 ft: 33848 corp: 4397 exec/s 6 oom/timeout/crash: 0/0/0 time: 20394s job: 684 dft_time: 0
+#1006177: cov: 7630 ft: 33879 corp: 4404 exec/s 6 oom/timeout/crash: 0/0/0 time: 20441s job: 685 dft_time: 0
+#1008012: cov: 7630 ft: 33882 corp: 4405 exec/s 6 oom/timeout/crash: 0/0/0 time: 20470s job: 686 dft_time: 0
+#1009843: cov: 7630 ft: 33884 corp: 4407 exec/s 6 oom/timeout/crash: 0/0/0 time: 20522s job: 687 dft_time: 0
+#1011381: cov: 7630 ft: 33886 corp: 4408 exec/s 5 oom/timeout/crash: 0/0/0 time: 20556s job: 688 dft_time: 0
+#1012977: cov: 7636 ft: 34050 corp: 4422 exec/s 5 oom/timeout/crash: 0/0/0 time: 20600s job: 689 dft_time: 0
+#1015537: cov: 7636 ft: 34051 corp: 4423 exec/s 8 oom/timeout/crash: 0/0/0 time: 20633s job: 690 dft_time: 0
+#1017791: cov: 7637 ft: 34060 corp: 4431 exec/s 7 oom/timeout/crash: 0/0/0 time: 20680s job: 691 dft_time: 0
+#1019329: cov: 7637 ft: 34061 corp: 4432 exec/s 5 oom/timeout/crash: 0/0/0 time: 20696s job: 692 dft_time: 0
+#1021457: cov: 7637 ft: 34062 corp: 4433 exec/s 7 oom/timeout/crash: 0/0/0 time: 20744s job: 693 dft_time: 0
+#1023532: cov: 7637 ft: 34062 corp: 4433 exec/s 6 oom/timeout/crash: 0/0/0 time: 20773s job: 694 dft_time: 0
+#1024973: cov: 7639 ft: 34074 corp: 4438 exec/s 4 oom/timeout/crash: 0/0/0 time: 20824s job: 695 dft_time: 0
+#1026635: cov: 7639 ft: 34076 corp: 4439 exec/s 5 oom/timeout/crash: 0/0/0 time: 20862s job: 696 dft_time: 0
+#1028705: cov: 7639 ft: 34079 corp: 4441 exec/s 6 oom/timeout/crash: 0/0/0 time: 20902s job: 697 dft_time: 0
+#1030775: cov: 7639 ft: 34108 corp: 4445 exec/s 6 oom/timeout/crash: 0/0/0 time: 20936s job: 698 dft_time: 0
+#1032555: cov: 7639 ft: 34188 corp: 4455 exec/s 5 oom/timeout/crash: 0/0/0 time: 20982s job: 699 dft_time: 0
+#1034051: cov: 7639 ft: 34206 corp: 4460 exec/s 4 oom/timeout/crash: 0/0/0 time: 20999s job: 700 dft_time: 0
+#1036023: cov: 7639 ft: 34206 corp: 4460 exec/s 6 oom/timeout/crash: 0/0/0 time: 21045s job: 701 dft_time: 0
+#1038078: cov: 7641 ft: 34212 corp: 4462 exec/s 6 oom/timeout/crash: 0/0/0 time: 21075s job: 702 dft_time: 0
+#1040073: cov: 7641 ft: 34212 corp: 4462 exec/s 6 oom/timeout/crash: 0/0/0 time: 21126s job: 703 dft_time: 0
+#1042097: cov: 7642 ft: 34217 corp: 4466 exec/s 6 oom/timeout/crash: 0/0/0 time: 21164s job: 704 dft_time: 0
+#1044236: cov: 7644 ft: 34220 corp: 4467 exec/s 7 oom/timeout/crash: 0/0/0 time: 21205s job: 705 dft_time: 0
+#1046001: cov: 7644 ft: 34221 corp: 4468 exec/s 5 oom/timeout/crash: 0/0/0 time: 21240s job: 706 dft_time: 0
+#1048057: cov: 7644 ft: 34222 corp: 4469 exec/s 6 oom/timeout/crash: 0/0/0 time: 21284s job: 707 dft_time: 0
+#1050236: cov: 7644 ft: 34259 corp: 4478 exec/s 7 oom/timeout/crash: 0/0/0 time: 21300s job: 708 dft_time: 0
+#1051942: cov: 7644 ft: 34263 corp: 4482 exec/s 5 oom/timeout/crash: 0/0/0 time: 21347s job: 709 dft_time: 0
+#1054000: cov: 7644 ft: 34263 corp: 4482 exec/s 6 oom/timeout/crash: 0/0/0 time: 21377s job: 710 dft_time: 0
+#1056127: cov: 7645 ft: 34273 corp: 4486 exec/s 7 oom/timeout/crash: 0/0/0 time: 21428s job: 711 dft_time: 0
+#1058172: cov: 7645 ft: 34279 corp: 4491 exec/s 6 oom/timeout/crash: 0/0/0 time: 21466s job: 712 dft_time: 0
+#1059861: cov: 7648 ft: 34310 corp: 4505 exec/s 5 oom/timeout/crash: 0/0/0 time: 21506s job: 713 dft_time: 0
+#1061472: cov: 7650 ft: 34313 corp: 4508 exec/s 5 oom/timeout/crash: 0/0/0 time: 21543s job: 714 dft_time: 0
+#1063237: cov: 7650 ft: 34343 corp: 4515 exec/s 5 oom/timeout/crash: 0/0/0 time: 21589s job: 715 dft_time: 0
+#1064605: cov: 7651 ft: 34352 corp: 4519 exec/s 4 oom/timeout/crash: 0/0/0 time: 21602s job: 716 dft_time: 0
+#1066918: cov: 7651 ft: 34352 corp: 4519 exec/s 7 oom/timeout/crash: 0/0/0 time: 21649s job: 717 dft_time: 0
+#1069072: cov: 7654 ft: 34360 corp: 4525 exec/s 7 oom/timeout/crash: 0/0/0 time: 21680s job: 718 dft_time: 0
+#1071112: cov: 7654 ft: 34367 corp: 4529 exec/s 6 oom/timeout/crash: 0/0/0 time: 21730s job: 719 dft_time: 0
+#1073463: cov: 7654 ft: 34368 corp: 4530 exec/s 7 oom/timeout/crash: 0/0/0 time: 21768s job: 720 dft_time: 0
+#1075396: cov: 7654 ft: 34381 corp: 4536 exec/s 6 oom/timeout/crash: 0/0/0 time: 21808s job: 721 dft_time: 0
+#1077232: cov: 7654 ft: 34382 corp: 4537 exec/s 6 oom/timeout/crash: 0/0/0 time: 21847s job: 722 dft_time: 0
+#1078990: cov: 7656 ft: 34397 corp: 4541 exec/s 5 oom/timeout/crash: 0/0/0 time: 21892s job: 723 dft_time: 0
+#1081363: cov: 7659 ft: 34410 corp: 4548 exec/s 7 oom/timeout/crash: 0/0/0 time: 21904s job: 724 dft_time: 0
+#1083639: cov: 7660 ft: 34428 corp: 4551 exec/s 7 oom/timeout/crash: 0/0/0 time: 21951s job: 725 dft_time: 0
+#1085277: cov: 7662 ft: 34436 corp: 4557 exec/s 5 oom/timeout/crash: 0/0/0 time: 21982s job: 726 dft_time: 0
+#1087286: cov: 7662 ft: 34444 corp: 4562 exec/s 6 oom/timeout/crash: 0/0/0 time: 22032s job: 727 dft_time: 0
+#1089024: cov: 7663 ft: 34448 corp: 4566 exec/s 5 oom/timeout/crash: 0/0/0 time: 22071s job: 728 dft_time: 0
+#1090906: cov: 7663 ft: 34453 corp: 4568 exec/s 6 oom/timeout/crash: 0/0/0 time: 22110s job: 729 dft_time: 0
+#1092526: cov: 7663 ft: 34456 corp: 4570 exec/s 5 oom/timeout/crash: 0/0/0 time: 22150s job: 730 dft_time: 0
+#1094457: cov: 7664 ft: 34463 corp: 4576 exec/s 6 oom/timeout/crash: 0/0/0 time: 22196s job: 731 dft_time: 0
+#1096581: cov: 7664 ft: 34466 corp: 4579 exec/s 7 oom/timeout/crash: 0/0/0 time: 22207s job: 732 dft_time: 0
+#1098807: cov: 7664 ft: 34467 corp: 4580 exec/s 7 oom/timeout/crash: 0/0/0 time: 22254s job: 733 dft_time: 0
+#1100995: cov: 7682 ft: 34505 corp: 4583 exec/s 7 oom/timeout/crash: 0/0/0 time: 22286s job: 734 dft_time: 0
+#1103055: cov: 7682 ft: 34519 corp: 4587 exec/s 6 oom/timeout/crash: 0/0/0 time: 22335s job: 735 dft_time: 0
+#1104800: cov: 7682 ft: 34535 corp: 4589 exec/s 5 oom/timeout/crash: 0/0/0 time: 22373s job: 736 dft_time: 0
+#1107066: cov: 7682 ft: 34538 corp: 4592 exec/s 7 oom/timeout/crash: 0/0/0 time: 22412s job: 737 dft_time: 0
+#1108915: cov: 7682 ft: 34544 corp: 4596 exec/s 6 oom/timeout/crash: 0/0/0 time: 22453s job: 738 dft_time: 0
+#1111055: cov: 7682 ft: 34552 corp: 4600 exec/s 7 oom/timeout/crash: 0/0/0 time: 22498s job: 739 dft_time: 0
+  NEW_FUNC: 0x642380  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x642380)
+#1113146: cov: 7686 ft: 34556 corp: 4601 exec/s 6 oom/timeout/crash: 0/0/0 time: 22509s job: 740 dft_time: 0
+#1115452: cov: 7686 ft: 34571 corp: 4606 exec/s 7 oom/timeout/crash: 0/0/0 time: 22557s job: 741 dft_time: 0
+#1117443: cov: 7686 ft: 34572 corp: 4607 exec/s 6 oom/timeout/crash: 0/0/0 time: 22588s job: 742 dft_time: 0
+#1119268: cov: 7686 ft: 34573 corp: 4608 exec/s 6 oom/timeout/crash: 0/0/0 time: 22637s job: 743 dft_time: 0
+#1122266: cov: 7686 ft: 34573 corp: 4608 exec/s 9 oom/timeout/crash: 0/0/0 time: 22675s job: 744 dft_time: 0
+#1124653: cov: 7688 ft: 34586 corp: 4615 exec/s 7 oom/timeout/crash: 0/0/0 time: 22714s job: 745 dft_time: 0
+#1126398: cov: 7689 ft: 34588 corp: 4616 exec/s 5 oom/timeout/crash: 0/0/0 time: 22756s job: 746 dft_time: 0
+#1128216: cov: 7689 ft: 34589 corp: 4617 exec/s 6 oom/timeout/crash: 0/0/0 time: 22800s job: 747 dft_time: 0
+#1129888: cov: 7689 ft: 34592 corp: 4619 exec/s 5 oom/timeout/crash: 0/0/0 time: 22811s job: 748 dft_time: 0
+  NEW_FUNC: 0xa3e570  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3e570)
+#1131756: cov: 7692 ft: 34595 corp: 4620 exec/s 6 oom/timeout/crash: 0/0/0 time: 22858s job: 749 dft_time: 0
+#1133753: cov: 7693 ft: 34598 corp: 4622 exec/s 6 oom/timeout/crash: 0/0/0 time: 22890s job: 750 dft_time: 0
+#1136324: cov: 7693 ft: 34598 corp: 4622 exec/s 8 oom/timeout/crash: 0/0/0 time: 22939s job: 751 dft_time: 0
+#1138268: cov: 7693 ft: 34618 corp: 4627 exec/s 6 oom/timeout/crash: 0/0/0 time: 22978s job: 752 dft_time: 0
+#1139938: cov: 7693 ft: 34625 corp: 4632 exec/s 5 oom/timeout/crash: 0/0/0 time: 23016s job: 753 dft_time: 0
+#1141721: cov: 7693 ft: 34627 corp: 4634 exec/s 5 oom/timeout/crash: 0/0/0 time: 23058s job: 754 dft_time: 0
+#1143530: cov: 7693 ft: 34632 corp: 4636 exec/s 6 oom/timeout/crash: 0/0/0 time: 23101s job: 755 dft_time: 0
+#1145475: cov: 7698 ft: 34641 corp: 4640 exec/s 6 oom/timeout/crash: 0/0/0 time: 23113s job: 756 dft_time: 0
+#1147490: cov: 7699 ft: 34655 corp: 4643 exec/s 6 oom/timeout/crash: 0/0/0 time: 23161s job: 757 dft_time: 0
+#1149738: cov: 7699 ft: 34661 corp: 4645 exec/s 7 oom/timeout/crash: 0/0/0 time: 23192s job: 758 dft_time: 0
+#1152048: cov: 7699 ft: 34672 corp: 4649 exec/s 7 oom/timeout/crash: 0/0/0 time: 23241s job: 759 dft_time: 0
+#1154383: cov: 7699 ft: 34687 corp: 4652 exec/s 7 oom/timeout/crash: 0/0/0 time: 23282s job: 760 dft_time: 0
+#1156202: cov: 7700 ft: 34693 corp: 4656 exec/s 6 oom/timeout/crash: 0/0/0 time: 23319s job: 761 dft_time: 0
+#1157957: cov: 7701 ft: 34695 corp: 4657 exec/s 5 oom/timeout/crash: 0/0/0 time: 23360s job: 762 dft_time: 0
+#1159907: cov: 7701 ft: 34706 corp: 4661 exec/s 6 oom/timeout/crash: 0/0/0 time: 23404s job: 763 dft_time: 0
+#1161590: cov: 7701 ft: 34710 corp: 4665 exec/s 5 oom/timeout/crash: 0/0/0 time: 23415s job: 764 dft_time: 0
+#1163441: cov: 7706 ft: 34718 corp: 4668 exec/s 6 oom/timeout/crash: 0/0/0 time: 23463s job: 765 dft_time: 0
+#1165812: cov: 7706 ft: 34718 corp: 4668 exec/s 7 oom/timeout/crash: 0/0/0 time: 23494s job: 766 dft_time: 0
+#1168265: cov: 7706 ft: 34723 corp: 4669 exec/s 8 oom/timeout/crash: 0/0/0 time: 23544s job: 767 dft_time: 0
+#1169977: cov: 7706 ft: 34725 corp: 4671 exec/s 5 oom/timeout/crash: 0/0/0 time: 23584s job: 768 dft_time: 0
+  NEW_FUNC: 0x57c580  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x57c580)
+  NEW_FUNC: 0x6f5120  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f5120)
+  NEW_FUNC: 0x6f52f0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f52f0)
+  NEW_FUNC: 0x6f5690  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f5690)
+  NEW_FUNC: 0xdf5b40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdf5b40)
+  NEW_FUNC: 0xdf6280  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdf6280)
+#1171907: cov: 7753 ft: 34823 corp: 4676 exec/s 6 oom/timeout/crash: 0/0/0 time: 23620s job: 769 dft_time: 0
+#1174221: cov: 7753 ft: 34824 corp: 4677 exec/s 7 oom/timeout/crash: 0/0/0 time: 23663s job: 770 dft_time: 0
+#1176610: cov: 7753 ft: 34825 corp: 4678 exec/s 7 oom/timeout/crash: 0/0/0 time: 23707s job: 771 dft_time: 0
+  NEW_FUNC: 0x865890  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x865890)
+  NEW_FUNC: 0x865d90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x865d90)
+  NEW_FUNC: 0x865f30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x865f30)
+  NEW_FUNC: 0x866490  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x866490)
+  NEW_FUNC: 0x8667c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8667c0)
+  NEW_FUNC: 0x867e10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x867e10)
+  NEW_FUNC: 0x867ea0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x867ea0)
+  NEW_FUNC: 0x867ee0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x867ee0)
+  NEW_FUNC: 0x867f10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x867f10)
+  NEW_FUNC: 0xdc85d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdc85d0)
+#1178573: cov: 7776 ft: 34882 corp: 4685 exec/s 6 oom/timeout/crash: 0/0/0 time: 23717s job: 772 dft_time: 0
+#1181297: cov: 7776 ft: 34889 corp: 4688 exec/s 9 oom/timeout/crash: 0/0/0 time: 23764s job: 773 dft_time: 0
+#1183399: cov: 7777 ft: 34899 corp: 4693 exec/s 6 oom/timeout/crash: 0/0/0 time: 23796s job: 774 dft_time: 0
+#1185179: cov: 7777 ft: 34903 corp: 4694 exec/s 5 oom/timeout/crash: 0/0/0 time: 23846s job: 775 dft_time: 0
+#1186697: cov: 7777 ft: 34903 corp: 4694 exec/s 5 oom/timeout/crash: 0/0/0 time: 23886s job: 776 dft_time: 0
+#1189114: cov: 7777 ft: 34903 corp: 4694 exec/s 8 oom/timeout/crash: 0/0/0 time: 23922s job: 777 dft_time: 0
+#1191199: cov: 7778 ft: 34910 corp: 4698 exec/s 6 oom/timeout/crash: 0/0/0 time: 23966s job: 778 dft_time: 0
+#1193036: cov: 7785 ft: 34924 corp: 4701 exec/s 6 oom/timeout/crash: 0/0/0 time: 24010s job: 779 dft_time: 0
+#1195050: cov: 7785 ft: 34932 corp: 4706 exec/s 6 oom/timeout/crash: 0/0/0 time: 24019s job: 780 dft_time: 0
+  NEW_FUNC: 0x65f210  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x65f210)
+#1196965: cov: 7789 ft: 34943 corp: 4713 exec/s 6 oom/timeout/crash: 0/0/0 time: 24066s job: 781 dft_time: 0
+#1199273: cov: 7789 ft: 34949 corp: 4716 exec/s 7 oom/timeout/crash: 0/0/0 time: 24098s job: 782 dft_time: 0
+#1201363: cov: 7790 ft: 34968 corp: 4720 exec/s 6 oom/timeout/crash: 0/0/0 time: 24147s job: 783 dft_time: 0
+#1203476: cov: 7790 ft: 34970 corp: 4721 exec/s 7 oom/timeout/crash: 0/0/0 time: 24188s job: 784 dft_time: 0
+#1206033: cov: 7792 ft: 34981 corp: 4724 exec/s 8 oom/timeout/crash: 0/0/0 time: 24224s job: 785 dft_time: 0
+  NEW_FUNC: 0xa32b10  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32b10)
+  NEW_FUNC: 0xa32c90  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32c90)
+  NEW_FUNC: 0xa32f40  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa32f40)
+  NEW_FUNC: 0xa338e0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa338e0)
+#1208169: cov: 7813 ft: 35004 corp: 4727 exec/s 7 oom/timeout/crash: 0/0/0 time: 24267s job: 786 dft_time: 0
+#1210097: cov: 7813 ft: 35007 corp: 4730 exec/s 6 oom/timeout/crash: 0/0/0 time: 24312s job: 787 dft_time: 0
+#1212052: cov: 7813 ft: 35008 corp: 4731 exec/s 6 oom/timeout/crash: 0/0/0 time: 24321s job: 788 dft_time: 0
+#1214028: cov: 7817 ft: 35020 corp: 4735 exec/s 6 oom/timeout/crash: 0/0/0 time: 24368s job: 789 dft_time: 0
+#1216089: cov: 7820 ft: 35024 corp: 4737 exec/s 6 oom/timeout/crash: 0/0/0 time: 24400s job: 790 dft_time: 0
+#1218148: cov: 7821 ft: 35030 corp: 4740 exec/s 6 oom/timeout/crash: 0/0/0 time: 24449s job: 791 dft_time: 0
+#1220227: cov: 7822 ft: 35033 corp: 4743 exec/s 6 oom/timeout/crash: 0/0/0 time: 24490s job: 792 dft_time: 0
+#1222760: cov: 7824 ft: 35035 corp: 4744 exec/s 8 oom/timeout/crash: 0/0/0 time: 24527s job: 793 dft_time: 0
+#1224787: cov: 7826 ft: 35042 corp: 4747 exec/s 6 oom/timeout/crash: 0/0/0 time: 24570s job: 794 dft_time: 0
+#1227036: cov: 7826 ft: 35045 corp: 4749 exec/s 7 oom/timeout/crash: 0/0/0 time: 24614s job: 795 dft_time: 0
+#1229026: cov: 7826 ft: 35054 corp: 4755 exec/s 6 oom/timeout/crash: 0/0/0 time: 24625s job: 796 dft_time: 0
+#1230722: cov: 7826 ft: 35065 corp: 4758 exec/s 5 oom/timeout/crash: 0/0/0 time: 24670s job: 797 dft_time: 0
+#1232596: cov: 7827 ft: 35072 corp: 4762 exec/s 6 oom/timeout/crash: 0/0/0 time: 24702s job: 798 dft_time: 0
+#1234787: cov: 7827 ft: 35075 corp: 4764 exec/s 7 oom/timeout/crash: 0/0/0 time: 24752s job: 799 dft_time: 0
+#1236548: cov: 7827 ft: 35114 corp: 4768 exec/s 5 oom/timeout/crash: 0/0/0 time: 24792s job: 800 dft_time: 0
+  NEW_FUNC: 0x8ac1a0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x8ac1a0)
+#1238994: cov: 7846 ft: 35133 corp: 4770 exec/s 8 oom/timeout/crash: 0/0/0 time: 24829s job: 801 dft_time: 0
+#1241021: cov: 7846 ft: 35139 corp: 4774 exec/s 6 oom/timeout/crash: 0/0/0 time: 24872s job: 802 dft_time: 0
+#1242920: cov: 7846 ft: 35139 corp: 4774 exec/s 6 oom/timeout/crash: 0/0/0 time: 24917s job: 803 dft_time: 0
+#1244701: cov: 7846 ft: 35144 corp: 4777 exec/s 5 oom/timeout/crash: 0/0/0 time: 24928s job: 804 dft_time: 0
+#1246885: cov: 7846 ft: 35148 corp: 4779 exec/s 7 oom/timeout/crash: 0/0/0 time: 24973s job: 805 dft_time: 0
+#1248965: cov: 7846 ft: 35151 corp: 4781 exec/s 6 oom/timeout/crash: 0/0/0 time: 25004s job: 806 dft_time: 0
+#1250778: cov: 7846 ft: 35172 corp: 4784 exec/s 6 oom/timeout/crash: 0/0/0 time: 25055s job: 807 dft_time: 0
+#1252290: cov: 7846 ft: 35175 corp: 4787 exec/s 5 oom/timeout/crash: 0/0/0 time: 25093s job: 808 dft_time: 0
+  NEW_FUNC: 0xa22ed0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa22ed0)
+  NEW_FUNC: 0xa24c30  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa24c30)
+#1254747: cov: 7872 ft: 35243 corp: 4796 exec/s 8 oom/timeout/crash: 0/0/0 time: 25131s job: 809 dft_time: 0
+#1256449: cov: 7872 ft: 35243 corp: 4796 exec/s 5 oom/timeout/crash: 0/0/0 time: 25173s job: 810 dft_time: 0
+#1258126: cov: 7872 ft: 35244 corp: 4797 exec/s 5 oom/timeout/crash: 0/0/0 time: 25220s job: 811 dft_time: 0
+#1259953: cov: 7872 ft: 35247 corp: 4799 exec/s 6 oom/timeout/crash: 0/0/0 time: 25230s job: 812 dft_time: 0
+#1261971: cov: 7873 ft: 35262 corp: 4803 exec/s 6 oom/timeout/crash: 0/0/0 time: 25275s job: 813 dft_time: 0
+#1263830: cov: 7875 ft: 35264 corp: 4804 exec/s 6 oom/timeout/crash: 0/0/0 time: 25306s job: 814 dft_time: 0
+#1265550: cov: 7875 ft: 35266 corp: 4806 exec/s 5 oom/timeout/crash: 0/0/0 time: 25358s job: 815 dft_time: 0
+#1267439: cov: 7877 ft: 35269 corp: 4808 exec/s 6 oom/timeout/crash: 0/0/0 time: 25395s job: 816 dft_time: 0
+#1269144: cov: 7878 ft: 35286 corp: 4813 exec/s 5 oom/timeout/crash: 0/0/0 time: 25432s job: 817 dft_time: 0
+#1271272: cov: 7878 ft: 35302 corp: 4814 exec/s 7 oom/timeout/crash: 0/0/0 time: 25475s job: 818 dft_time: 0
+#1273603: cov: 7878 ft: 35311 corp: 4818 exec/s 7 oom/timeout/crash: 0/0/0 time: 25522s job: 819 dft_time: 0
+#1275521: cov: 7878 ft: 35318 corp: 4820 exec/s 6 oom/timeout/crash: 0/0/0 time: 25532s job: 820 dft_time: 0
+#1277259: cov: 7878 ft: 35338 corp: 4822 exec/s 5 oom/timeout/crash: 0/0/0 time: 25576s job: 821 dft_time: 0
+#1278922: cov: 7878 ft: 35339 corp: 4823 exec/s 5 oom/timeout/crash: 0/0/0 time: 25608s job: 822 dft_time: 0
+#1281179: cov: 7878 ft: 35342 corp: 4826 exec/s 7 oom/timeout/crash: 0/0/0 time: 25660s job: 823 dft_time: 0
+#1282936: cov: 7878 ft: 35343 corp: 4827 exec/s 5 oom/timeout/crash: 0/0/0 time: 25698s job: 824 dft_time: 0
+#1284864: cov: 7878 ft: 35347 corp: 4831 exec/s 6 oom/timeout/crash: 0/0/0 time: 25734s job: 825 dft_time: 0
+#1286806: cov: 7878 ft: 35347 corp: 4831 exec/s 6 oom/timeout/crash: 0/0/0 time: 25778s job: 826 dft_time: 0
+#1288830: cov: 7878 ft: 35391 corp: 4834 exec/s 6 oom/timeout/crash: 0/0/0 time: 25824s job: 827 dft_time: 0
+#1290458: cov: 7878 ft: 35394 corp: 4837 exec/s 5 oom/timeout/crash: 0/0/0 time: 25834s job: 828 dft_time: 0
+#1292077: cov: 7878 ft: 35397 corp: 4838 exec/s 5 oom/timeout/crash: 0/0/0 time: 25878s job: 829 dft_time: 0
+#1293884: cov: 7878 ft: 35405 corp: 4841 exec/s 5 oom/timeout/crash: 0/0/0 time: 25912s job: 830 dft_time: 0
+#1295667: cov: 7880 ft: 35408 corp: 4844 exec/s 5 oom/timeout/crash: 0/0/0 time: 25962s job: 831 dft_time: 0
+#1297498: cov: 7881 ft: 35410 corp: 4846 exec/s 6 oom/timeout/crash: 0/0/0 time: 26000s job: 832 dft_time: 0
+#1299923: cov: 7881 ft: 35414 corp: 4849 exec/s 8 oom/timeout/crash: 0/0/0 time: 26035s job: 833 dft_time: 0
+#1301895: cov: 7881 ft: 35414 corp: 4849 exec/s 6 oom/timeout/crash: 0/0/0 time: 26081s job: 834 dft_time: 0
+#1304084: cov: 7881 ft: 35418 corp: 4851 exec/s 7 oom/timeout/crash: 0/0/0 time: 26126s job: 835 dft_time: 0
+#1306019: cov: 7881 ft: 35439 corp: 4855 exec/s 6 oom/timeout/crash: 0/0/0 time: 26137s job: 836 dft_time: 0
+#1309014: cov: 7881 ft: 35442 corp: 4857 exec/s 9 oom/timeout/crash: 0/0/0 time: 26180s job: 837 dft_time: 0
+#1310631: cov: 7881 ft: 35454 corp: 4864 exec/s 5 oom/timeout/crash: 0/0/0 time: 26213s job: 838 dft_time: 0
+#1312450: cov: 7881 ft: 35456 corp: 4865 exec/s 6 oom/timeout/crash: 0/0/0 time: 26264s job: 839 dft_time: 0
+#1314229: cov: 7882 ft: 35458 corp: 4867 exec/s 5 oom/timeout/crash: 0/0/0 time: 26302s job: 840 dft_time: 0
+#1315872: cov: 7882 ft: 35459 corp: 4868 exec/s 5 oom/timeout/crash: 0/0/0 time: 26337s job: 841 dft_time: 0
+#1318504: cov: 7882 ft: 35463 corp: 4869 exec/s 8 oom/timeout/crash: 0/0/0 time: 26383s job: 842 dft_time: 0
+#1320471: cov: 7882 ft: 35463 corp: 4869 exec/s 6 oom/timeout/crash: 0/0/0 time: 26429s job: 843 dft_time: 0
+#1323176: cov: 7882 ft: 35469 corp: 4871 exec/s 8 oom/timeout/crash: 0/0/0 time: 26439s job: 844 dft_time: 0
+#1325275: cov: 7882 ft: 35471 corp: 4873 exec/s 6 oom/timeout/crash: 0/0/0 time: 26482s job: 845 dft_time: 0
+#1327283: cov: 7883 ft: 35479 corp: 4876 exec/s 6 oom/timeout/crash: 0/0/0 time: 26515s job: 846 dft_time: 0
+#1328977: cov: 7885 ft: 35487 corp: 4880 exec/s 5 oom/timeout/crash: 0/0/0 time: 26566s job: 847 dft_time: 0
+#1330558: cov: 7886 ft: 35489 corp: 4882 exec/s 5 oom/timeout/crash: 0/0/0 time: 26605s job: 848 dft_time: 0
+#1332590: cov: 7886 ft: 35490 corp: 4883 exec/s 6 oom/timeout/crash: 0/0/0 time: 26638s job: 849 dft_time: 0
+#1334721: cov: 7886 ft: 35495 corp: 4884 exec/s 7 oom/timeout/crash: 0/0/0 time: 26685s job: 850 dft_time: 0
+#1336556: cov: 7886 ft: 35495 corp: 4884 exec/s 6 oom/timeout/crash: 0/0/0 time: 26731s job: 851 dft_time: 0
+#1338487: cov: 7886 ft: 35497 corp: 4886 exec/s 6 oom/timeout/crash: 0/0/0 time: 26740s job: 852 dft_time: 0
+#1340000: cov: 7886 ft: 35500 corp: 4888 exec/s 5 oom/timeout/crash: 0/0/0 time: 26785s job: 853 dft_time: 0
+#1341911: cov: 7886 ft: 35501 corp: 4889 exec/s 6 oom/timeout/crash: 0/0/0 time: 26818s job: 854 dft_time: 0
+#1343714: cov: 7886 ft: 35503 corp: 4891 exec/s 5 oom/timeout/crash: 0/0/0 time: 26868s job: 855 dft_time: 0
+#1345495: cov: 7886 ft: 35503 corp: 4891 exec/s 5 oom/timeout/crash: 0/0/0 time: 26908s job: 856 dft_time: 0
+#1347701: cov: 7886 ft: 35520 corp: 4895 exec/s 7 oom/timeout/crash: 0/0/0 time: 26940s job: 857 dft_time: 0
+#1350159: cov: 7886 ft: 35525 corp: 4898 exec/s 8 oom/timeout/crash: 0/0/0 time: 26987s job: 858 dft_time: 0
+#1352126: cov: 7887 ft: 35528 corp: 4900 exec/s 6 oom/timeout/crash: 0/0/0 time: 27033s job: 859 dft_time: 0
+#1353704: cov: 7887 ft: 35532 corp: 4903 exec/s 5 oom/timeout/crash: 0/0/0 time: 27043s job: 860 dft_time: 0
+#1356125: cov: 7889 ft: 35539 corp: 4904 exec/s 8 oom/timeout/crash: 0/0/0 time: 27087s job: 861 dft_time: 0
+#1357991: cov: 7890 ft: 35545 corp: 4908 exec/s 6 oom/timeout/crash: 0/0/0 time: 27119s job: 862 dft_time: 0
+#1359943: cov: 7890 ft: 35571 corp: 4914 exec/s 6 oom/timeout/crash: 0/0/0 time: 27169s job: 863 dft_time: 0
+#1362513: cov: 7890 ft: 35571 corp: 4914 exec/s 8 oom/timeout/crash: 0/0/0 time: 27211s job: 864 dft_time: 0
+#1364322: cov: 7890 ft: 35575 corp: 4916 exec/s 5 oom/timeout/crash: 0/0/0 time: 27243s job: 865 dft_time: 0
+#1366164: cov: 7890 ft: 35575 corp: 4916 exec/s 6 oom/timeout/crash: 0/0/0 time: 27289s job: 866 dft_time: 0
+#1368242: cov: 7890 ft: 35576 corp: 4917 exec/s 6 oom/timeout/crash: 0/0/0 time: 27335s job: 867 dft_time: 0
+#1370169: cov: 7890 ft: 35585 corp: 4925 exec/s 6 oom/timeout/crash: 0/0/0 time: 27345s job: 868 dft_time: 0
+#1372122: cov: 7890 ft: 35585 corp: 4925 exec/s 6 oom/timeout/crash: 0/0/0 time: 27389s job: 869 dft_time: 0
+#1373725: cov: 7890 ft: 35585 corp: 4925 exec/s 5 oom/timeout/crash: 0/0/0 time: 27422s job: 870 dft_time: 0
+#1375552: cov: 7890 ft: 35589 corp: 4926 exec/s 6 oom/timeout/crash: 0/0/0 time: 27471s job: 871 dft_time: 0
+#1377178: cov: 7890 ft: 35591 corp: 4927 exec/s 5 oom/timeout/crash: 0/0/0 time: 27514s job: 872 dft_time: 0
+#1379464: cov: 7890 ft: 35591 corp: 4927 exec/s 7 oom/timeout/crash: 0/0/0 time: 27544s job: 873 dft_time: 0
+#1381543: cov: 7893 ft: 35605 corp: 4935 exec/s 6 oom/timeout/crash: 0/0/0 time: 27591s job: 874 dft_time: 0
+#1383178: cov: 7894 ft: 35607 corp: 4937 exec/s 5 oom/timeout/crash: 0/0/0 time: 27639s job: 875 dft_time: 0
+#1384952: cov: 7894 ft: 35662 corp: 4946 exec/s 5 oom/timeout/crash: 0/0/0 time: 27646s job: 876 dft_time: 0
+#1387153: cov: 7894 ft: 35662 corp: 4946 exec/s 7 oom/timeout/crash: 0/0/0 time: 27691s job: 877 dft_time: 0
+#1388967: cov: 7894 ft: 35664 corp: 4948 exec/s 6 oom/timeout/crash: 0/0/0 time: 27724s job: 878 dft_time: 0
+#1390686: cov: 7894 ft: 35667 corp: 4950 exec/s 5 oom/timeout/crash: 0/0/0 time: 27774s job: 879 dft_time: 0
+#1392767: cov: 7894 ft: 35667 corp: 4950 exec/s 6 oom/timeout/crash: 0/0/0 time: 27816s job: 880 dft_time: 0
+#1394742: cov: 7895 ft: 35670 corp: 4952 exec/s 6 oom/timeout/crash: 0/0/0 time: 27847s job: 881 dft_time: 0
+#1397478: cov: 7895 ft: 35675 corp: 4955 exec/s 9 oom/timeout/crash: 0/0/0 time: 27893s job: 882 dft_time: 0
+#1398945: cov: 7895 ft: 35678 corp: 4957 exec/s 4 oom/timeout/crash: 0/0/0 time: 27942s job: 883 dft_time: 0
+#1400593: cov: 7895 ft: 35681 corp: 4959 exec/s 5 oom/timeout/crash: 0/0/0 time: 27948s job: 884 dft_time: 0
+#1402352: cov: 7895 ft: 35681 corp: 4959 exec/s 5 oom/timeout/crash: 0/0/0 time: 27993s job: 885 dft_time: 0
+#1404372: cov: 7895 ft: 35692 corp: 4963 exec/s 6 oom/timeout/crash: 0/0/0 time: 28026s job: 886 dft_time: 0
+#1406364: cov: 7895 ft: 35693 corp: 4964 exec/s 6 oom/timeout/crash: 0/0/0 time: 28075s job: 887 dft_time: 0
+#1407941: cov: 7895 ft: 35695 corp: 4966 exec/s 5 oom/timeout/crash: 0/0/0 time: 28118s job: 888 dft_time: 0
+#1409525: cov: 7895 ft: 35695 corp: 4966 exec/s 5 oom/timeout/crash: 0/0/0 time: 28149s job: 889 dft_time: 0
+#1411701: cov: 7895 ft: 35695 corp: 4966 exec/s 7 oom/timeout/crash: 0/0/0 time: 28195s job: 890 dft_time: 0
+#1413353: cov: 7895 ft: 35696 corp: 4967 exec/s 5 oom/timeout/crash: 0/0/0 time: 28244s job: 891 dft_time: 0
+#1415405: cov: 7895 ft: 35721 corp: 4970 exec/s 6 oom/timeout/crash: 0/0/0 time: 28251s job: 892 dft_time: 0
+#1416979: cov: 7895 ft: 35724 corp: 4971 exec/s 5 oom/timeout/crash: 0/0/0 time: 28297s job: 893 dft_time: 0
+#1419004: cov: 7895 ft: 35729 corp: 4973 exec/s 6 oom/timeout/crash: 0/0/0 time: 28328s job: 894 dft_time: 0
+#1421690: cov: 7895 ft: 35735 corp: 4975 exec/s 8 oom/timeout/crash: 0/0/0 time: 28378s job: 895 dft_time: 0
+#1423831: cov: 7895 ft: 35739 corp: 4978 exec/s 7 oom/timeout/crash: 0/0/0 time: 28421s job: 896 dft_time: 0
+#1425607: cov: 7895 ft: 35741 corp: 4980 exec/s 5 oom/timeout/crash: 0/0/0 time: 28451s job: 897 dft_time: 0
+#1427756: cov: 7895 ft: 35743 corp: 4981 exec/s 7 oom/timeout/crash: 0/0/0 time: 28496s job: 898 dft_time: 0
+#1429548: cov: 7895 ft: 35745 corp: 4983 exec/s 5 oom/timeout/crash: 0/0/0 time: 28546s job: 899 dft_time: 0
+#1431268: cov: 7895 ft: 35745 corp: 4983 exec/s 5 oom/timeout/crash: 0/0/0 time: 28553s job: 900 dft_time: 0
+#1432915: cov: 7895 ft: 35748 corp: 4985 exec/s 5 oom/timeout/crash: 0/0/0 time: 28600s job: 901 dft_time: 0
+#1435027: cov: 7895 ft: 35753 corp: 4987 exec/s 7 oom/timeout/crash: 0/0/0 time: 28629s job: 902 dft_time: 0
+#1437187: cov: 7895 ft: 35754 corp: 4988 exec/s 7 oom/timeout/crash: 0/0/0 time: 28679s job: 903 dft_time: 0
+#1439317: cov: 7896 ft: 35755 corp: 4989 exec/s 7 oom/timeout/crash: 0/0/0 time: 28723s job: 904 dft_time: 0
+#1441078: cov: 7896 ft: 35761 corp: 4993 exec/s 5 oom/timeout/crash: 0/0/0 time: 28752s job: 905 dft_time: 0
+#1443088: cov: 7896 ft: 35762 corp: 4994 exec/s 6 oom/timeout/crash: 0/0/0 time: 28798s job: 906 dft_time: 0
+#1444618: cov: 7896 ft: 35768 corp: 4997 exec/s 5 oom/timeout/crash: 0/0/0 time: 28848s job: 907 dft_time: 0
+#1446623: cov: 7896 ft: 35770 corp: 4998 exec/s 6 oom/timeout/crash: 0/0/0 time: 28855s job: 908 dft_time: 0
+#1449058: cov: 7896 ft: 35779 corp: 5001 exec/s 8 oom/timeout/crash: 0/0/0 time: 28903s job: 909 dft_time: 0
+#1450819: cov: 7896 ft: 35780 corp: 5002 exec/s 5 oom/timeout/crash: 0/0/0 time: 28931s job: 910 dft_time: 0
+#1452974: cov: 7896 ft: 35781 corp: 5003 exec/s 7 oom/timeout/crash: 0/0/0 time: 28981s job: 911 dft_time: 0
+#1454971: cov: 7897 ft: 35794 corp: 5006 exec/s 6 oom/timeout/crash: 0/0/0 time: 29025s job: 912 dft_time: 0
+#1456818: cov: 7897 ft: 35794 corp: 5006 exec/s 6 oom/timeout/crash: 0/0/0 time: 29054s job: 913 dft_time: 0
+#1458664: cov: 7899 ft: 35814 corp: 5009 exec/s 6 oom/timeout/crash: 0/0/0 time: 29101s job: 914 dft_time: 0
+#1460543: cov: 7899 ft: 35818 corp: 5010 exec/s 6 oom/timeout/crash: 0/0/0 time: 29151s job: 915 dft_time: 0
+#1462692: cov: 7899 ft: 35821 corp: 5011 exec/s 7 oom/timeout/crash: 0/0/0 time: 29158s job: 916 dft_time: 0
+#1465141: cov: 7899 ft: 35825 corp: 5012 exec/s 8 oom/timeout/crash: 0/0/0 time: 29205s job: 917 dft_time: 0
+#1467101: cov: 7899 ft: 35831 corp: 5016 exec/s 6 oom/timeout/crash: 0/0/0 time: 29232s job: 918 dft_time: 0
+#1468651: cov: 7903 ft: 35840 corp: 5019 exec/s 5 oom/timeout/crash: 0/0/0 time: 29285s job: 919 dft_time: 0
+#1470482: cov: 7903 ft: 35846 corp: 5022 exec/s 6 oom/timeout/crash: 0/0/0 time: 29328s job: 920 dft_time: 0
+#1472261: cov: 7903 ft: 35847 corp: 5023 exec/s 5 oom/timeout/crash: 0/0/0 time: 29356s job: 921 dft_time: 0
+#1474404: cov: 7903 ft: 35849 corp: 5024 exec/s 7 oom/timeout/crash: 0/0/0 time: 29403s job: 922 dft_time: 0
+#1476566: cov: 7903 ft: 35851 corp: 5025 exec/s 7 oom/timeout/crash: 0/0/0 time: 29453s job: 923 dft_time: 0
+  NEW_FUNC: 0xa2ad70  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2ad70)
+  NEW_FUNC: 0xdbf010  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xdbf010)
+#1478789: cov: 7920 ft: 35871 corp: 5027 exec/s 7 oom/timeout/crash: 0/0/0 time: 29460s job: 924 dft_time: 0
+#1480835: cov: 7920 ft: 35876 corp: 5031 exec/s 6 oom/timeout/crash: 0/0/0 time: 29507s job: 925 dft_time: 0
+#1482951: cov: 7920 ft: 35878 corp: 5033 exec/s 7 oom/timeout/crash: 0/0/0 time: 29535s job: 926 dft_time: 0
+#1485452: cov: 7925 ft: 35950 corp: 5041 exec/s 8 oom/timeout/crash: 0/0/0 time: 29587s job: 927 dft_time: 0
+#1487122: cov: 7925 ft: 35968 corp: 5046 exec/s 5 oom/timeout/crash: 0/0/0 time: 29630s job: 928 dft_time: 0
+#1488888: cov: 7925 ft: 35972 corp: 5047 exec/s 5 oom/timeout/crash: 0/0/0 time: 29658s job: 929 dft_time: 0
+#1490868: cov: 7925 ft: 35972 corp: 5047 exec/s 6 oom/timeout/crash: 0/0/0 time: 29705s job: 930 dft_time: 0
+#1493381: cov: 7925 ft: 35972 corp: 5047 exec/s 8 oom/timeout/crash: 0/0/0 time: 29755s job: 931 dft_time: 0
+#1495466: cov: 7926 ft: 35974 corp: 5049 exec/s 6 oom/timeout/crash: 0/0/0 time: 29761s job: 932 dft_time: 0
+#1497072: cov: 7926 ft: 35979 corp: 5051 exec/s 5 oom/timeout/crash: 0/0/0 time: 29809s job: 933 dft_time: 0
+#1498661: cov: 7926 ft: 35983 corp: 5054 exec/s 5 oom/timeout/crash: 0/0/0 time: 29838s job: 934 dft_time: 0
+#1501082: cov: 7928 ft: 36017 corp: 5061 exec/s 8 oom/timeout/crash: 0/0/0 time: 29890s job: 935 dft_time: 0
+#1503342: cov: 7928 ft: 36021 corp: 5065 exec/s 7 oom/timeout/crash: 0/0/0 time: 29932s job: 936 dft_time: 0
+#1505055: cov: 7929 ft: 36031 corp: 5068 exec/s 5 oom/timeout/crash: 0/0/0 time: 29959s job: 937 dft_time: 0
+#1506687: cov: 7929 ft: 36049 corp: 5074 exec/s 5 oom/timeout/crash: 0/0/0 time: 30008s job: 938 dft_time: 0
+#1508980: cov: 7929 ft: 36049 corp: 5074 exec/s 7 oom/timeout/crash: 0/0/0 time: 30057s job: 939 dft_time: 0
+#1510859: cov: 7934 ft: 36055 corp: 5076 exec/s 6 oom/timeout/crash: 0/0/0 time: 30063s job: 940 dft_time: 0
+#1512683: cov: 7934 ft: 36055 corp: 5076 exec/s 6 oom/timeout/crash: 0/0/0 time: 30111s job: 941 dft_time: 0
+#1515034: cov: 7937 ft: 36060 corp: 5078 exec/s 7 oom/timeout/crash: 0/0/0 time: 30141s job: 942 dft_time: 0
+#1516738: cov: 7938 ft: 36063 corp: 5081 exec/s 5 oom/timeout/crash: 0/0/0 time: 30192s job: 943 dft_time: 0
+#1518311: cov: 7938 ft: 36069 corp: 5083 exec/s 5 oom/timeout/crash: 0/0/0 time: 30234s job: 944 dft_time: 0
+#1520409: cov: 7938 ft: 36072 corp: 5084 exec/s 6 oom/timeout/crash: 0/0/0 time: 30262s job: 945 dft_time: 0
+#1521959: cov: 7938 ft: 36072 corp: 5084 exec/s 5 oom/timeout/crash: 0/0/0 time: 30310s job: 946 dft_time: 0
+#1523645: cov: 7938 ft: 36124 corp: 5088 exec/s 5 oom/timeout/crash: 0/0/0 time: 30359s job: 947 dft_time: 0
+#1525796: cov: 7938 ft: 36124 corp: 5088 exec/s 7 oom/timeout/crash: 0/0/0 time: 30364s job: 948 dft_time: 0
+#1527912: cov: 7938 ft: 36129 corp: 5089 exec/s 7 oom/timeout/crash: 0/0/0 time: 30413s job: 949 dft_time: 0
+#1529970: cov: 7938 ft: 36129 corp: 5089 exec/s 6 oom/timeout/crash: 0/0/0 time: 30444s job: 950 dft_time: 0
+#1531742: cov: 7938 ft: 36130 corp: 5090 exec/s 5 oom/timeout/crash: 0/0/0 time: 30494s job: 951 dft_time: 0
+#1533377: cov: 7938 ft: 36130 corp: 5090 exec/s 5 oom/timeout/crash: 0/0/0 time: 30535s job: 952 dft_time: 0
+#1535790: cov: 7938 ft: 36134 corp: 5092 exec/s 8 oom/timeout/crash: 0/0/0 time: 30563s job: 953 dft_time: 0
+#1537806: cov: 7938 ft: 36151 corp: 5095 exec/s 6 oom/timeout/crash: 0/0/0 time: 30612s job: 954 dft_time: 0
+#1539827: cov: 7938 ft: 36151 corp: 5095 exec/s 6 oom/timeout/crash: 0/0/0 time: 30660s job: 955 dft_time: 0
+#1541545: cov: 7938 ft: 36152 corp: 5096 exec/s 5 oom/timeout/crash: 0/0/0 time: 30667s job: 956 dft_time: 0
+#1543345: cov: 7938 ft: 36157 corp: 5098 exec/s 5 oom/timeout/crash: 0/0/0 time: 30715s job: 957 dft_time: 0
+#1544876: cov: 7938 ft: 36168 corp: 5105 exec/s 5 oom/timeout/crash: 0/0/0 time: 30746s job: 958 dft_time: 0
+#1547295: cov: 7938 ft: 36168 corp: 5105 exec/s 8 oom/timeout/crash: 0/0/0 time: 30796s job: 959 dft_time: 0
+#1549295: cov: 7938 ft: 36170 corp: 5107 exec/s 6 oom/timeout/crash: 0/0/0 time: 30838s job: 960 dft_time: 0
+#1551448: cov: 7940 ft: 36183 corp: 5117 exec/s 7 oom/timeout/crash: 0/0/0 time: 30866s job: 961 dft_time: 0
+  NEW_FUNC: 0xa3f570  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3f570)
+#1553551: cov: 7944 ft: 36190 corp: 5121 exec/s 6 oom/timeout/crash: 0/0/0 time: 30913s job: 962 dft_time: 0
+#1555784: cov: 7944 ft: 36210 corp: 5122 exec/s 7 oom/timeout/crash: 0/0/0 time: 30962s job: 963 dft_time: 0
+#1558658: cov: 7944 ft: 36213 corp: 5124 exec/s 9 oom/timeout/crash: 0/0/0 time: 30969s job: 964 dft_time: 0
+#1560679: cov: 7944 ft: 36214 corp: 5125 exec/s 6 oom/timeout/crash: 0/0/0 time: 31018s job: 965 dft_time: 0
+#1562306: cov: 7944 ft: 36214 corp: 5125 exec/s 5 oom/timeout/crash: 0/0/0 time: 31048s job: 966 dft_time: 0
+#1564089: cov: 7944 ft: 36214 corp: 5125 exec/s 5 oom/timeout/crash: 0/0/0 time: 31097s job: 967 dft_time: 0
+#1565890: cov: 7944 ft: 36280 corp: 5132 exec/s 5 oom/timeout/crash: 0/0/0 time: 31141s job: 968 dft_time: 0
+#1567628: cov: 7944 ft: 36280 corp: 5132 exec/s 5 oom/timeout/crash: 0/0/0 time: 31169s job: 969 dft_time: 0
+#1569598: cov: 7944 ft: 36284 corp: 5134 exec/s 6 oom/timeout/crash: 0/0/0 time: 31216s job: 970 dft_time: 0
+#1571610: cov: 7944 ft: 36290 corp: 5137 exec/s 6 oom/timeout/crash: 0/0/0 time: 31264s job: 971 dft_time: 0
+#1573732: cov: 7944 ft: 36295 corp: 5139 exec/s 7 oom/timeout/crash: 0/0/0 time: 31271s job: 972 dft_time: 0
+#1575324: cov: 7945 ft: 36296 corp: 5140 exec/s 5 oom/timeout/crash: 0/0/0 time: 31319s job: 973 dft_time: 0
+#1577242: cov: 7945 ft: 36300 corp: 5142 exec/s 6 oom/timeout/crash: 0/0/0 time: 31349s job: 974 dft_time: 0
+#1579382: cov: 7945 ft: 36303 corp: 5143 exec/s 7 oom/timeout/crash: 0/0/0 time: 31401s job: 975 dft_time: 0
+#1581018: cov: 7945 ft: 36308 corp: 5144 exec/s 5 oom/timeout/crash: 0/0/0 time: 31443s job: 976 dft_time: 0
+#1582928: cov: 7945 ft: 36311 corp: 5147 exec/s 6 oom/timeout/crash: 0/0/0 time: 31470s job: 977 dft_time: 0
+#1584564: cov: 7945 ft: 36313 corp: 5149 exec/s 5 oom/timeout/crash: 0/0/0 time: 31519s job: 978 dft_time: 0
+#1587188: cov: 7946 ft: 36325 corp: 5152 exec/s 8 oom/timeout/crash: 0/0/0 time: 31566s job: 979 dft_time: 0
+#1589218: cov: 7946 ft: 36325 corp: 5152 exec/s 6 oom/timeout/crash: 0/0/0 time: 31573s job: 980 dft_time: 0
+#1591663: cov: 7946 ft: 36325 corp: 5152 exec/s 8 oom/timeout/crash: 0/0/0 time: 31622s job: 981 dft_time: 0
+  NEW_FUNC: 0x6f3140  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x6f3140)
+#1593826: cov: 7948 ft: 36347 corp: 5157 exec/s 7 oom/timeout/crash: 0/0/0 time: 31651s job: 982 dft_time: 0
+#1595885: cov: 7949 ft: 36349 corp: 5159 exec/s 6 oom/timeout/crash: 0/0/0 time: 31704s job: 983 dft_time: 0
+#1597535: cov: 7949 ft: 36349 corp: 5159 exec/s 5 oom/timeout/crash: 0/0/0 time: 31745s job: 984 dft_time: 0
+#1599172: cov: 7949 ft: 36351 corp: 5161 exec/s 5 oom/timeout/crash: 0/0/0 time: 31772s job: 985 dft_time: 0
+#1600942: cov: 7949 ft: 36351 corp: 5161 exec/s 5 oom/timeout/crash: 0/0/0 time: 31822s job: 986 dft_time: 0
+#1602843: cov: 7949 ft: 36362 corp: 5166 exec/s 6 oom/timeout/crash: 0/0/0 time: 31867s job: 987 dft_time: 0
+#1604680: cov: 7950 ft: 36364 corp: 5168 exec/s 6 oom/timeout/crash: 0/0/0 time: 31876s job: 988 dft_time: 0
+#1606805: cov: 7950 ft: 36377 corp: 5170 exec/s 7 oom/timeout/crash: 0/0/0 time: 31925s job: 989 dft_time: 0
+#1608715: cov: 7950 ft: 36379 corp: 5171 exec/s 6 oom/timeout/crash: 0/0/0 time: 31954s job: 990 dft_time: 0
+#1610642: cov: 7950 ft: 36382 corp: 5173 exec/s 6 oom/timeout/crash: 0/0/0 time: 32005s job: 991 dft_time: 0
+#1612924: cov: 7950 ft: 36382 corp: 5173 exec/s 7 oom/timeout/crash: 0/0/0 time: 32047s job: 992 dft_time: 0
+#1614753: cov: 7950 ft: 36383 corp: 5174 exec/s 6 oom/timeout/crash: 0/0/0 time: 32073s job: 993 dft_time: 0
+#1616728: cov: 7950 ft: 36384 corp: 5175 exec/s 6 oom/timeout/crash: 0/0/0 time: 32125s job: 994 dft_time: 0
+#1618329: cov: 7950 ft: 36384 corp: 5175 exec/s 5 oom/timeout/crash: 0/0/0 time: 32170s job: 995 dft_time: 0
+#1620076: cov: 7950 ft: 36384 corp: 5175 exec/s 5 oom/timeout/crash: 0/0/0 time: 32178s job: 996 dft_time: 0
+#1622095: cov: 7950 ft: 36391 corp: 5177 exec/s 6 oom/timeout/crash: 0/0/0 time: 32227s job: 997 dft_time: 0
+#1624719: cov: 7957 ft: 36400 corp: 5178 exec/s 8 oom/timeout/crash: 0/0/0 time: 32256s job: 998 dft_time: 0
+#1626472: cov: 7957 ft: 36404 corp: 5181 exec/s 5 oom/timeout/crash: 0/0/0 time: 32308s job: 999 dft_time: 0
+#1628268: cov: 7957 ft: 36405 corp: 5182 exec/s 5 oom/timeout/crash: 0/0/0 time: 32349s job: 1000 dft_time: 0
+#1630113: cov: 7957 ft: 36405 corp: 5182 exec/s 6 oom/timeout/crash: 0/0/0 time: 32376s job: 1001 dft_time: 0
+#1631801: cov: 7957 ft: 36407 corp: 5183 exec/s 5 oom/timeout/crash: 0/0/0 time: 32427s job: 1002 dft_time: 0
+#1633520: cov: 7957 ft: 36431 corp: 5185 exec/s 5 oom/timeout/crash: 0/0/0 time: 32472s job: 1003 dft_time: 0
+#1635521: cov: 7957 ft: 36431 corp: 5185 exec/s 6 oom/timeout/crash: 0/0/0 time: 32480s job: 1004 dft_time: 0
+  NEW_FUNC: 0x66c2b0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66c2b0)
+  NEW_FUNC: 0x66c4c0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x66c4c0)
+#1637559: cov: 7963 ft: 36452 corp: 5190 exec/s 6 oom/timeout/crash: 0/0/0 time: 32528s job: 1005 dft_time: 0
+#1640058: cov: 7963 ft: 36457 corp: 5194 exec/s 8 oom/timeout/crash: 0/0/0 time: 32558s job: 1006 dft_time: 0
+#1641955: cov: 7963 ft: 36457 corp: 5194 exec/s 6 oom/timeout/crash: 0/0/0 time: 32610s job: 1007 dft_time: 0
+#1643547: cov: 7964 ft: 36471 corp: 5200 exec/s 5 oom/timeout/crash: 0/0/0 time: 32651s job: 1008 dft_time: 0
+#1644963: cov: 7964 ft: 36471 corp: 5200 exec/s 4 oom/timeout/crash: 0/0/0 time: 32678s job: 1009 dft_time: 0
+#1646947: cov: 7964 ft: 36474 corp: 5202 exec/s 6 oom/timeout/crash: 0/0/0 time: 32729s job: 1010 dft_time: 0
+#1648690: cov: 7964 ft: 36482 corp: 5204 exec/s 5 oom/timeout/crash: 0/0/0 time: 32773s job: 1011 dft_time: 0
+#1650696: cov: 7964 ft: 36483 corp: 5205 exec/s 6 oom/timeout/crash: 0/0/0 time: 32782s job: 1012 dft_time: 0
+#1652709: cov: 7964 ft: 36488 corp: 5207 exec/s 6 oom/timeout/crash: 0/0/0 time: 32831s job: 1013 dft_time: 0
+#1654307: cov: 7965 ft: 36493 corp: 5210 exec/s 5 oom/timeout/crash: 0/0/0 time: 32860s job: 1014 dft_time: 0
+#1656390: cov: 7966 ft: 36498 corp: 5212 exec/s 6 oom/timeout/crash: 0/0/0 time: 32912s job: 1015 dft_time: 0
+#1658606: cov: 7966 ft: 36499 corp: 5213 exec/s 7 oom/timeout/crash: 0/0/0 time: 32952s job: 1016 dft_time: 0
+#1660448: cov: 7966 ft: 36534 corp: 5220 exec/s 6 oom/timeout/crash: 0/0/0 time: 32980s job: 1017 dft_time: 0
+#1662370: cov: 7966 ft: 36535 corp: 5221 exec/s 6 oom/timeout/crash: 0/0/0 time: 33032s job: 1018 dft_time: 0
+#1664043: cov: 7966 ft: 36539 corp: 5225 exec/s 5 oom/timeout/crash: 0/0/0 time: 33075s job: 1019 dft_time: 0
+#1665910: cov: 7966 ft: 36539 corp: 5225 exec/s 6 oom/timeout/crash: 0/0/0 time: 33084s job: 1020 dft_time: 0
+#1667833: cov: 7966 ft: 36545 corp: 5228 exec/s 6 oom/timeout/crash: 0/0/0 time: 33133s job: 1021 dft_time: 0
+#1669888: cov: 7966 ft: 36545 corp: 5228 exec/s 6 oom/timeout/crash: 0/0/0 time: 33162s job: 1022 dft_time: 0
+#1672318: cov: 7966 ft: 36546 corp: 5229 exec/s 8 oom/timeout/crash: 0/0/0 time: 33213s job: 1023 dft_time: 0
+#1674616: cov: 7967 ft: 36566 corp: 5234 exec/s 7 oom/timeout/crash: 0/0/0 time: 33255s job: 1024 dft_time: 0
+#1676671: cov: 7970 ft: 36576 corp: 5238 exec/s 6 oom/timeout/crash: 0/0/0 time: 33282s job: 1025 dft_time: 0
+#1678805: cov: 7971 ft: 36620 corp: 5242 exec/s 7 oom/timeout/crash: 0/0/0 time: 33333s job: 1026 dft_time: 0
+#1680973: cov: 7972 ft: 36621 corp: 5243 exec/s 7 oom/timeout/crash: 0/0/0 time: 33377s job: 1027 dft_time: 0
+#1683082: cov: 7972 ft: 36621 corp: 5243 exec/s 7 oom/timeout/crash: 0/0/0 time: 33387s job: 1028 dft_time: 0
+#1684653: cov: 7979 ft: 36648 corp: 5246 exec/s 5 oom/timeout/crash: 0/0/0 time: 33435s job: 1029 dft_time: 0
+#1686657: cov: 7979 ft: 36649 corp: 5247 exec/s 6 oom/timeout/crash: 0/0/0 time: 33464s job: 1030 dft_time: 0
+#1688388: cov: 7980 ft: 36650 corp: 5248 exec/s 5 oom/timeout/crash: 0/0/0 time: 33517s job: 1031 dft_time: 0
+#1690283: cov: 7980 ft: 36650 corp: 5248 exec/s 6 oom/timeout/crash: 0/0/0 time: 33558s job: 1032 dft_time: 0
+#1692624: cov: 7980 ft: 36651 corp: 5249 exec/s 7 oom/timeout/crash: 0/0/0 time: 33584s job: 1033 dft_time: 0
+#1694223: cov: 7980 ft: 36653 corp: 5250 exec/s 5 oom/timeout/crash: 0/0/0 time: 33635s job: 1034 dft_time: 0
+#1696643: cov: 7980 ft: 36655 corp: 5251 exec/s 8 oom/timeout/crash: 0/0/0 time: 33678s job: 1035 dft_time: 0
+#1698908: cov: 7980 ft: 36751 corp: 5260 exec/s 7 oom/timeout/crash: 0/0/0 time: 33689s job: 1036 dft_time: 0
+#1700422: cov: 7980 ft: 36751 corp: 5260 exec/s 5 oom/timeout/crash: 0/0/0 time: 33738s job: 1037 dft_time: 0
+#1702914: cov: 7980 ft: 36751 corp: 5260 exec/s 8 oom/timeout/crash: 0/0/0 time: 33766s job: 1038 dft_time: 0
+#1704773: cov: 7980 ft: 36755 corp: 5263 exec/s 6 oom/timeout/crash: 0/0/0 time: 33818s job: 1039 dft_time: 0
+#1706664: cov: 7981 ft: 36769 corp: 5270 exec/s 6 oom/timeout/crash: 0/0/0 time: 33859s job: 1040 dft_time: 0
+#1708933: cov: 7981 ft: 36770 corp: 5271 exec/s 7 oom/timeout/crash: 0/0/0 time: 33886s job: 1041 dft_time: 0
+#1710627: cov: 7981 ft: 36771 corp: 5272 exec/s 5 oom/timeout/crash: 0/0/0 time: 33937s job: 1042 dft_time: 0
+#1712164: cov: 7981 ft: 36771 corp: 5272 exec/s 5 oom/timeout/crash: 0/0/0 time: 33981s job: 1043 dft_time: 0
+#1713862: cov: 7981 ft: 36776 corp: 5273 exec/s 5 oom/timeout/crash: 0/0/0 time: 33990s job: 1044 dft_time: 0
+#1716314: cov: 7981 ft: 36779 corp: 5276 exec/s 8 oom/timeout/crash: 0/0/0 time: 34041s job: 1045 dft_time: 0
+#1718057: cov: 7983 ft: 36798 corp: 5288 exec/s 5 oom/timeout/crash: 0/0/0 time: 34069s job: 1046 dft_time: 0
+#1719655: cov: 7983 ft: 36802 corp: 5290 exec/s 5 oom/timeout/crash: 0/0/0 time: 34121s job: 1047 dft_time: 0
+#1721179: cov: 7983 ft: 36804 corp: 5292 exec/s 5 oom/timeout/crash: 0/0/0 time: 34162s job: 1048 dft_time: 0
+#1723316: cov: 7983 ft: 36806 corp: 5293 exec/s 7 oom/timeout/crash: 0/0/0 time: 34188s job: 1049 dft_time: 0
+#1725390: cov: 7983 ft: 36809 corp: 5295 exec/s 6 oom/timeout/crash: 0/0/0 time: 34240s job: 1050 dft_time: 0
+#1727262: cov: 7983 ft: 36813 corp: 5296 exec/s 6 oom/timeout/crash: 0/0/0 time: 34283s job: 1051 dft_time: 0
+#1729281: cov: 7985 ft: 36822 corp: 5301 exec/s 6 oom/timeout/crash: 0/0/0 time: 34293s job: 1052 dft_time: 0
+#1731379: cov: 7987 ft: 36827 corp: 5305 exec/s 6 oom/timeout/crash: 0/0/0 time: 34344s job: 1053 dft_time: 0
+#1733441: cov: 7987 ft: 36828 corp: 5306 exec/s 6 oom/timeout/crash: 0/0/0 time: 34371s job: 1054 dft_time: 0
+#1735208: cov: 7987 ft: 36830 corp: 5307 exec/s 5 oom/timeout/crash: 0/0/0 time: 34423s job: 1055 dft_time: 0
+#1737129: cov: 7987 ft: 36832 corp: 5308 exec/s 6 oom/timeout/crash: 0/0/0 time: 34464s job: 1056 dft_time: 0
+#1739720: cov: 7987 ft: 36834 corp: 5309 exec/s 8 oom/timeout/crash: 0/0/0 time: 34491s job: 1057 dft_time: 0
+#1741871: cov: 7987 ft: 36834 corp: 5309 exec/s 7 oom/timeout/crash: 0/0/0 time: 34542s job: 1058 dft_time: 0
+#1744275: cov: 7987 ft: 36840 corp: 5311 exec/s 7 oom/timeout/crash: 0/0/0 time: 34585s job: 1059 dft_time: 0
+#1746959: cov: 7987 ft: 36847 corp: 5314 exec/s 8 oom/timeout/crash: 0/0/0 time: 34597s job: 1060 dft_time: 0
+#1749078: cov: 7988 ft: 36855 corp: 5317 exec/s 7 oom/timeout/crash: 0/0/0 time: 34646s job: 1061 dft_time: 0
+#1751105: cov: 7991 ft: 36867 corp: 5322 exec/s 6 oom/timeout/crash: 0/0/0 time: 34673s job: 1062 dft_time: 0
+#1752616: cov: 7992 ft: 36880 corp: 5327 exec/s 5 oom/timeout/crash: 0/0/0 time: 34724s job: 1063 dft_time: 0
+#1754259: cov: 7992 ft: 36880 corp: 5327 exec/s 5 oom/timeout/crash: 0/0/0 time: 34767s job: 1064 dft_time: 0
+#1756473: cov: 7992 ft: 36881 corp: 5328 exec/s 7 oom/timeout/crash: 0/0/0 time: 34792s job: 1065 dft_time: 0
+#1758742: cov: 7992 ft: 36883 corp: 5330 exec/s 7 oom/timeout/crash: 0/0/0 time: 34844s job: 1066 dft_time: 0
+#1760911: cov: 7992 ft: 36888 corp: 5332 exec/s 7 oom/timeout/crash: 0/0/0 time: 34888s job: 1067 dft_time: 0
+#1762564: cov: 7992 ft: 36913 corp: 5337 exec/s 5 oom/timeout/crash: 0/0/0 time: 34899s job: 1068 dft_time: 0
+#1764293: cov: 7992 ft: 36913 corp: 5337 exec/s 5 oom/timeout/crash: 0/0/0 time: 34949s job: 1069 dft_time: 0
+#1766072: cov: 7992 ft: 36915 corp: 5338 exec/s 5 oom/timeout/crash: 0/0/0 time: 34976s job: 1070 dft_time: 0
+#1767778: cov: 7992 ft: 36916 corp: 5339 exec/s 5 oom/timeout/crash: 0/0/0 time: 35026s job: 1071 dft_time: 0
+#1769391: cov: 7992 ft: 36918 corp: 5340 exec/s 5 oom/timeout/crash: 0/0/0 time: 35068s job: 1072 dft_time: 0
+#1770912: cov: 7992 ft: 36924 corp: 5341 exec/s 5 oom/timeout/crash: 0/0/0 time: 35094s job: 1073 dft_time: 0
+#1773006: cov: 7992 ft: 36926 corp: 5343 exec/s 6 oom/timeout/crash: 0/0/0 time: 35147s job: 1074 dft_time: 0
+#1775390: cov: 7992 ft: 36930 corp: 5345 exec/s 7 oom/timeout/crash: 0/0/0 time: 35191s job: 1075 dft_time: 0
+#1777996: cov: 7992 ft: 36943 corp: 5353 exec/s 8 oom/timeout/crash: 0/0/0 time: 35201s job: 1076 dft_time: 0
+#1780265: cov: 7992 ft: 36957 corp: 5360 exec/s 7 oom/timeout/crash: 0/0/0 time: 35252s job: 1077 dft_time: 0
+#1782238: cov: 7994 ft: 36960 corp: 5362 exec/s 6 oom/timeout/crash: 0/0/0 time: 35278s job: 1078 dft_time: 0
+#1784106: cov: 7994 ft: 36960 corp: 5362 exec/s 6 oom/timeout/crash: 0/0/0 time: 35328s job: 1079 dft_time: 0
+#1785933: cov: 7997 ft: 36964 corp: 5364 exec/s 6 oom/timeout/crash: 0/0/0 time: 35371s job: 1080 dft_time: 0
+#1787713: cov: 7997 ft: 36966 corp: 5366 exec/s 5 oom/timeout/crash: 0/0/0 time: 35397s job: 1081 dft_time: 0
+#1789793: cov: 7997 ft: 36968 corp: 5367 exec/s 6 oom/timeout/crash: 0/0/0 time: 35449s job: 1082 dft_time: 0
+#1791910: cov: 7997 ft: 36968 corp: 5367 exec/s 7 oom/timeout/crash: 0/0/0 time: 35494s job: 1083 dft_time: 0
+#1793968: cov: 7997 ft: 36968 corp: 5367 exec/s 6 oom/timeout/crash: 0/0/0 time: 35505s job: 1084 dft_time: 0
+#1795523: cov: 7997 ft: 36969 corp: 5368 exec/s 5 oom/timeout/crash: 0/0/0 time: 35555s job: 1085 dft_time: 0
+#1797390: cov: 7997 ft: 36978 corp: 5372 exec/s 6 oom/timeout/crash: 0/0/0 time: 35580s job: 1086 dft_time: 0
+#1799392: cov: 7997 ft: 36978 corp: 5372 exec/s 6 oom/timeout/crash: 0/0/0 time: 35631s job: 1087 dft_time: 0
+#1801290: cov: 7997 ft: 36982 corp: 5375 exec/s 6 oom/timeout/crash: 0/0/0 time: 35673s job: 1088 dft_time: 0
+#1803148: cov: 7997 ft: 36982 corp: 5375 exec/s 6 oom/timeout/crash: 0/0/0 time: 35699s job: 1089 dft_time: 0
+#1804913: cov: 7997 ft: 36983 corp: 5376 exec/s 5 oom/timeout/crash: 0/0/0 time: 35750s job: 1090 dft_time: 0
+#1806740: cov: 7997 ft: 36993 corp: 5377 exec/s 6 oom/timeout/crash: 0/0/0 time: 35795s job: 1091 dft_time: 0
+#1808662: cov: 7997 ft: 36994 corp: 5378 exec/s 6 oom/timeout/crash: 0/0/0 time: 35807s job: 1092 dft_time: 0
+#1810104: cov: 7998 ft: 36997 corp: 5380 exec/s 4 oom/timeout/crash: 0/0/0 time: 35857s job: 1093 dft_time: 0
+#1812372: cov: 7998 ft: 37000 corp: 5382 exec/s 7 oom/timeout/crash: 0/0/0 time: 35882s job: 1094 dft_time: 0
+#1814655: cov: 7998 ft: 37001 corp: 5383 exec/s 7 oom/timeout/crash: 0/0/0 time: 35933s job: 1095 dft_time: 0
+#1816396: cov: 7998 ft: 37006 corp: 5385 exec/s 5 oom/timeout/crash: 0/0/0 time: 35974s job: 1096 dft_time: 0
+#1818533: cov: 7998 ft: 37008 corp: 5386 exec/s 7 oom/timeout/crash: 0/0/0 time: 36002s job: 1097 dft_time: 0
+#1820532: cov: 7998 ft: 37008 corp: 5386 exec/s 6 oom/timeout/crash: 0/0/0 time: 36051s job: 1098 dft_time: 0
+#1822761: cov: 7999 ft: 37010 corp: 5388 exec/s 7 oom/timeout/crash: 0/0/0 time: 36097s job: 1099 dft_time: 0
+#1825015: cov: 7999 ft: 37012 corp: 5390 exec/s 7 oom/timeout/crash: 0/0/0 time: 36110s job: 1100 dft_time: 0
+#1826860: cov: 7999 ft: 37012 corp: 5390 exec/s 6 oom/timeout/crash: 0/0/0 time: 36159s job: 1101 dft_time: 0
+#1828791: cov: 8001 ft: 37018 corp: 5393 exec/s 6 oom/timeout/crash: 0/0/0 time: 36183s job: 1102 dft_time: 0
+#1830716: cov: 8005 ft: 37024 corp: 5399 exec/s 6 oom/timeout/crash: 0/0/0 time: 36235s job: 1103 dft_time: 0
+#1832632: cov: 8005 ft: 37024 corp: 5399 exec/s 6 oom/timeout/crash: 0/0/0 time: 36278s job: 1104 dft_time: 0
+#1834620: cov: 8005 ft: 37026 corp: 5401 exec/s 6 oom/timeout/crash: 0/0/0 time: 36305s job: 1105 dft_time: 0
+#1837165: cov: 8005 ft: 37027 corp: 5402 exec/s 8 oom/timeout/crash: 0/0/0 time: 36354s job: 1106 dft_time: 0
+#1839002: cov: 8005 ft: 37046 corp: 5406 exec/s 6 oom/timeout/crash: 0/0/0 time: 36399s job: 1107 dft_time: 0
+#1841016: cov: 8005 ft: 37046 corp: 5406 exec/s 6 oom/timeout/crash: 0/0/0 time: 36411s job: 1108 dft_time: 0
+#1842686: cov: 8005 ft: 37050 corp: 5408 exec/s 5 oom/timeout/crash: 0/0/0 time: 36461s job: 1109 dft_time: 0
+  NEW_FUNC: 0x9a0d80  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9a0d80)
+#1844357: cov: 8025 ft: 37072 corp: 5412 exec/s 5 oom/timeout/crash: 0/0/0 time: 36486s job: 1110 dft_time: 0
+#1846844: cov: 8025 ft: 37073 corp: 5413 exec/s 8 oom/timeout/crash: 0/0/0 time: 36536s job: 1111 dft_time: 0
+#1848896: cov: 8025 ft: 37073 corp: 5413 exec/s 6 oom/timeout/crash: 0/0/0 time: 36580s job: 1112 dft_time: 0
+#1850592: cov: 8025 ft: 37074 corp: 5414 exec/s 5 oom/timeout/crash: 0/0/0 time: 36607s job: 1113 dft_time: 0
+#1852389: cov: 8025 ft: 37074 corp: 5414 exec/s 5 oom/timeout/crash: 0/0/0 time: 36656s job: 1114 dft_time: 0
+#1854601: cov: 8026 ft: 37077 corp: 5416 exec/s 7 oom/timeout/crash: 0/0/0 time: 36701s job: 1115 dft_time: 0
+#1856212: cov: 8026 ft: 37085 corp: 5420 exec/s 5 oom/timeout/crash: 0/0/0 time: 36713s job: 1116 dft_time: 0
+#1858161: cov: 8026 ft: 37085 corp: 5420 exec/s 6 oom/timeout/crash: 0/0/0 time: 36763s job: 1117 dft_time: 0
+#1860566: cov: 8026 ft: 37085 corp: 5420 exec/s 7 oom/timeout/crash: 0/0/0 time: 36788s job: 1118 dft_time: 0
+#1862338: cov: 8026 ft: 37085 corp: 5420 exec/s 5 oom/timeout/crash: 0/0/0 time: 36838s job: 1119 dft_time: 0
+#1864863: cov: 8026 ft: 37085 corp: 5420 exec/s 8 oom/timeout/crash: 0/0/0 time: 36883s job: 1120 dft_time: 0
+#1866664: cov: 8026 ft: 37085 corp: 5420 exec/s 5 oom/timeout/crash: 0/0/0 time: 36909s job: 1121 dft_time: 0
+#1868493: cov: 8027 ft: 37086 corp: 5421 exec/s 6 oom/timeout/crash: 0/0/0 time: 36958s job: 1122 dft_time: 0
+#1870656: cov: 8027 ft: 37092 corp: 5423 exec/s 7 oom/timeout/crash: 0/0/0 time: 37003s job: 1123 dft_time: 0
+#1872664: cov: 8027 ft: 37101 corp: 5426 exec/s 6 oom/timeout/crash: 0/0/0 time: 37015s job: 1124 dft_time: 0
+#1875096: cov: 8027 ft: 37109 corp: 5430 exec/s 8 oom/timeout/crash: 0/0/0 time: 37065s job: 1125 dft_time: 0
+  NEW_FUNC: 0xa23970  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa23970)
+  NEW_FUNC: 0xa24650  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa24650)
+#1877029: cov: 8038 ft: 37157 corp: 5434 exec/s 6 oom/timeout/crash: 0/0/0 time: 37090s job: 1126 dft_time: 0
+#1878967: cov: 8038 ft: 37157 corp: 5434 exec/s 6 oom/timeout/crash: 0/0/0 time: 37139s job: 1127 dft_time: 0
+#1880534: cov: 8039 ft: 37159 corp: 5436 exec/s 5 oom/timeout/crash: 0/0/0 time: 37185s job: 1128 dft_time: 0
+#1882575: cov: 8039 ft: 37159 corp: 5436 exec/s 6 oom/timeout/crash: 0/0/0 time: 37210s job: 1129 dft_time: 0
+#1884457: cov: 8041 ft: 37175 corp: 5439 exec/s 6 oom/timeout/crash: 0/0/0 time: 37261s job: 1130 dft_time: 0
+#1886292: cov: 8041 ft: 37178 corp: 5440 exec/s 6 oom/timeout/crash: 0/0/0 time: 37304s job: 1131 dft_time: 0
+#1888295: cov: 8041 ft: 37183 corp: 5441 exec/s 6 oom/timeout/crash: 0/0/0 time: 37318s job: 1132 dft_time: 0
+#1890298: cov: 8041 ft: 37186 corp: 5442 exec/s 6 oom/timeout/crash: 0/0/0 time: 37367s job: 1133 dft_time: 0
+  NEW_FUNC: 0xa3f9d0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa3f9d0)
+#1892738: cov: 8051 ft: 37257 corp: 5450 exec/s 8 oom/timeout/crash: 0/0/0 time: 37391s job: 1134 dft_time: 0
+  NEW_FUNC: 0x9a2c20  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9a2c20)
+  NEW_FUNC: 0x9a3294  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x9a3294)
+#1895525: cov: 8064 ft: 37288 corp: 5453 exec/s 9 oom/timeout/crash: 0/0/0 time: 37441s job: 1135 dft_time: 0
+#1897323: cov: 8064 ft: 37302 corp: 5459 exec/s 5 oom/timeout/crash: 0/0/0 time: 37486s job: 1136 dft_time: 0
+#1899258: cov: 8064 ft: 37304 corp: 5461 exec/s 6 oom/timeout/crash: 0/0/0 time: 37513s job: 1137 dft_time: 0
+#1901304: cov: 8064 ft: 37305 corp: 5462 exec/s 6 oom/timeout/crash: 0/0/0 time: 37564s job: 1138 dft_time: 0
+#1903717: cov: 8072 ft: 37320 corp: 5467 exec/s 8 oom/timeout/crash: 0/0/0 time: 37606s job: 1139 dft_time: 0
+#1905350: cov: 8072 ft: 37321 corp: 5468 exec/s 5 oom/timeout/crash: 0/0/0 time: 37620s job: 1140 dft_time: 0
+#1907267: cov: 8072 ft: 37321 corp: 5468 exec/s 6 oom/timeout/crash: 0/0/0 time: 37668s job: 1141 dft_time: 0
+#1908741: cov: 8075 ft: 37341 corp: 5474 exec/s 4 oom/timeout/crash: 0/0/0 time: 37694s job: 1142 dft_time: 0
+#1910907: cov: 8075 ft: 37341 corp: 5474 exec/s 7 oom/timeout/crash: 0/0/0 time: 37744s job: 1143 dft_time: 0
+#1912915: cov: 8077 ft: 37343 corp: 5475 exec/s 6 oom/timeout/crash: 0/0/0 time: 37788s job: 1144 dft_time: 0
+#1914621: cov: 8077 ft: 37348 corp: 5478 exec/s 5 oom/timeout/crash: 0/0/0 time: 37814s job: 1145 dft_time: 0
+#1916930: cov: 8077 ft: 37348 corp: 5478 exec/s 7 oom/timeout/crash: 0/0/0 time: 37867s job: 1146 dft_time: 0
+#1919040: cov: 8077 ft: 37349 corp: 5479 exec/s 7 oom/timeout/crash: 0/0/0 time: 37908s job: 1147 dft_time: 0
+#1920617: cov: 8079 ft: 37365 corp: 5483 exec/s 5 oom/timeout/crash: 0/0/0 time: 37922s job: 1148 dft_time: 0
+#1922431: cov: 8079 ft: 37365 corp: 5483 exec/s 6 oom/timeout/crash: 0/0/0 time: 37971s job: 1149 dft_time: 0
+#1924560: cov: 8079 ft: 37365 corp: 5483 exec/s 7 oom/timeout/crash: 0/0/0 time: 37996s job: 1150 dft_time: 0
+#1926263: cov: 8080 ft: 37366 corp: 5484 exec/s 5 oom/timeout/crash: 0/0/0 time: 38048s job: 1151 dft_time: 0
+#1927908: cov: 8080 ft: 37368 corp: 5485 exec/s 5 oom/timeout/crash: 0/0/0 time: 38091s job: 1152 dft_time: 0
+#1929791: cov: 8080 ft: 37389 corp: 5489 exec/s 6 oom/timeout/crash: 0/0/0 time: 38116s job: 1153 dft_time: 0
+#1931527: cov: 8080 ft: 37389 corp: 5489 exec/s 5 oom/timeout/crash: 0/0/0 time: 38168s job: 1154 dft_time: 0
+#1933175: cov: 8080 ft: 37389 corp: 5489 exec/s 5 oom/timeout/crash: 0/0/0 time: 38211s job: 1155 dft_time: 0
+#1934969: cov: 8080 ft: 37392 corp: 5491 exec/s 5 oom/timeout/crash: 0/0/0 time: 38223s job: 1156 dft_time: 0
+#1936741: cov: 8080 ft: 37392 corp: 5491 exec/s 5 oom/timeout/crash: 0/0/0 time: 38273s job: 1157 dft_time: 0
+#1938600: cov: 8080 ft: 37393 corp: 5492 exec/s 6 oom/timeout/crash: 0/0/0 time: 38297s job: 1158 dft_time: 0
+#1940209: cov: 8080 ft: 37394 corp: 5493 exec/s 5 oom/timeout/crash: 0/0/0 time: 38349s job: 1159 dft_time: 0
+#1942644: cov: 8080 ft: 37397 corp: 5495 exec/s 8 oom/timeout/crash: 0/0/0 time: 38394s job: 1160 dft_time: 0
+#1944599: cov: 8080 ft: 37399 corp: 5497 exec/s 6 oom/timeout/crash: 0/0/0 time: 38417s job: 1161 dft_time: 0
+#1946311: cov: 8080 ft: 37404 corp: 5500 exec/s 5 oom/timeout/crash: 0/0/0 time: 38470s job: 1162 dft_time: 0
+#1947883: cov: 8080 ft: 37410 corp: 5502 exec/s 5 oom/timeout/crash: 0/0/0 time: 38513s job: 1163 dft_time: 0
+#1949734: cov: 8080 ft: 37410 corp: 5502 exec/s 6 oom/timeout/crash: 0/0/0 time: 38525s job: 1164 dft_time: 0
+#1951824: cov: 8080 ft: 37413 corp: 5505 exec/s 6 oom/timeout/crash: 0/0/0 time: 38575s job: 1165 dft_time: 0
+  NEW_FUNC: 0xa21bf0  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa21bf0)
+  NEW_FUNC: 0xa22640  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa22640)
+  NEW_FUNC: 0xa2b000  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0xa2b000)
+#1953544: cov: 8099 ft: 37434 corp: 5508 exec/s 5 oom/timeout/crash: 0/0/0 time: 38599s job: 1166 dft_time: 0
+#1955624: cov: 8099 ft: 37444 corp: 5512 exec/s 6 oom/timeout/crash: 0/0/0 time: 38652s job: 1167 dft_time: 0
+#1957904: cov: 8099 ft: 37448 corp: 5514 exec/s 7 oom/timeout/crash: 0/0/0 time: 38696s job: 1168 dft_time: 0
+#1959580: cov: 8099 ft: 37495 corp: 5520 exec/s 5 oom/timeout/crash: 0/0/0 time: 38720s job: 1169 dft_time: 0
+#1961261: cov: 8101 ft: 37498 corp: 5522 exec/s 5 oom/timeout/crash: 0/0/0 time: 38772s job: 1170 dft_time: 0
+#1963342: cov: 8101 ft: 37500 corp: 5524 exec/s 6 oom/timeout/crash: 0/0/0 time: 38816s job: 1171 dft_time: 0
+#1965100: cov: 8101 ft: 37500 corp: 5524 exec/s 5 oom/timeout/crash: 0/0/0 time: 38828s job: 1172 dft_time: 0
+#1966955: cov: 8101 ft: 37506 corp: 5527 exec/s 6 oom/timeout/crash: 0/0/0 time: 38878s job: 1173 dft_time: 0
+#1968719: cov: 8101 ft: 37536 corp: 5529 exec/s 5 oom/timeout/crash: 0/0/0 time: 38902s job: 1174 dft_time: 0
+#1970532: cov: 8101 ft: 37539 corp: 5531 exec/s 6 oom/timeout/crash: 0/0/0 time: 38954s job: 1175 dft_time: 0
+#1972129: cov: 8101 ft: 37539 corp: 5531 exec/s 5 oom/timeout/crash: 0/0/0 time: 39000s job: 1176 dft_time: 0
+#1974228: cov: 8101 ft: 37541 corp: 5533 exec/s 6 oom/timeout/crash: 0/0/0 time: 39021s job: 1177 dft_time: 0
+#1976436: cov: 8111 ft: 37552 corp: 5534 exec/s 7 oom/timeout/crash: 0/0/0 time: 39075s job: 1178 dft_time: 0
+#1978032: cov: 8111 ft: 37555 corp: 5535 exec/s 5 oom/timeout/crash: 0/0/0 time: 39117s job: 1179 dft_time: 0
+#1979836: cov: 8111 ft: 37555 corp: 5535 exec/s 5 oom/timeout/crash: 0/0/0 time: 39130s job: 1180 dft_time: 0
+#1981753: cov: 8111 ft: 37555 corp: 5535 exec/s 6 oom/timeout/crash: 0/0/0 time: 39180s job: 1181 dft_time: 0
+#1983329: cov: 8111 ft: 37557 corp: 5536 exec/s 5 oom/timeout/crash: 0/0/0 time: 39205s job: 1182 dft_time: 0
+#1985190: cov: 8111 ft: 37558 corp: 5537 exec/s 6 oom/timeout/crash: 0/0/0 time: 39255s job: 1183 dft_time: 0
+#1986776: cov: 8111 ft: 37571 corp: 5538 exec/s 5 oom/timeout/crash: 0/0/0 time: 39302s job: 1184 dft_time: 0
+#1988936: cov: 8111 ft: 37571 corp: 5538 exec/s 7 oom/timeout/crash: 0/0/0 time: 39324s job: 1185 dft_time: 0
+#1990854: cov: 8111 ft: 37571 corp: 5538 exec/s 6 oom/timeout/crash: 0/0/0 time: 39377s job: 1186 dft_time: 0
+#1992838: cov: 8113 ft: 37580 corp: 5540 exec/s 6 oom/timeout/crash: 0/0/0 time: 39420s job: 1187 dft_time: 0
+#1995063: cov: 8113 ft: 37584 corp: 5542 exec/s 7 oom/timeout/crash: 0/0/0 time: 39431s job: 1188 dft_time: 0
+#1997078: cov: 8113 ft: 37585 corp: 5543 exec/s 6 oom/timeout/crash: 0/0/0 time: 39481s job: 1189 dft_time: 0
+#1999208: cov: 8114 ft: 37589 corp: 5545 exec/s 7 oom/timeout/crash: 0/0/0 time: 39506s job: 1190 dft_time: 0
+#2001530: cov: 8114 ft: 37592 corp: 5546 exec/s 7 oom/timeout/crash: 0/0/0 time: 39557s job: 1191 dft_time: 0
+#2003093: cov: 8114 ft: 37603 corp: 5550 exec/s 5 oom/timeout/crash: 0/0/0 time: 39604s job: 1192 dft_time: 0
+#2004534: cov: 8114 ft: 37618 corp: 5552 exec/s 4 oom/timeout/crash: 0/0/0 time: 39626s job: 1193 dft_time: 0
+#2006336: cov: 8116 ft: 37620 corp: 5553 exec/s 5 oom/timeout/crash: 0/0/0 time: 39679s job: 1194 dft_time: 0
+#2008379: cov: 8116 ft: 37624 corp: 5555 exec/s 6 oom/timeout/crash: 0/0/0 time: 39721s job: 1195 dft_time: 0
+#2010299: cov: 8116 ft: 37627 corp: 5556 exec/s 6 oom/timeout/crash: 0/0/0 time: 39733s job: 1196 dft_time: 0
+#2012418: cov: 8118 ft: 37631 corp: 5558 exec/s 7 oom/timeout/crash: 0/0/0 time: 39783s job: 1197 dft_time: 0
+#2014776: cov: 8120 ft: 37635 corp: 5560 exec/s 7 oom/timeout/crash: 0/0/0 time: 39809s job: 1198 dft_time: 0
+#2016487: cov: 8120 ft: 37647 corp: 5564 exec/s 5 oom/timeout/crash: 0/0/0 time: 39859s job: 1199 dft_time: 0
+#2018741: cov: 8120 ft: 37652 corp: 5566 exec/s 7 oom/timeout/crash: 0/0/0 time: 39906s job: 1200 dft_time: 0
+#2020875: cov: 8120 ft: 37657 corp: 5568 exec/s 7 oom/timeout/crash: 0/0/0 time: 39928s job: 1201 dft_time: 0
+#2023460: cov: 8120 ft: 37657 corp: 5568 exec/s 8 oom/timeout/crash: 0/0/0 time: 39980s job: 1202 dft_time: 0
+#2024997: cov: 8120 ft: 37661 corp: 5570 exec/s 5 oom/timeout/crash: 0/0/0 time: 40024s job: 1203 dft_time: 0
+#2026981: cov: 8120 ft: 37661 corp: 5570 exec/s 6 oom/timeout/crash: 0/0/0 time: 40036s job: 1204 dft_time: 0
+#2028921: cov: 8120 ft: 37662 corp: 5571 exec/s 6 oom/timeout/crash: 0/0/0 time: 40085s job: 1205 dft_time: 0
+#2030816: cov: 8120 ft: 37662 corp: 5571 exec/s 6 oom/timeout/crash: 0/0/0 time: 40111s job: 1206 dft_time: 0
+#2033315: cov: 8120 ft: 37663 corp: 5572 exec/s 8 oom/timeout/crash: 0/0/0 time: 40161s job: 1207 dft_time: 0
+#2035135: cov: 8120 ft: 37667 corp: 5575 exec/s 6 oom/timeout/crash: 0/0/0 time: 40208s job: 1208 dft_time: 0
+#2037768: cov: 8128 ft: 37711 corp: 5580 exec/s 8 oom/timeout/crash: 0/0/0 time: 40230s job: 1209 dft_time: 0
+#2039971: cov: 8128 ft: 37711 corp: 5580 exec/s 7 oom/timeout/crash: 0/0/0 time: 40282s job: 1210 dft_time: 0
+#2041829: cov: 8129 ft: 37717 corp: 5584 exec/s 6 oom/timeout/crash: 0/0/0 time: 40326s job: 1211 dft_time: 0
+#2043415: cov: 8129 ft: 37717 corp: 5584 exec/s 5 oom/timeout/crash: 0/0/0 time: 40339s job: 1212 dft_time: 0
+#2045438: cov: 8130 ft: 37721 corp: 5587 exec/s 6 oom/timeout/crash: 0/0/0 time: 40387s job: 1213 dft_time: 0
+#2047613: cov: 8130 ft: 37721 corp: 5587 exec/s 7 oom/timeout/crash: 0/0/0 time: 40413s job: 1214 dft_time: 0
+#2049675: cov: 8132 ft: 37735 corp: 5590 exec/s 6 oom/timeout/crash: 0/0/0 time: 40463s job: 1215 dft_time: 0
+#2052124: cov: 8133 ft: 37736 corp: 5591 exec/s 8 oom/timeout/crash: 0/0/0 time: 40511s job: 1216 dft_time: 0
+#2054500: cov: 8133 ft: 37742 corp: 5593 exec/s 7 oom/timeout/crash: 0/0/0 time: 40531s job: 1217 dft_time: 0
+#2056307: cov: 8134 ft: 37746 corp: 5596 exec/s 6 oom/timeout/crash: 0/0/0 time: 40584s job: 1218 dft_time: 0
+#2058419: cov: 8134 ft: 37749 corp: 5597 exec/s 7 oom/timeout/crash: 0/0/0 time: 40628s job: 1219 dft_time: 0
+#2060755: cov: 8134 ft: 37750 corp: 5598 exec/s 7 oom/timeout/crash: 0/0/0 time: 40641s job: 1220 dft_time: 0
+#2062268: cov: 8134 ft: 37750 corp: 5598 exec/s 5 oom/timeout/crash: 0/0/0 time: 40689s job: 1221 dft_time: 0
+#2064235: cov: 8134 ft: 37752 corp: 5600 exec/s 6 oom/timeout/crash: 0/0/0 time: 40715s job: 1222 dft_time: 0
+#2066538: cov: 8134 ft: 37757 corp: 5602 exec/s 7 oom/timeout/crash: 0/0/0 time: 40765s job: 1223 dft_time: 0
+#2068214: cov: 8136 ft: 37779 corp: 5609 exec/s 5 oom/timeout/crash: 0/0/0 time: 40813s job: 1224 dft_time: 0
+#2070009: cov: 8136 ft: 37779 corp: 5609 exec/s 5 oom/timeout/crash: 0/0/0 time: 40833s job: 1225 dft_time: 0
+#2071967: cov: 8136 ft: 37780 corp: 5610 exec/s 6 oom/timeout/crash: 0/0/0 time: 40887s job: 1226 dft_time: 0
+#2074079: cov: 8136 ft: 37780 corp: 5610 exec/s 7 oom/timeout/crash: 0/0/0 time: 40930s job: 1227 dft_time: 0
+#2075852: cov: 8136 ft: 37809 corp: 5612 exec/s 5 oom/timeout/crash: 0/0/0 time: 40943s job: 1228 dft_time: 0
+#2078301: cov: 8136 ft: 37813 corp: 5614 exec/s 8 oom/timeout/crash: 0/0/0 time: 40991s job: 1229 dft_time: 0
+#2080652: cov: 8142 ft: 37826 corp: 5616 exec/s 7 oom/timeout/crash: 0/0/0 time: 41017s job: 1230 dft_time: 0
+#2082434: cov: 8143 ft: 37852 corp: 5618 exec/s 5 oom/timeout/crash: 0/0/0 time: 41068s job: 1231 dft_time: 0
+#2083987: cov: 8143 ft: 37852 corp: 5618 exec/s 5 oom/timeout/crash: 0/0/0 time: 41115s job: 1232 dft_time: 0
+#2085884: cov: 8147 ft: 37861 corp: 5621 exec/s 6 oom/timeout/crash: 0/0/0 time: 41135s job: 1233 dft_time: 0
+#2087800: cov: 8147 ft: 37861 corp: 5621 exec/s 6 oom/timeout/crash: 0/0/0 time: 41189s job: 1234 dft_time: 0
+#2089556: cov: 8149 ft: 37864 corp: 5623 exec/s 5 oom/timeout/crash: 0/0/0 time: 41234s job: 1235 dft_time: 0
+#2091692: cov: 8149 ft: 37865 corp: 5624 exec/s 7 oom/timeout/crash: 0/0/0 time: 41245s job: 1236 dft_time: 0
+#2093590: cov: 8149 ft: 37865 corp: 5624 exec/s 6 oom/timeout/crash: 0/0/0 time: 41293s job: 1237 dft_time: 0
+#2095664: cov: 8149 ft: 37865 corp: 5624 exec/s 6 oom/timeout/crash: 0/0/0 time: 41319s job: 1238 dft_time: 0
+#2097705: cov: 8149 ft: 37865 corp: 5624 exec/s 6 oom/timeout/crash: 0/0/0 time: 41370s job: 1239 dft_time: 0
+#2100261: cov: 8149 ft: 37866 corp: 5625 exec/s 8 oom/timeout/crash: 0/0/0 time: 41417s job: 1240 dft_time: 0
+#2102087: cov: 8149 ft: 37867 corp: 5626 exec/s 6 oom/timeout/crash: 0/0/0 time: 41437s job: 1241 dft_time: 0
+#2103674: cov: 8149 ft: 37869 corp: 5628 exec/s 5 oom/timeout/crash: 0/0/0 time: 41491s job: 1242 dft_time: 0
+#2105288: cov: 8149 ft: 37869 corp: 5628 exec/s 5 oom/timeout/crash: 0/0/0 time: 41535s job: 1243 dft_time: 0
+#2107385: cov: 8149 ft: 37869 corp: 5628 exec/s 6 oom/timeout/crash: 0/0/0 time: 41546s job: 1244 dft_time: 0
+#2109348: cov: 8149 ft: 37869 corp: 5628 exec/s 6 oom/timeout/crash: 0/0/0 time: 41594s job: 1245 dft_time: 0
+#2111860: cov: 8149 ft: 37869 corp: 5628 exec/s 8 oom/timeout/crash: 0/0/0 time: 41621s job: 1246 dft_time: 0
+#2113950: cov: 8149 ft: 37872 corp: 5629 exec/s 6 oom/timeout/crash: 0/0/0 time: 41671s job: 1247 dft_time: 0
+#2115768: cov: 8149 ft: 37878 corp: 5631 exec/s 6 oom/timeout/crash: 0/0/0 time: 41719s job: 1248 dft_time: 0
+#2117578: cov: 8149 ft: 37879 corp: 5632 exec/s 6 oom/timeout/crash: 0/0/0 time: 41739s job: 1249 dft_time: 0
+#2119301: cov: 8149 ft: 37883 corp: 5635 exec/s 5 oom/timeout/crash: 0/0/0 time: 41792s job: 1250 dft_time: 0
+#2121006: cov: 8149 ft: 37888 corp: 5636 exec/s 5 oom/timeout/crash: 0/0/0 time: 41837s job: 1251 dft_time: 0
+#2123351: cov: 8149 ft: 37888 corp: 5636 exec/s 7 oom/timeout/crash: 0/0/0 time: 41848s job: 1252 dft_time: 0
+#2125003: cov: 8149 ft: 37902 corp: 5639 exec/s 5 oom/timeout/crash: 0/0/0 time: 41897s job: 1253 dft_time: 0
+#2126974: cov: 8149 ft: 37902 corp: 5639 exec/s 6 oom/timeout/crash: 0/0/0 time: 41923s job: 1254 dft_time: 0
+#2129068: cov: 8149 ft: 37905 corp: 5641 exec/s 6 oom/timeout/crash: 0/0/0 time: 41974s job: 1255 dft_time: 0
+#2131379: cov: 8149 ft: 37907 corp: 5642 exec/s 7 oom/timeout/crash: 0/0/0 time: 42021s job: 1256 dft_time: 0
+#2133777: cov: 8149 ft: 37908 corp: 5643 exec/s 7 oom/timeout/crash: 0/0/0 time: 42041s job: 1257 dft_time: 0
+#2135824: cov: 8149 ft: 37908 corp: 5643 exec/s 6 oom/timeout/crash: 0/0/0 time: 42094s job: 1258 dft_time: 0
+#2137403: cov: 8149 ft: 37910 corp: 5645 exec/s 5 oom/timeout/crash: 0/0/0 time: 42138s job: 1259 dft_time: 0
+  NEW_FUNC: 0x5bc480  (/home/gtt/out/ffmpeg-libfuzzer/ffmpeg_DEMUXER_fuzzer+0x5bc480)
+#2139728: cov: 8153 ft: 37917 corp: 5648 exec/s 7 oom/timeout/crash: 0/0/0 time: 42150s job: 1260 dft_time: 0
+#2141461: cov: 8153 ft: 37922 corp: 5650 exec/s 5 oom/timeout/crash: 0/0/0 time: 42198s job: 1261 dft_time: 0
+#2143156: cov: 8153 ft: 37927 corp: 5654 exec/s 5 oom/timeout/crash: 0/0/0 time: 42225s job: 1262 dft_time: 0
+#2145182: cov: 8153 ft: 37927 corp: 5654 exec/s 6 oom/timeout/crash: 0/0/0 time: 42275s job: 1263 dft_time: 0
+#2146996: cov: 8154 ft: 37928 corp: 5655 exec/s 6 oom/timeout/crash: 0/0/0 time: 42322s job: 1264 dft_time: 0
+#2148767: cov: 8154 ft: 37928 corp: 5655 exec/s 5 oom/timeout/crash: 0/0/0 time: 42343s job: 1265 dft_time: 0
+#2151233: cov: 8154 ft: 37929 corp: 5656 exec/s 8 oom/timeout/crash: 0/0/0 time: 42397s job: 1266 dft_time: 0
+#2153181: cov: 8154 ft: 37951 corp: 5662 exec/s 6 oom/timeout/crash: 0/0/0 time: 42440s job: 1267 dft_time: 0
+#2155197: cov: 8154 ft: 37962 corp: 5663 exec/s 6 oom/timeout/crash: 0/0/0 time: 42452s job: 1268 dft_time: 0
+#2156765: cov: 8154 ft: 37962 corp: 5663 exec/s 5 oom/timeout/crash: 0/0/0 time: 42500s job: 1269 dft_time: 0
+#2158460: cov: 8154 ft: 37977 corp: 5665 exec/s 5 oom/timeout/crash: 0/0/0 time: 42526s job: 1270 dft_time: 0
+#2160393: cov: 8154 ft: 37979 corp: 5666 exec/s 6 oom/timeout/crash: 0/0/0 time: 42578s job: 1271 dft_time: 0
+#2162099: cov: 8154 ft: 37979 corp: 5666 exec/s 5 oom/timeout/crash: 0/0/0 time: 42624s job: 1272 dft_time: 0
+#2164172: cov: 8154 ft: 37979 corp: 5666 exec/s 6 oom/timeout/crash: 0/0/0 time: 42645s job: 1273 dft_time: 0
+#2166175: cov: 8156 ft: 37984 corp: 5668 exec/s 6 oom/timeout/crash: 0/0/0 time: 42701s job: 1274 dft_time: 0
+#2168039: cov: 8156 ft: 37993 corp: 5674 exec/s 6 oom/timeout/crash: 0/0/0 time: 42742s job: 1275 dft_time: 0
+#2170169: cov: 8156 ft: 37993 corp: 5674 exec/s 7 oom/timeout/crash: 0/0/0 time: 42753s job: 1276 dft_time: 0
+#2172133: cov: 8157 ft: 38035 corp: 5682 exec/s 6 oom/timeout/crash: 0/0/0 time: 42802s job: 1277 dft_time: 0
+#2174306: cov: 8157 ft: 38037 corp: 5684 exec/s 7 oom/timeout/crash: 0/0/0 time: 42827s job: 1278 dft_time: 0
+#2176022: cov: 8158 ft: 38039 corp: 5686 exec/s 5 oom/timeout/crash: 0/0/0 time: 42880s job: 1279 dft_time: 0
+#2178047: cov: 8158 ft: 38039 corp: 5686 exec/s 6 oom/timeout/crash: 0/0/0 time: 42925s job: 1280 dft_time: 0
+#2179715: cov: 8158 ft: 38039 corp: 5686 exec/s 5 oom/timeout/crash: 0/0/0 time: 42948s job: 1281 dft_time: 0
+#2181801: cov: 8158 ft: 38044 corp: 5687 exec/s 6 oom/timeout/crash: 0/0/0 time: 43003s job: 1282 dft_time: 0
+#2183840: cov: 8158 ft: 38044 corp: 5687 exec/s 6 oom/timeout/crash: 0/0/0 time: 43044s job: 1283 dft_time: 0
+#2186270: cov: 8158 ft: 38047 corp: 5688 exec/s 8 oom/timeout/crash: 0/0/0 time: 43056s job: 1284 dft_time: 0
+#2188541: cov: 8158 ft: 38047 corp: 5688 exec/s 7 oom/timeout/crash: 0/0/0 time: 43104s job: 1285 dft_time: 0
+#2191248: cov: 8158 ft: 38050 corp: 5689 exec/s 8 oom/timeout/crash: 0/0/0 time: 43130s job: 1286 dft_time: 0
+#2193463: cov: 8158 ft: 38067 corp: 5692 exec/s 7 oom/timeout/crash: 0/0/0 time: 43181s job: 1287 dft_time: 0
+#2195179: cov: 8158 ft: 38069 corp: 5693 exec/s 5 oom/timeout/crash: 0/0/0 time: 43227s job: 1288 dft_time: 0
+INFO: fuzzed for 43227 seconds, wrapping up soon
+INFO: exiting: 0 time: 43228s
+
+
+gtt@01:~/out/ffmpeg-libfuzzer$ ./ffmpeg_DEMUXER_fuzzer  test 8c-12/ testcases/ -merge=1
+INFO: Seed: 683915250
+INFO: Loaded 1 modules   (85774 inline 8-bit counters): 85774 [0x1545840, 0x155a74e), 
+INFO: Loaded 1 PC tables (85774 PCs): 85774 [0x103e948,0x118da28), 
+MERGE-OUTER: 10042 files, 4349 in the initial corpus, 0 processed earlier
+MERGE-OUTER: attempt 1
+INFO: Seed: 684004925
+INFO: Loaded 1 modules   (85774 inline 8-bit counters): 85774 [0x1545840, 0x155a74e), 
+INFO: Loaded 1 PC tables (85774 PCs): 85774 [0x103e948,0x118da28), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge1079722.txt'
+MERGE-INNER: 10042 total files; 0 processed earlier; will process 10042 files now
+#1	pulse  cov: 955 ft: 956 exec/s: 0 rss: 40Mb
+#2	pulse  cov: 1048 ft: 1100 exec/s: 0 rss: 44Mb
+#4	pulse  cov: 1652 ft: 2668 exec/s: 0 rss: 46Mb
+#8	pulse  cov: 1857 ft: 3116 exec/s: 0 rss: 47Mb
+#16	pulse  cov: 2198 ft: 4707 exec/s: 0 rss: 188Mb
+#32	pulse  cov: 2486 ft: 5388 exec/s: 0 rss: 188Mb
+#64	pulse  cov: 2934 ft: 6558 exec/s: 0 rss: 188Mb
+#128	pulse  cov: 3290 ft: 8055 exec/s: 0 rss: 188Mb
+#256	pulse  cov: 4521 ft: 13784 exec/s: 256 rss: 188Mb
+#512	pulse  cov: 5580 ft: 18977 exec/s: 128 rss: 207Mb
+#1024	pulse  cov: 6795 ft: 25203 exec/s: 53 rss: 329Mb
+#2048	pulse  cov: 7771 ft: 31930 exec/s: 20 rss: 438Mb
+#4096	pulse  cov: 8085 ft: 37189 exec/s: 10 rss: 504Mb
+#4349	LOADED cov: 8099 ft: 37493 exec/s: 9 rss: 504Mb
+#8192	pulse  cov: 8152 ft: 37912 exec/s: 10 rss: 556Mb
+#10042	DONE   cov: 8158 ft: 38067 exec/s: 9 rss: 556Mb
+MERGE-OUTER: succesfull in 1 attempt(s)
+MERGE-OUTER: the control file has 1136004 bytes
+MERGE-OUTER: consumed 0Mb (54Mb rss) to parse the control file
+MERGE-OUTER: 165 new files with 574 new features added; 59 new coverage edges
+
